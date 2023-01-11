@@ -1,0 +1,37 @@
+// #include <stdio.h>
+// #include <stdlib.h>
+// #include "selectionsort.h"
+
+// void iselsort(int n)
+// {
+//     int i, j, small, temp;
+//     for (i = 0; i < n - 1; i++) {
+
+// small = i;
+// for(j = i + 1; j < n; j++)
+//     if (A[j] < A[small])
+//         small = j;
+
+// temp = A[small];
+// A[small] = A[i];
+// A[i] = temp;
+// }
+// }
+
+
+// int main() {
+// srandom(0);
+//       int i;
+//       for (i = 0; i < N; i++) {
+//           A[i] = random() % 100;
+//       }
+//       rselsort(0, N);
+//       for (i = 0; i < N; i++) {
+//           printf("%4d ", A[i]);
+//       }
+//       printf("\n");
+//       return 0;
+// }
+// ~                                                                                                                
+// ~                                                                                                                
+// ~                           

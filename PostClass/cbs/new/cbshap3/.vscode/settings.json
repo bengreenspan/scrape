@@ -1,0 +1,10 @@
+{
+    "search.exclude": {
+        "**/node_modules": false
+    },
+    "files.associations": {
+        "linkedlist copy": "c",
+        "linkedlist": "c",
+        "__node_handle": "c"
+    }
+}

@@ -1,0 +1,125 @@
+// #include <stdio.h>
+// #include <stdlib.h>
+// #include "selectionsort.h"
+
+// void print_array(char a[], int n)
+// {
+//     int i = 0;
+//     while (i < n) {
+//         printf("%c", a[i++]);
+//     }
+//     fflush(stdout);
+// }
+
+// int main()
+// {
+//     srandom(0);
+//     int n;
+//     scanf("%d", &n);
+//     char a[n];
+//     int i;
+//     for (i = 0; i < n; i++) {
+//         a[i] = '0' + (random() % 10);
+//     }
+
+//     print_array(a, n);
+//     printf("\n");
+
+//     selection_sort(a, n);
+
+//     print_array(a, n);
+//     printf("\n");
+
+//     return 0;
+// }
+// ~           
+
+
+// void iselsort(int n)
+// {
+//     int i, j, small, temp;
+//     for (i = 0; i < n - 1; i++) {
+// // find minimum
+// small = i;
+// for(j = i + 1; j < n; j++)
+//     if (A[j] < A[small])
+//         small = j;
+// // swap
+// temp = A[small];
+// A[small] = A[i];
+// A[i] = temp;
+
+
+
+
+// } }
+
+
+
+
+
+// ----------------------------------------------------------------
+
+// void selection_sort( char A[], int N) {
+
+// }
+
+// " " is fixed in static memory
+
+
+
+// for part 2
+// three for loops
+// two arrays, they are sorted, push them through an output
+
+// visualgo.net
+
+
+// created temp array [n]
+// merges sorted a thorugh m to a + m through n -1
+
+// merge starting at A to M is the left half
+// merge starting at a + m to n -1 is the right half 
+// into temp
+// then copy from temp into A -- this is done for oyu
+
+// only ever have to look at the front element of each
+// lengths could be different
+
+// two runner variables I and J, maybe make a K for position in output
+// if A1[i] is less than A2[j] then 
+//     A1[i] goes into Output[K] then i ++, k++
+//     else A2[j] goes into output[k] then j ++ k ++
+
+//     when you hit length 0 of either A1 or A2, then put the rest of the other array into output
+
+//     first loop can be while a1 and a2 into output,
+//     second loop is once one of the arrays is done then put the other into the Output
+//     third loop is when the other array doesnt have stuff in it put it into output
+
+//     output[k] = a1[i]
+//     k++
+//     i++
+
+//     output[k] = a2[j]
+//     k++
+//     j++
+
+
+
+
+//     part 3
+//     merging and sorting print statements
+//     each layer you go down, indent two spaces
+
+//     def recurse(level):
+//         if level == 10:
+//             return 
+//         print(level*"-" + ":{}".format(level))
+// add level variable to increment the multiplier
+
+// print the array you are sorting
+//     print "sort left half" and you keep doing it
+// print the array you are merging
+
+
