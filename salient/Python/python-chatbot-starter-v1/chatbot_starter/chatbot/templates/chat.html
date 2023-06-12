@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+
+{% block title %}Chat{% endblock %}
+
+{% block content %}
+
+    {% if success_message %}
+        <div class="bg-green-200 text-green-800 p-4 mb-4">{{ success_message }}</div>
+    {% endif %}
+
+    <h1 class="text-3xl font-bold mb-4 mt-5">Chat</h1>
+    <p class="text-gray-300">Start chatting with the AI assistant:</p>
+
+    {% if messages %}
+        <div class="chat-history">
+            {% for past_message, generated_message in messages %}
+                <div class="message" id="message_{{ forloop.counter0 }}">
+                    <div class="message user-message bg-gray-200 rounded-lg p-4 mb-4">
+                        {{ past_message }}
+                    </div>
+                    <div class="message bot-message bg-gray-300 rounded-lg p-4 mb-4">
+                        {{ generated_message }}
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    {% else %}
+        <p>No chat history available.</p>
+    {% endif %}
+
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-r-lg">Submit</button>
+    </form>
+
+{% endblock %}
