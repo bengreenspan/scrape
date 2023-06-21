@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+
+{% block title %}Chat with your PDF{% endblock %}
+
+{% block content %}
+    <div class="container mt-4 mb-4 py-4">
+
+        <h1 class="text-3xl font-bold m-4">Chat with your PDF</h1>
+        <p class="text-gray-700 m-4">Upload your PDF files and ask questions about them. Already uploaded your files? Skip to the chat below.</p>
+
+        <p class="text-gray-700 m-4">Once your PDF files are uploaded, ingestion will begin:</p>
+
+        {% if warning_message %}
+        <div class="bg-yellow-500 text-yellow-100 p-4 mb-4">{{ warning_message }}</div>
+        {% endif %}
+
+        {% if success_message %}
+        <div class="bg-green-500 text-green-100 p-4 mb-4">{{ success_message }}</div>
+        {% endif %}
+
+        {% if error_message %}
+        <div class="bg-red-500 text-red-100 p-4 mb-4">{{ error_message }}</div>
+        {% endif %}
+
+        <form id="upload-form" class="m-4" method="POST" enctype="multipart/form-data">
+            {% csrf_token %}
+            {{ upload_form.as_p }}
+            <div class="p-4">
+                <button id="upload-files" type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg">Ingest</button>
+            </div>
+        </form>
+
+        {% include 'chat.html' %}
+        
+    </div>
+{% endblock %}
+

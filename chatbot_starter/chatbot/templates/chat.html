@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <div class="container mb-4 py-4 border border-spacing-4">
+
+        <h1 class="text-3xl font-bold m-4">Chat</h1>
+        <p class="text-gray-700 m-4">Start chatting with the AI assistant:</p>
+        <hr>
+
+        {% if messages %}
+            <div id="chat-history" class="chat-history border border-black p-4 m-4 bg-white">
+                {% for past_message, generated_message in messages %}
+                    <div class="message" id="message_{{ forloop.counter0 }}">
+                        <div id="bot-message" class="bg-gray-200 rounded-lg p-4 mb-4 text-right">
+                            {{ past_message }}
+                        </div>
+                        <div id="user-message" class="bg-gray-300 rounded-lg p-4 mb-4 text-left">
+                            {{ generated_message }}
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        {% else %}
+            <p class="bg-red-500 text-red-100 p-4 m-4">No chat history available.</p>
+        {% endif %}
+
+        <form id="message-form" method="POST" enctype="multipart/form-data" class="m-4 border border-black p-4 justify-center">
+            {% csrf_token %}
+            {{ message_form.as_p }}
+            <div class="p-4">
+                <button id="ask-question" type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg">Send</button>
+            </div>
+        </form>
+
+    </div>
+{% endblock %}
