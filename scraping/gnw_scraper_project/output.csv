@@ -1,7 +1,1736 @@
 Ticker,Date,Headline,GNW_timestamp_iso
-AIHS,11/14/2025,Senmiao Technology Announces $2.8 Million Registered Direct Offering,
 FIGR,11/13/2025,"Figure Technology Solutions, Inc. Announces Confidential Submission of Draft Registration Statement for Proposed Public Offering of Tokenized Stock",
-TELA,11/13/2025,TELA Bio Announces Pricing of $13.0 Million Underwritten Registered Direct Offering of Common Stock and Pre-Funded Warrants,
-INHD,11/13/2025,Inno Holdings Inc. Announces $50 Million “At-the-Market” Equity Offering Program,
-FENC,11/13/2025,Fennec Pharmaceuticals Announces Proposed Offering of Common Shares,
-VSTM,11/12/2025,Verastem Oncology Announces Proposed Public Offering of Common Stock,
+TELA,11/13/2025,TELA Bio Announces Pricing of $13.0 Million Underwritten Registered Direct Offering of Common Stock and Pre-Funded Warrants,2025-11-13 16:21:00 ET
+INHD,11/13/2025,Inno Holdings Inc. Announces $50 Million “At-the-Market” Equity Offering Program,2025-11-13 16:15:00 ET
+FENC,11/13/2025,Fennec Pharmaceuticals Announces Proposed Offering of Common Shares,2025-11-13 16:08:00 ET
+VSTM,11/13/2025,Verastem Oncology Announces Proposed Public Offering of Common Stock,
+CTRI,11/12/2025,Centuri Announces Launch of Public Offering of Common Stock,
+IVA,11/12/2025,Inventiva announces launch of public offering,2025-11-12 16:25:00 ET
+ANNX,11/12/2025,Annexon Announces Proposed Public Offering of Common Stock and Pre-Funded Warrants,2025-11-12 16:12:00 ET
+BTDR,11/12/2025,Bitdeer Announces Proposed Registered Direct Offering of Class A Ordinary Shares,2025-11-12 16:01:00 ET
+ENGN,11/12/2025,enGene Announces Proposed Public Offering of Common Shares,
+VSA,11/12/2025,VisionSys AI Inc. Announces Pricing of $12.0 Million Registered Direct Offering,2025-11-12 09:00:00 ET
+ELDN,11/11/2025,Eledon Pharmaceuticals Announces Proposed Underwritten Public Offering of Common Stock and Pre-Funded Warrants,2025-11-11 17:26:00 ET
+BHVN,11/11/2025,Biohaven Announces Proposed Public Offering of Common Shares,
+CNTA,11/11/2025,Centessa Pharmaceuticals Announces Proposed Public Offering of American Depositary Shares,2025-11-11 16:00:00 ET
+PDSB,11/11/2025,PDS Biotechnology Announces up to $11.1 Million Registered Direct Offering,2025-11-11 15:31:00 ET
+SLRX,11/11/2025,Salarius Pharmaceuticals Announces Pricing of $7 Million Underwritten Public Offering,
+DTIL,11/10/2025,"Precision BioSciences Announces $75 Million Offering of Common Stock, Pre-Funded Warrants and Warrants",
+INO,11/10/2025,INOVIO Announces Proposed Public Offering,
+RRGB,11/10/2025,Red Robin Announces At-The-Market Equity Offering Program,
+VOR,11/10/2025,Vor Bio Announces Proposed Public Offering of $100 Million of Common Stock,2025-11-10 21:56:00 ET
+LZM,11/10/2025,Lifezone Metals Announces Pricing of $15 Million Underwritten Registered Direct Offering,
+BHST,11/7/2025,BioHarvest Sciences Announces Pricing of $17.4 Million Upsized Public Offering of Common Stock,
+BW,11/7/2025,Babcock & Wilcox Announces It Raised $67.5 Million Through its At-the-Market Equity Offering,
+BHST,11/6/2025,BioHarvest Announces Proposed Public Offering of Common Stock,
+LEU,11/6/2025,"Centrus Announces ""At-the-Market"" Equity Offering Program",
+PTNT,11/6/2025,Palatin Technologies Announces Pricing of Upsized $15.8 Million Public Offering,
+IRD,11/6/2025,Opus Genetics Announces $23 Million Registered Direct Offering,2025-11-06 07:00:00 ET
+FDMT,11/6/2025,4DMT Announces Pricing of $100 Million Offering of Common Stock and Pre-Funded Warrants,2025-11-06 06:23:00 ET
+BNTC,11/5/2025,Benitec Biopharma Inc. Announces Proposed Public Offering,2025-11-05 16:43:00 ET
+NOVT,11/5/2025,Novanta Inc. Announces Offering of Tangible Equity Units,
+CHR,11/5/2025,"Cheer Holding, Inc. Announces $15 Million Registered Direct Offering",2025-11-05 12:42:00 ET
+RUBI,11/5/2025,Rubico Announces Pricing of $7.5 Million Underwritten Public Offering,2025-11-05 08:45:00 ET
+WXM,11/5/2025,WF International Announces Pricing of $3.44 Million Follow-on Public Offering,
+METC,11/4/2025,"RAMACO RESOURCES, INC. ANNOUNCES PROPOSED OFFERING OF BORROWED CLASS A COMMON STOCK TO FACILITATE HEDGING TRANSACTIONS",
+ELVA,11/4/2025,Electrovaya Inc. Announces Proposed Public Offering of Common Shares,
+GH,11/4/2025,Guardant Health Announces Proposed Public Offering of Common Stock,
+CAN,11/4/2025,"CANAAN ANNOUNCES US$72,000,000 REGISTERED DIRECT OFFERING OF AMERICAN DEPOSITARY SHARES",
+MSAI,11/4/2025,"MultiSensor AI Holdings, Inc. Announces Pricing of $14.4 Million Registered Direct Offering",
+RLMD,11/4/2025,Relmada Therapeutics Announces Pricing of $100 Million Underwritten Offering of Common Stock and Pre-Funded Warrants,2025-11-04 07:09:00 ET
+BQ,11/3/2025,Boqii Holding Ltd. Announces $4.2 Million Registered Direct Offering,
+SO,11/3/2025,Southern Company announces equity units offering,
+FLUX,10/31/2025,Flux Power Announces Pricing of $9.6 Million Underwritten Public Offering,2025-10-31 08:00:00 ET
+INTS,10/31/2025,"Intensity Therapeutics, Inc. Announces Pricing of $4 Million Registered Direct Offering of Common Stock",
+VCIG,10/31/2025,VCI Global Announces $5 Million Registered Direct Offering Priced At-the-Market Under Nasdaq Rules,2025-10-31 04:30:00 ET
+CRBP,10/30/2025,Corbus Pharmaceuticals Announces Proposed Public Offering,2025-10-30 16:31:00 ET
+RCUS,10/30/2025,Arcus Biosciences Announces Commencement of Public Offering of Common Stock,
+VIVK,10/30/2025,Vivakor Announces Pricing of $2.7 Million Registered Direct Offering of Common Stock and Pre-Funded Warrants,2025-10-30 14:40:00 ET
+NEXM,10/30/2025,NexMetals Announces Upsizing of Public Offering to $80 Million,
+CLF,10/29/2025,"Cleveland-Cliffs Inc. Announces Proposed Offering of 75,000,000 Common Shares",
+SVRA,10/29/2025,Savara Announces Proposed Public Offering,
+VERU,10/29/2025,Veru Announces Proposed Public Offering,2025-10-29 16:01:00 ET
+MNMD,10/29/2025,Mind Medicine (MindMed) Inc. Announces Proposed Public Offering,
+EKSO,10/29/2025,Ekso Bionics Announces $3.7 Million Registered Direct Offering of Common Stock Priced At-the-Market under Nasdaq Rules,2025-10-29 08:00:00 ET
+PPTA,10/28/2025,Perpetua Resources Announces $70 Million Offering of Common Shares,
+GNPX,10/28/2025,Genprex Announces Registered Direct Offering of up to $10.0 Million Priced At-The-Market Under Nasdaq Rules,
+NEXM,10/28/2025,NexMetals Announces C$65 Million Public Offering of Units,
+CODX,10/28/2025,"Co-Diagnostics, Inc. Announces Pricing of $7.0 Million Registered Direct Offering of Common Stock Priced At-The-Market Under Nasdaq Rules",
+CYBN,10/28/2025,Cybin Announces $175 Million Registered Direct Offering,
+VSEC,10/27/2025,VSE Corporation Announces Public Offering of Common Stock,
+ANVS,10/27/2025,Annovis Announces $3.4 Million Registered Direct Offering of Common Stock Priced At-the-Market under the NYSE Rules,2025-10-27 08:00:00 ET
+VANI,10/26/2025,"Vivani Medical, Inc. Announces Pricing of Common Stock Offering",2025-10-26 19:15:00 ET
+POET,10/26/2025,POET Technologies Announces Pricing of US$150 Million Oversubscribed Registered Direct Offering of Common Shares,2025-10-26 18:31:00 ET
+VIVK,10/24/2025,Vivakor Announces Pricing of $3.5 Million Registered Direct Offering of Common Stock and Pre-Funded Warrants,2025-10-24 13:40:00 ET
+RBNE,10/24/2025,Robin Energy Ltd. Announces Pricing of $7.0 Million Registered Direct Offering,2025-10-24 09:00:00 ET
+COYA,10/23/2025,Coya Therapeutics Announces Proposed Public Offering of Common Stock,
+XFOR,10/23/2025,X4 Pharmaceuticals Announces Proposed Underwritten Public Offering,2025-10-23 16:01:00 ET
+GNPX,10/23/2025,Genprex Announces Registered Direct Offering of up to $8.1 Million Priced At-The-Market Under Nasdaq Rules,
+TE,10/23/2025,T1 Energy Inc. Announces Pricing of $72 Million Registered Direct Offering With Existing and New Leading U.S. Institutional Investors,2025-10-23 08:00:00 ET
+TBN,10/22/2025,Tamboran Resources Corporation Pricing of Public Offering of Common Stock,
+TBN,10/22/2025,Tamboran Resources Corporation Public Offering of Common Stock,
+NRIX,10/22/2025,Nurix Therapeutics Announces $250.0 Million Registered Offering of Common Stock,2025-10-22 07:20:00 ET
+OWLT,10/21/2025,"Owlet, Inc. Announces Proposed Public Offering of Class A Common Stock",
+IE,10/21/2025,Ivanhoe Electric Announces Public Offering of Common Stock,
+RAPT,10/21/2025,RAPT Therapeutics Announces Proposed Public Offering of Common Stock,2025-10-21 16:01:00 ET
+VRDN,10/21/2025,Viridian Therapeutics Announces Proposed Underwritten Public Offering,
+GSIT,10/21/2025,GSI Technology Announces Pricing of $50 Million Registered Direct Offering of Common Stock and Pre-Funded Warrants,2025-10-21 09:02:00 ET
+CTXR,10/21/2025,Citius Pharmaceuticals Announces a Registered Direct Offering of $6.0 Million Priced At-The-Market Under Nasdaq Rules,
+XRTX,10/21/2025,XORTX Announces Pricing of US$1.1 Million Registered Direct Offering,2025-10-21 08:00:00 ET
+IRON,10/20/2025,Disc Medicine Announces Proposed Public Offering of Common Stock and Pre-Funded Warrants,
+LXEO,10/16/2025,Lexeo Therapeutics Announces Proposed Offering of Common Stock and Pre-Funded Warrants,2025-10-16 16:32:00 ET
+SLI,10/16/2025,Standard Lithium Announces Proposed Public Offering of Common Shares,2025-10-16 16:22:00 ET
+ATAI,10/16/2025,atai Life Sciences Announces Proposed Public Offering of Common Shares,
+PRAX,10/16/2025,"Praxis Precision Medicines, Inc. Announces Proposed Public Offering",
+VIVK,10/16/2025,Vivakor Announces Approximately $5.0 Million Registered Direct Offering Priced At-the-Market Under Nasdaq Rules,2025-10-16 11:45:00 ET
+AAUC,10/16/2025,ALLIED GOLD ANNOUNCES SIZE AND PRICING OF OVERNIGHT MARKETED EQUITY OFFERING,
+WTO,10/16/2025,UTime Limited Announces Pricing of $25 Million Registered Direct Offering,2025-10-16 09:00:00 ET
+VERI,10/16/2025,Veritone Announces Equity Offering of $75 Million,
+SBET,10/16/2025,SharpLink Announces Pricing of $76.5 Million Registered Direct Offering Priced at 12% Premium to Market Price,2025-10-16 08:00:00 ET
+DFLI,10/15/2025,Dragonfly Energy Announces Proposed Public Offering of Common Stock and Pre-Funded Warrants,2025-10-15 17:25:00 ET
+SATL,10/15/2025,Satellogic Announces Proposed Public Offering of Class A Common Stock,2025-10-15 16:36:00 ET
+HYPR,10/15/2025,Hyperfine Announces Proposed Public Offering,
+SDOT,10/15/2025,Sadot Group Inc. Announces Pricing of Public Offering,
+YDKG,10/15/2025,Yueda Digital Holding Announces Pricing of $28 Million Registered Direct Offering,
+AKTX,10/15/2025,Akari Therapeutics Announces $2.5 Million Registered Direct Offering,2025-10-15 08:30:00 ET
+EYPT,10/14/2025,EyePoint Announces Proposed Public Offering of Common Stock,2025-10-14 16:35:00 ET
+ASPI,10/14/2025,ASP Isotopes Inc. Announces Proposed Public Offering of Common Stock,2025-10-14 16:18:00 ET
+SYRE,10/13/2025,Spyre Therapeutics Announces Proposed Public Offering of its Common Stock and Pre-Funded Warrants,2025-10-13 16:01:00 ET
+NB,10/13/2025,NioCorp Announces Pricing of $150.2 Million Registered Direct Offering of Common Shares Priced At-the-Market,
+APM,10/10/2025,Aptorum Group Limited Announces Up To $6 Million Registered Direct Offering,2025-10-10 09:54:00 ET
+XBIO,10/10/2025,"Xenetic Biosciences, Inc. Announces Pricing of $4.5 Million Underwritten Offering of Common Stock",
+TIRX,10/10/2025,TIAN RUIXIANG Holdings Announces Pricing of $3 Million Registered Direct Offering of Ordinary Shares,2025-10-10 09:00:00 ET
+IONQ,10/10/2025,IonQ Announces Pricing of $2.0 Billion Equity Offering,
+ANVS,10/10/2025,Annovis Announces $6 Million Registered Direct Offering of Common Stock,2025-10-10 08:31:00 ET
+UAMY,10/10/2025,United States Antimony Corporation Announces $25 Million Registered Direct Offering of Common Stock Priced Above Market Under NYSE Rules,
+SERV,10/10/2025,Serve Robotics Announces $100 Million Registered Direct Offering of Common Stock,2025-10-10 07:00:00 ET
+VNRX,10/9/2025,VolitionRx Limited Announces Proposed Underwritten Public Offering of Common Stock and Common Stock Warrants,
+HYMC,10/9/2025,HYCROFT ANNOUNCES PUBLIC OFFERING OF COMMON STOCK,
+APGE,10/8/2025,"Apogee Therapeutics, Inc. Announces Proposed Underwritten Public Offering",
+ZNB,10/8/2025,Zeta Network Group (NASDAQ: ZNB) Announces $15 Million Registered Direct Offering,2025-10-08 09:00:00 ET
+CISS,10/8/2025,C3is Inc. Announces Pricing of $2 Million Registered Direct Offering,2025-10-08 08:00:00 ET
+COCH,10/8/2025,Envoy Medical Announces up to $16 Million Registered Direct Offering Priced At-the-Market Under Nasdaq Rules,
+RBOT,10/8/2025,Vicarious Surgical Announces Pricing of $5.9 Million Registered Direct Offering,
+JOBY,10/7/2025,Joby Aviation Launches Underwritten Offering of Common Stock,
+ESPR,10/7/2025,Esperion Announces Proposed Public Offering of Common Stock,2025-10-07 16:01:00 ET
+EPWK,10/7/2025,EPWK Holdings Ltd. Announces Pricing of $8 Million Public Offering,
+HUMA,10/7/2025,Humacyte Announces Pricing of $60.0 Million Oversubscribed Registered Direct Offering,2025-10-07 09:00:00 ET
+ACET,10/7/2025,"Adicet Bio, Inc. Announces $80 Million Registered Direct Offering",
+CPSH,10/6/2025,CPS Technologies Corp. Announces Proposed Public Offering of Common Stock,2025-10-06 16:49:00 ET
+SEI,10/6/2025,"Solaris Energy Infrastructure, Inc. Announces Proposed Offering of Borrowed Class A Common Stock to Facilitate Hedging Transactions",
+BMEA,10/6/2025,Biomea Fusion Announces Proposed Public Offering of Securities,
+BRTX,10/6/2025,BioRestorative Therapies Announces $1.085 Million Registered Direct Offering Priced Above Market,2025-10-06 14:28:00 ET
+NLST,10/6/2025,Netlist Announces $10.0 Million Registered Direct Offering,
+PXLW,10/6/2025,Pixelworks Announces $7 Million Registered Direct Offering,
+DFLI,10/6/2025,Dragonfly Energy Announces Pricing of $25.0 Million Underwritten Offering of Common Stock,2025-10-06 07:15:00 ET
+UEC,10/3/2025,URANIUM ENERGY CORP ANNOUNCES LAUNCH OF PUBLIC OFFERING,
+CJET,10/1/2025,"Chijet Motor Company, Inc. Announces $15 Million Registered Direct Offering",2025-10-01 13:27:00 ET
+PALI,10/1/2025,Palisade Bio Announces Pricing of Upsized $120 Million Underwritten Public Offering of Common Stock,2025-10-01 09:20:00 ET
+CHR,10/1/2025,Cheer Holding Announces Pricing of $8.5 Million Public Offering,2025-10-01 09:00:00 ET
+ACOG,9/30/2025,Alpha Cognition Inc. Announces Proposed Public Offering of Common Shares,
+ENTA,9/30/2025,Enanta Pharmaceuticals Announces Proposed Public Offering of Common Stock,
+AIR,9/30/2025,"AAR announces public offering of 3,000,000 shares of common stock",
+OSS,9/30/2025,OSS Announces Pricing of $12.5 Million Registered Direct Offering of Common Stock,2025-09-30 08:30:00 ET
+SILO,9/30/2025,Silo Pharma Announces $2.5 Million Registered Direct Offering Priced At-The-Market Under Nasdaq Rules,2025-09-30 08:02:00 ET
+OCUL,9/30/2025,Ocular Therapeutix™ Announces Pricing of Underwritten Offering of Common Stock,2025-09-30 07:08:00 ET
+ARTL,9/29/2025,Artelo Biosciences Announces Proposed Underwritten Public Offering,
+BIAF,9/29/2025,bioAffinity Technologies Announces Pricing of $4.8 Million Public Offering,
+DSY,9/29/2025,Big Tree Cloud Holdings Limited Announces Pricing of $5.0 Million Registered Direct Offering,
+MDWD,9/29/2025,MediWound Announces $30 Million Registered Direct Offering of Ordinary Shares,2025-09-29 08:37:00 ET
+LEXX,9/26/2025,Lexaria Bioscience Corp. Announces $4.0 Million Registered Direct Offering Priced At-the-Market Under Nasdaq Rules,
+CPOP,9/26/2025,"POP CULTURE GROUP CO., LTD. ANNOUNCES PRICING OF REGISTERED DIRECT OFFERING",
+GUTS,9/26/2025,Fractyl Health Announces Pricing of $60 Million Underwritten Offering of Common Stock,2025-09-26 07:05:00 ET
+SNGX,9/26/2025,Soligenix Announces Pricing of $7.5 Million Public Offering,
+NB,9/25/2025,NioCorp Announces Commencement of Proposed Public Offering of Common Shares,
+HFFG,9/25/2025,HF Foods Group Inc. Announces $100 Million At-The-Market (ATM) Equity Offering Program,2025-09-25 16:45:00 ET
+WOK,9/25/2025,WORK Medical Technology Group LTD Announces Pricing of $2.9 Million Registered Direct Offering,2025-09-25 13:10:00 ET
+DEFI,9/25/2025,DeFi Technologies Announces the Pricing of an Oversubscribed US$100 Million Registered Direct Offering,
+CTGO,9/25/2025,CONTANGO ORE ANNOUNCES $50 MILLION UNDERWRITTEN PUBLIC OFFERING OF COMMON STOCK AND PRE-FUNDED WARRANTS,
+OCG,9/24/2025,Outcrop Silver Announces $20 Million Public Offering,2025-09-24 17:40:00 ET
+MIR,9/24/2025,Mirion Technologies Announces Proposed Public Offering of Class A Common Stock,
+PEPG,9/24/2025,PepGen Announces Proposed Public Offering,
+QURE,9/24/2025,uniQure Announces $200 Million Proposed Public Offering,2025-09-24 16:06:00 ET
+RIG,9/24/2025,Transocean Ltd. Announces Public Offering of Shares,2025-09-24 16:02:00 ET
+MNPR,9/23/2025,Monopar Therapeutics Inc. Announces Pricing of $135 Million Underwritten Offering of Common Stock and Pre-Funded Warrants,2025-09-23 23:08:00 ET
+VOXR,9/23/2025,"Vox Royalty Announces Agreement to Acquire Transformational Global Gold Portfolio, Overnight Marketed Offering of Common Shares and Expanded Revolving Credit Facility",2025-09-23 16:28:00 ET
+BOXL,9/23/2025,Boxlight Announces Pricing of $4 Million Registered Direct Offering of Common Stock Priced At-The-Market Under Nasdaq Rules,
+KC,9/23/2025,Kingsoft Cloud Announces Proposed Offering of New Shares,
+MBX,9/22/2025,MBX Biosciences Announces Proposed Public Offering,2025-09-22 16:14:00 ET
+EPRX,9/22/2025,Eupraxia Pharmaceuticals Announces Proposed Public Offering of Common Shares,2025-09-22 16:01:00 ET
+COCH,9/22/2025,Envoy Medical Announces $2.5 Million Registered Direct Offering Priced At-the-Market Under Nasdaq Rules,
+BMNR,9/22/2025,BitMine Immersion (BMNR) Announces Pricing of $365.24MM Registered Direct Offering At $70 per share,
+FTHM,9/18/2025,Fathom Holdings Announces Proposed Offering of Common Stock,2025-09-18 17:48:00 ET
+JSPR,9/18/2025,"Jasper Therapeutics Announces Proposed Public Offering of Common Stock, Pre-Funded Warrants and Common Warrants",2025-09-18 16:08:00 ET
+RVPH,9/18/2025,"Reviva Pharmaceuticals Holdings, Inc. Announces Proposed Public Offering",
+BCDA,9/18/2025,BioCardia Announces Pricing of Up To $12 Million Public Offering,2025-09-18 09:15:00 ET
+RCAT,9/17/2025,Red Cat Holdings Announces Proposed Public Offering of Common Stock,2025-09-17 16:20:00 ET
+ALMU,9/17/2025,Aeluma Announces Proposed Public Offering of Common Stock,2025-09-17 16:02:00 ET
+CODX,9/17/2025,"Co-Diagnostics, Inc. Announces Pricing of $3.8 Million Registered Direct Offering of Common Stock Priced At-The-Market Under Nasdaq Rules",
+NB,9/17/2025,NioCorp Announces Pricing of $50.0 Million Registered Direct Offering of Common Shares,
+FORD,9/17/2025,Forward Industries Announces $4 Billion At-The-Market Equity Offering Program,
+AZ,9/16/2025,A2Z Cust2Mate Solutions Corp. Announces Proposed Public Offering,
+NAOV,9/16/2025,NanoVibronix Announces Pricing of $2.0 Million Registered Direct Offering Priced At-The-Market Under Nasdaq Rules,
+BNGO,9/16/2025,"Bionano Genomics, Inc. Announces Pricing of $10 Million Public Oﬀering",2025-09-16 09:10:00 ET
+AVPT,9/16/2025,AvePoint Announces Pricing of Public Offering,2025-09-16 08:40:00 ET
+SIDU,9/12/2025,Sidus Space Announces Proposed Public Offering,
+MWG,9/12/2025,Multi Ways Holdings Announces Pricing of $1.485 Million Registered Direct Offering,2025-09-12 16:15:00 ET
+COCP,9/12/2025,"Cocrystal Pharma, Inc. Announces Up To $13 Million Registered Direct Offering Priced At-The-Market Under Nasdaq Rules",2025-09-12 09:43:00 ET
+XTIA,9/11/2025,XTI Aerospace Announces Proposed Public Offering,
+SLXN,9/11/2025,Silexion Therapeutics Announces Pricing of $6.0 Million Public Offering,2025-09-11 09:17:00 ET
+RBNE,9/10/2025,Robin Energy Announces Proposed Public Offering of Common Stock,2025-09-10 16:41:00 ET
+VERI,9/10/2025,Veritone Announces Proposed Public Offering of Common Stock,
+RNA,9/10/2025,Avidity Biosciences Announces Proposed Public Offering of Common Stock,
+WATT,9/10/2025,Energous Announces Registered Direct Offering and Concurrent Warrant Exercise for $5 Million in Gross Proceeds Priced At-the-Market Under Nasdaq Rules,2025-09-10 10:45:00 ET
+NBIS,9/10/2025,Nebius Group Announces Proposed Public Offering of Class A Ordinary Shares,
+INHD,9/10/2025,Inno Holdings Inc. Announces $7.2 Million Registered Direct Offering,2025-09-10 09:00:00 ET
+RYDE,9/10/2025,Ryde Announces Pricing of US$1.6 million Registered Direct Offering Priced at-the-Market Under NYSE American Rules,
+NIO,9/10/2025,NIO Inc. Announces Proposed Equity Offering,2025-09-10 04:58:00 ET
+ACTU,9/9/2025,Actuate Therapeutics Announces Proposed Public Offering of Common Stock,2025-09-09 16:07:00 ET
+LUCD,9/9/2025,Lucid Diagnostics Announces Proposed Public Offering of Common Stock,
+AMLX,9/9/2025,Amylyx Pharmaceuticals Announces Proposed Public Offering of Common Stock,
+AIRO,9/8/2025,AIRO Announces Launch of Public Offering of Common Stock,
+RAPP,9/8/2025,Rapport Announces Proposed Public Offering of Common Stock,2025-09-08 16:05:00 ET
+DNTH,9/8/2025,"Dianthus Therapeutics, Inc. Announces Proposed $150 Million Underwritten Public Offering",2025-09-08 16:00:00 ET
+NCLH,9/8/2025,Norwegian Cruise Line Holdings Ltd. Announces Registered Direct Offering of Ordinary Shares,2025-09-08 06:58:00 ET
+YAAS,9/5/2025,Youxin Technology Ltd Announces Pricing of $6.0 Million Underwritten Public Offering,2025-09-05 08:00:00 ET
+AEMD,9/4/2025,Aethlon Medical Announces Pricing of $4.5 Million Public Offering,
+PPBT,9/4/2025,Purple Biotech Announces Pricing of Up To $18 Million Public Offering,2025-09-04 09:15:00 ET
+AGNC,9/3/2025,AGNC Investment Corp. Announces Pricing of Public Offering of Depositary Shares,
+CUBI,9/3/2025,"Customers Bancorp, Inc. Announces Launch of Voting Common Stock Offering",
+ARTL,9/3/2025,Artelo Biosciences Announces Proposed Underwritten Public Offering,2025-09-03 16:35:00 ET
+GORO,9/3/2025,Gold Resource Corporation Announces Approximately $11.4 Million Registered Direct Offering,
+CJET,9/3/2025,"CHIJET MOTOR COMPANY, INC. ANNOUNCES PRICING OF $8.0 MILLION PUBLIC OFFERING",2025-09-03 09:00:00 ET
+NVFY,9/3/2025,"Nova LifeStyle, Inc. Announces Pricing of $8.71 Million Best-Efforts Public Offering",2025-09-03 09:00:00 ET
+SSKN,9/3/2025,STRATA Skin Sciences Announces Pricing of $2.42 Million Registered Direct Offering of Common Stock Priced At-Market Under Nasdaq Rules,2025-09-03 08:00:00 ET
+HLNE,9/2/2025,Hamilton Lane Announces Public Offering of Class A Common Stock,
+MLYS,9/2/2025,Mineralys Therapeutics Announces Proposed Public Offering of Common Stock,
+NXTT,9/2/2025,Next Technology Holding Inc. Announces $9 Million Registered Direct Offering,2025-09-02 13:30:00 ET
+GPUS,8/29/2025,"Hyperscale Data Announces ""At-the-Market"" Offering of Common Stock",
+CVM,8/27/2025,CEL-SCI Announces Proposed Public Offering,
+VENU,8/26/2025,Venu Holding Corporation Announces Pricing of $30 Million Public Offering,
+NAKA,8/26/2025,KindlyMD Announces $5 Billion At-The-Market Equity Offering Program,
+FEMY,8/25/2025,Femasys Announces Pricing of $8.0 Million Underwritten Public Offering,2025-08-25 23:44:00 ET
+ANTE,8/22/2025,AIRNET TECHNOLOGY INC. ANNOUNCES US$180.0 MILLION REGISTERED DIRECT OFFERING,
+FEAM,8/21/2025,5E Advanced Materials Announces Proposed Public Offering,
+HBNC,8/20/2025,"Horizon Bancorp, Inc. Announces Launch of Common Stock Offering",2025-08-20 16:01:00 ET
+IVVD,8/20/2025,Invivyd Announces Proposed Public Offering of Common Stock,2025-08-20 16:01:00 ET
+CLDI,8/20/2025,Calidi Biotherapeutics Announces Pricing of $6 Million Underwritten Public Offering,2025-08-20 09:15:00 ET
+IBIO,8/18/2025,iBio Announces Proposed Public Offering,2025-08-18 16:01:00 ET
+VMAR,8/15/2025,"Vision Marine Technologies, Inc. Announces Pricing of Public Offering",
+UTL,8/14/2025,Unitil Announces Common Stock Offering,2025-08-14 16:05:00 ET
+SCNX,8/14/2025,"Scienture Holdings, Inc. Announces Pricing of $3.9 Million Registered Direct Offering of Common Stock",2025-08-14 09:00:00 ET
+AQST,8/14/2025,Aquestive Therapeutics Announces Pricing of $85 Million Underwritten Offering of Common Stock,2025-08-14 06:28:00 ET
+BSGM,8/13/2025,BioSig Technologies Inc. Announces Proposed Public Offering,2025-08-13 17:16:00 ET
+VEEA,8/13/2025,Veea Inc. Announces Pricing of Approximately $9.2 Million Public Offering,2025-08-13 08:47:00 ET
+LODE,8/12/2025,Comstock Inc. Announces Proposed Public Offering of Common Stock,2025-08-12 17:29:00 ET
+ACDC,8/12/2025,ProFrac Holding Corp. Announces Proposed Public Offering of Class A Common Stock,
+TSSI,8/12/2025,TSS Inc. Announces Proposed Public Offering of Common Stock,
+CRCL,8/12/2025,Circle Launches Public Offering,
+ONDS,8/12/2025,Ondas Holdings Inc. Announces Proposed Public Offering of Common Stock,
+CMPX,8/12/2025,Compass Therapeutics Announces Proposed Public Offering,2025-08-12 16:01:00 ET
+SPXC,8/11/2025,SPX Announces Proposed Public Offering of Common Stock,2025-08-11 16:46:00 ET
+TZUP,8/11/2025,Thumzup Media Corporation Announces Pricing of $50 Million Confidentially Marketed Public Offering at $10 per Share,
+OCGN,8/8/2025,"Ocugen, Inc. Announces $20 Million Registered Direct Offering of Common Stock and Warrants",2025-08-08 17:03:00 ET
+LGVN,8/8/2025,Longeveron Announces Up To $17.5 Million Public Offering,2025-08-08 13:28:00 ET
+BORR,8/7/2025,Borr Drilling Announces Second and Final Settlement of the Offering of Common Shares,
+BLTE,8/7/2025,Belite Bio Announces Registered Direct Offering of $15 Million,2025-08-07 08:00:00 ET
+SBET,8/7/2025,SharpLink Enters into Purchase Agreements with Select Institutional Investors for $200 Million Registered Direct Offering of Common Stock,2025-08-07 08:00:00 ET
+SANA,8/6/2025,Sana Biotechnology Announces Proposed Public Offering of Common Stock and Pre-Funded Warrants,2025-08-06 16:38:00 ET
+CWEN,8/6/2025,"Clearway Energy, Inc. Announces $100,000,000 At-The-Market (ATM) Equity Offering Program",2025-08-06 07:34:00 ET
+METC,8/5/2025,"RAMACO RESOURCES, INC. ANNOUNCES COMMENCEMENT OF PROPOSED $150 MILLION PUBLIC OFFERING OF CLASS A COMMON STOCK",
+GUTS,8/5/2025,Fractyl Health Announces Proposed Public Offering,2025-08-05 16:15:00 ET
+AWK,8/4/2025,American Water Announces Common Stock Offering with a Forward Component,
+VNRX,8/4/2025,VolitionRx Announces Pricing of $1.2 Million Registered Direct Offering,
+MYNZ,8/4/2025,Mainz Biomed Announces Pricing of $3.0 Million Follow-On Offering of Ordinary Shares and Warrants,2025-08-04 10:22:00 ET
+PRZO,8/4/2025,ParaZero Technologies Ltd. Announces $2.2 Million Registered Direct Offering,2025-08-04 07:53:00 ET
+OBIO,7/31/2025,Orchestra BioMed Announces Proposed Public Offering,2025-07-31 16:02:00 ET
+ICU,7/31/2025,SeaStar Medical Announces $4.4 Million Registered Direct Offering Priced At-the-Market Under Nasdaq Rules,2025-07-31 15:01:00 ET
+RAYA,7/31/2025,Erayak Power Solution Group. Announces $7 Million Registered Direct Offering,2025-07-31 14:31:00 ET
+WBUY,7/31/2025,WEBUY GLOBAL LTD Announces Pricing of Follow-on Offering,2025-07-31 08:00:00 ET
+DUOT,7/30/2025,"Duos Technologies Group, Inc. Announces Proposed Public Offering of Common Stock",2025-07-30 16:20:00 ET
+DYAI,7/30/2025,"Dyadic International, Inc. Announces Proposed Public Offering of Common Stock",2025-07-30 16:02:00 ET
+PRME,7/30/2025,Prime Medicine Announces Proposed Public Offering of Common Stock,2025-07-30 16:01:00 ET
+SOS,7/30/2025,SOS Limited Announces Pricing of $7.5 Million Registered Direct Offering,
+SOFI,7/29/2025,"SoFi Technologies, Inc. Announces Public Offering of Common Stock",
+LRMR,7/29/2025,Larimar Therapeutics Announces Proposed Underwritten Public Offering,
+DFLI,7/29/2025,Dragonfly Energy Announces Proposed Public Offering of Common Stock and Pre-Funded Warrants,
+AIM,7/29/2025,AIM ImmunoTech Announces Pricing of $8.0 Million Public Offering,2025-07-29 09:00:00 ET
+MFH,7/29/2025,Mercurity Fintech Announces Registered Direct Offering Was Not Consummated,2025-07-29 08:00:00 ET
+BKKT,7/28/2025,Bakkt Announces Proposed Public Offering,
+CANF,7/28/2025,Can-Fite Announces Up To $15.0 Million Public Offering,2025-07-28 12:24:00 ET
+RDZN,7/28/2025,Roadzen Announces Pricing of $2.25 Million Registered Direct Offering of Ordinary Shares,2025-07-28 09:15:00 ET
+SIDU,7/25/2025,Sidus Space Announces Proposed Public Offering,
+RAYA,7/25/2025,Erayak Power Solution Group. Announces $3 Million Registered Direct Offering,2025-07-25 12:50:00 ET
+OMER,7/25/2025,Omeros Corporation Announces Pricing of $22 Million Registered Direct Offering,
+ABSI,7/24/2025,Absci Announces Proposed Public Offering of Common Stock,2025-07-24 16:54:00 ET
+NTST,7/24/2025,NETSTREIT Corp. Announces Launch of Public Offering of Common Stock,
+GSIW,7/24/2025,Garden Stage Limited Announces $4.2 Million Registered Direct Offering,2025-07-24 14:40:00 ET
+UCAR,7/24/2025,U Power Announces Pricing of $1.4 Million Registered Direct Offering,
+DFSC,7/24/2025,DEFSEC Technologies Inc. Announces Pricing of CAD$6.8 Million Public Offering,
+THAR,7/23/2025,Tharimmune Announces Pricing of $1.74 Million Registered Direct Public Offering of Common Stock and Warrants,
+ASPI,7/23/2025,ASP Isotopes Inc. Announces Pricing of $60 Million Underwritten Registered Direct Offering of Common Stock,2025-07-23 18:15:00 ET
+INNO,7/23/2025,Innocan Pharma Announces Public Filing of Registration Statement for Proposed U.S. Public Offering,
+ABVX,7/23/2025,Abivax Announces Launch of Public Offering,2025-07-23 16:15:00 ET
+SDOT,7/23/2025,Sadot Group Inc. Announces Proposed Public Offering of Common Stock,
+PHVS,7/22/2025,Pharvaris Announces Proposed Public Offering of Ordinary Shares,2025-07-22 16:05:00 ET
+ORIS,7/22/2025,Oriental Rise Holdings Limited Announces Pricing of $6.9 Million Public Offering,2025-07-22 08:45:00 ET
+PMN,7/22/2025,"ProMIS Neurosciences Announces $0.8 Million Registered Direct Offering, Priced At-the-Market Under Nasdaq Rules",2025-07-22 07:00:00 ET
+SFNC,7/22/2025,SIMMONS FIRST NATIONAL CORPORATION ANNOUNCES PRICING OF OFFERING OF COMMON STOCK,
+BNKK,7/21/2025,Safety Shot Announces Pricing of $10.6 Million Registered Direct Offering,
+KRMN,7/21/2025,Karman Space & Defense Announces Proposed Public Offering of Common Stock,
+AIRE,7/21/2025,reAlpha Tech Corp. Announces $5 Million Registered Direct Offering Priced At-The-Market Under Nasdaq Rules,2025-07-21 16:30:00 ET
+MFH,7/21/2025,Mercurity Fintech Holding Inc. Announces Pricing of Registered Direct Offering of $43.70 Million For Crypto Treasury Strategy,2025-07-21 14:12:00 ET
+OP,7/21/2025,OceanPal Inc. Announces Pricing of Upsized US$18.0 Million Public Offering,2025-07-21 09:18:00 ET
+DGXX,7/21/2025,Digi Power X Announces $15 Million Registered Direct Offering of Common Stock,2025-07-21 07:29:00 ET
+DPRO,7/18/2025,Draganfly Announces Pricing of US$25.0 Million Registered Direct Offering,2025-07-18 08:45:00 ET
+TGEN,7/18/2025,Tecogen Inc. Announces Pricing of Public Offering,
+SMSI,7/17/2025,Smith Micro Announces Follow-On Offering,
+NB,7/17/2025,NioCorp Announces Pricing of $45.0 Million Public Offering of Common Shares,
+STXS,7/17/2025,Stereotaxis Announces $12.5 Million Registered Direct Offering of Common Stock,2025-07-17 08:32:00 ET
+MNDR,7/17/2025,Mobile-health Network Solutions Launches $300 Million At-the-Market Offering to Drive AI-Powered Healthcare and Pharmacy Delivery Expansion,
+GAME,7/16/2025,"GameSquare Holdings, Inc. Announces Proposed Public Offering of Common Stock",
+MP,7/16/2025,MP Materials Announces Commencement of Proposed $500 Million Public Offering of Common Stock,
+BRCC,7/16/2025,BRC Inc. Announces Proposed Public Offering of Class A Common Stock,
+NCPL,7/16/2025,Netcapital Announces Up To $5.9 Million Registered Direct Offering Priced At-The-Market Under Nasdaq Rules,2025-07-16 13:40:00 ET
+STKH,7/16/2025,Steakholder Foods Ltd. Announces Pricing of $2.5 Million Public Oﬀering,2025-07-16 09:16:00 ET
+CTXR,7/16/2025,Citius Oncology Announces Pricing of $9.0 Million Public Offering,
+LVO,7/15/2025,LiveOne (Nasdaq: LVO) Announces Proposed Public Offering of Common Stock,2025-07-15 19:35:00 ET
+GANX,7/15/2025,Gain Therapeutics Announces Proposed Public Offering,2025-07-15 16:36:00 ET
+BCTX,7/15/2025,BriaCell Therapeutics Announces Pricing of $15 million Public Offering,2025-07-15 15:05:00 ET
+SXTP,7/15/2025,60 Degrees Pharmaceuticals Announces Pricing of Up to $10 Million Public Offering,2025-07-15 09:10:00 ET
+RANI,7/15/2025,"Rani Therapeutics Holdings, Inc. Announces Pricing of $3.0 Million Registered Direct Offering",2025-07-15 09:00:00 ET
+RVYL,7/15/2025,RYVYL Announces Pricing of $6.0 Million Public Offering,2025-07-15 08:55:00 ET
+NVA,7/14/2025,Nova Minerals Limited Announces Pricing of Public Offering,2025-07-14 19:09:00 ET
+BTBT,7/14/2025,"Bit Digital, Inc. Announces $67.3 Million Registered Direct Offering of its Ordinary Shares",
+LAES,7/14/2025,SEALSQ Announces Pricing of $60.0 Million Registered Direct Offering,2025-07-14 09:00:00 ET
+UMAC,7/14/2025,Unusual Machines Announces Pricing of $48.5 Million Registered Direct Offering of Common Stock,
+CVM,7/11/2025,CEL-SCI Announces Pricing of $5.7 Million Offering Priced At-the-Market Under NYSE American Rules,
+MIST,7/11/2025,Milestone Pharmaceuticals Announces Proposed Public Offering,2025-07-11 06:01:00 ET
+EDR,7/10/2025,Endeavour Silver Announces At-the-Market Offering of up to US$60 Million,2025-07-10 17:42:00 ET
+NVVE,7/10/2025,Nuvve Holding Corp. Announces Proposed Public Offering of Common Stock,
+CIVB,7/10/2025,"Civista Bancshares, Inc. Announces Agreement to Acquire The Farmers Savings Bank; Launches Public Offering of Common Shares",
+ICU,7/10/2025,SeaStar Medical Announces $4 Million Registered Direct Offering Priced At-the-Market Under Nasdaq Rules,2025-07-10 15:29:00 ET
+SLNO,7/10/2025,Soleno Therapeutics Announces Proposed $200 Million Public Offering of Common Stock,2025-07-10 06:01:00 ET
+RYTM,7/9/2025,"Rhythm Pharmaceuticals, Inc. Announces Proposed Public Offering of Common Stock",2025-07-09 16:16:00 ET
+EVTL,7/8/2025,Vertical Aerospace Announces Launch of Proposed Underwritten Public Offering,
+COGT,7/8/2025,Cogent Biosciences Announces Proposed $150 Million Public Offering of Common Stock,2025-07-08 16:26:00 ET
+GAME,7/7/2025,"GameSquare Holdings, Inc. Announces Proposed Public Offering of Common Stock",
+BORR,7/7/2025,Borr Drilling Announces First Settlement of the Offering of Common Shares,
+IONQ,7/7/2025,IonQ Announces Pricing of $1.0 Billion Equity Offering,
+NCPL,7/3/2025,Netcapital Announces Up To $9.9 Million Registered Direct Offering Priced At-The-Market Under Nasdaq Rules,2025-07-03 08:00:00 ET
+STFS,7/3/2025,STFS Announces Pricing of $8 Million Public Offering of Class A Ordinary Shares,2025-07-03 07:42:00 ET
+BORR,7/2/2025,Borr Drilling Announces Public Offering of Common Shares,
+INO,7/2/2025,INOVIO Announces Proposed Public Offering,
+AVBP,7/1/2025,ArriVent Announces Proposed $75 Million Public Offering of Common Stock and Pre-Funded Warrants,2025-07-01 16:05:00 ET
+CLRB,7/1/2025,Cellectar Biosciences Announces Pricing of $6 Million Underwritten Public Offering,2025-07-01 09:25:00 ET
+SONM,7/1/2025,Sonim Technologies Announces Pricing of $5.55 Million Public Offering,
+RAY,7/1/2025,Raytech Holding Limited Announces Pricing of $5.197 Million Public Offering of its Ordinary Shares,2025-07-01 08:30:00 ET
+DYN,6/30/2025,Dyne Therapeutics Announces Proposed Public Offering of Common Stock,2025-06-30 16:05:00 ET
+NKTR,6/30/2025,Nektar Therapeutics Announces Proposed Public Offering,
+MNTS,6/30/2025,Momentus Announces $4 Million Offering Priced At-The-Market Under Nasdaq Rules,
+VERI,6/30/2025,Veritone Announces Equity Offering of $10 Million Backed by CEO,
+OST,6/30/2025,"Ostin Technology Group Co., Ltd. Announces $5 Million Registered Direct Offering",2025-06-30 09:15:00 ET
+GRRR,6/30/2025,Gorilla Announces $105 Million Registered Direct Offering of Common Stock,
+ASTI,6/27/2025,"Ascent Solar Technologies, Inc. Announces Pricing of $2.0 Million Public Offering",2025-06-27 14:15:00 ET
+INMB,6/27/2025,"INmune Bio, Inc. Announces Approximately $19 Million Registered Direct Offering Priced At-the-Market Under Nasdaq Rules",2025-06-27 12:16:00 ET
+BBLG,6/27/2025,Bone Biologics Announces Pricing of $5.0 Million Public Offering,
+CYN,6/27/2025,Cyngn Inc. Announces $17.2 Million Registered Direct Offering,
+OTRK,6/27/2025,Ontrak Health Announces Pricing of $4 Million Public Offering,
+PMNT,6/26/2025,Perfect Moment Ltd. Announces Proposed Public Offering of Common Stock,
+ACHV,6/26/2025,Achieve Life Sciences Announces Proposed Underwritten Public Offering,2025-06-26 16:03:00 ET
+CRMD,6/26/2025,CorMedix Inc. Announces Proposed Public Offering of Common Stock,2025-06-26 16:01:00 ET
+CYN,6/26/2025,Cyngn Inc. Announces $15 Million Registered Direct Offering,
+GVH,6/26/2025,Globavend Holdings Limited Announces Pricing of $15 Million Public Offering,2025-06-26 09:15:00 ET
+RVPH,6/25/2025,"Reviva Pharmaceuticals Holdings, Inc. Announces Proposed Public Offering",2025-06-25 16:17:00 ET
+KYMR,6/25/2025,Kymera Therapeutics Announces Proposed Public Offering,
+BTBT,6/25/2025,"Bit Digital, Inc. Announces Commencement of Public Offering of its Ordinary Shares",
+KTOS,6/25/2025,"Kratos Defense & Security Solutions, Inc. Announces Proposed Public Offering Of Common Stock",2025-06-25 16:00:00 ET
+SRFM,6/25/2025,Surf Air Mobility Announces $27 Million Registered Direct Offering of Common Stock,
+LFWD,6/25/2025,Lifeward Announces Pricing of $2.6 Million Public Oﬀering,2025-06-25 09:10:00 ET
+RBNE,6/25/2025,Robin Energy Ltd. Announces Pricing of $3.6 Million Registered Direct Offering,2025-06-25 09:00:00 ET
+QXO,6/24/2025,QXO Announces Common Stock Offering,
+SITM,6/24/2025,SiTime Corporation Announces Launch of Follow-on Public Offering,2025-06-24 16:12:00 ET
+ALLT,6/24/2025,Allot Announces Launch of Underwritten Public Offering of Ordinary Shares,2025-06-24 16:08:00 ET
+FBRX,6/24/2025,Forte Biosciences Announces Proposed Public Offering,
+NLST,6/24/2025,Netlist Announces $12.0 Million Registered Direct Offering,
+HUSA,6/24/2025,Houston American Energy Corp. Announces $1.2 Million Registered Direct Offering,2025-06-24 09:15:00 ET
+CADL,6/24/2025,Candel Therapeutics Announces $15 million Registered Direct Offering of Common Stock,2025-06-24 09:05:00 ET
+CDTX,6/23/2025,Cidara Announces Proposed Public Offering of Common Stock,2025-06-23 16:15:00 ET
+TCRT,6/23/2025,Alaunos Therapeutics Announces $2.0 Million Registered Direct Offering,2025-06-23 08:00:00 ET
+ICU,6/20/2025,SeaStar Medical Announces Pricing of Up to $8 Million Public Offering,2025-06-20 12:10:00 ET
+QMMM,6/20/2025,QMMM Announces Pricing of $8 Million Public Offering of Ordinary Shares,
+MBRX,6/20/2025,Moleculin Announces $5.9 Million Public Offering,2025-06-20 09:20:00 ET
+RBNE,6/20/2025,Robin Energy Ltd. Announces Pricing of $4.0 Million Registered Direct Offering,2025-06-20 09:20:00 ET
+LGCL,6/20/2025,Lucas GC Limited Announces Pricing of Follow-On Offering,2025-06-20 09:00:00 ET
+APVO,6/18/2025,Aptevo Therapeutics Announces $8 Million Offering Priced At-the-Market Under Nasdaq Rules,
+RBNE,6/18/2025,Robin Energy Ltd. Announces Pricing of $4.5 Million Registered Direct Offering,2025-06-18 09:00:00 ET
+HUSA,6/18/2025,Houston American Energy Corp. Announces $2.37 Million Registered Direct Offering,2025-06-18 08:00:00 ET
+BMEA,6/17/2025,Biomea Fusion Announces Proposed Public Offering of Securities,2025-06-17 16:33:00 ET
+PCSA,6/17/2025,Processa Pharmaceuticals Announces Pricing of $7 Million Public Offering,2025-06-17 12:26:00 ET
+RCAT,6/17/2025,Red Cat Holdings Announces $46.75 Million Registered Direct Offering of Common Stock,2025-06-17 09:19:00 ET
+SDST,6/17/2025,Stardust Power Inc. Announces Pricing of $4.3 Million Underwritten Public Offering,2025-06-17 08:30:00 ET
+ADIL,6/17/2025,Adial Pharmaceuticals Announces Pricing of $3.6 Million Public Offering,2025-06-17 08:00:00 ET
+RDW,6/16/2025,"Redwire Announces Offering of $200,000,000 of Common Stock",
+RBNE,6/16/2025,Robin Energy Ltd. Announces Pricing of $5.1 Million Registered Direct Offering Priced At-The-Market Under Nasdaq Rules,2025-06-16 11:33:00 ET
+CHSN,6/13/2025,Chanson International Holding Announces Pricing of $8 Million Public Offering,2025-06-13 09:00:00 ET
+ELVN,6/13/2025,Enliven Therapeutics Announces Proposed Public Offering of Common Stock and Pre-Funded Warrants,
+CTM,6/12/2025,Castellum Announces Pricing of $5.0 Million Public Offering of Common Stock and Warrants,2025-06-12 09:00:00 ET
+HYMC,6/11/2025,Hycroft Announces Public Offering of Units,
+INTS,6/11/2025,"Intensity Therapeutics, Inc. Announces Proposed Public Offering of Common Stock",
+OKLO,6/11/2025,Oklo Inc. Announces Proposed Public Offering of Common Stock,
+INSM,6/11/2025,Insmed Announces Proposed $650 Million Public Offering of Common Stock,
+HPP,6/11/2025,Hudson Pacific Properties Announces Commencement of Public Offering,
+DPRO,6/11/2025,Draganfly Announces Pricing of US$13.75 Million Public Offering,2025-06-11 08:30:00 ET
+TPST,6/11/2025,Tempest Announces $4.6 Million Registered Direct Offering of Common Stock,2025-06-11 08:00:00 ET
+CABA,6/11/2025,Cabaletta Bio Announces Proposed Public Offering of Securities,2025-06-11 06:15:00 ET
+BRO,6/10/2025,"Brown & Brown, Inc. announces pricing of $4 billion offering of common stock",2025-06-10 23:19:00 ET
+AMSC,6/10/2025,AMSC Announces Proposed Public Offering of Common Stock,2025-06-10 16:01:00 ET
+ADUR,6/10/2025,Aduro Clean Technologies Announces Pricing of US$8 Million Underwritten Public Offering,2025-06-10 08:00:00 ET
+CTXR,6/10/2025,Citius Pharmaceuticals Announces a Registered Direct Offering of Up To $15.8 Million Priced At-The-Market Under Nasdaq Rules,
+AIRS,6/9/2025,AirSculpt Announces Public Offering of Common Stock,2025-06-09 16:25:00 ET
+ONDS,6/9/2025,Ondas Holdings Inc. Announces Proposed Public Offering of Common Stock and Pre-Funded Warrants,
+NUWE,6/9/2025,Nuwellis Announces Pricing of $4.3 Million Underwritten Public Offering,2025-06-09 09:15:00 ET
+RSLS,6/9/2025,ReShape Lifesciences® Announces Pricing of $2.6 Million Public Offering,
+VERO,6/6/2025,Venus Concept Announces Up To $3.45 Million Registered Direct Offering Priced At-The-Market Under Nasdaq Rules,2025-06-06 11:35:00 ET
+AYTU,6/6/2025,Aytu BioPharma Announces At the Market Pricing of $14.4 Million Upsized Public Offering of Common Stock,
+CBUS,6/4/2025,"Cibus, Inc. Announces Proposed Public Offering",2025-06-04 16:19:00 ET
+MRUS,6/3/2025,Merus N.V. Announces Proposed Public Offering of Common Shares,2025-06-03 16:05:00 ET
+OBT,6/3/2025,"Orange County Bancorp, Inc. Launches Public Offering of Common Stock",2025-06-03 16:00:00 ET
+TRVI,6/2/2025,Trevi Therapeutics Announces Proposed Public Offering of Common Stock,
+ASPI,6/2/2025,ASP Isotopes Inc. Announces Pricing of $50 Million Underwritten Registered Direct Offering of Common Stock,2025-06-02 09:15:00 ET
+FLYE,6/2/2025,"Fly-E Group, Inc. Announces Pricing of $6.94 Million Public Offering",2025-06-02 08:50:00 ET
+XLO,6/2/2025,Xilio Therapeutics Announces Proposed Public Offering,2025-06-02 06:11:00 ET
+SLE,5/30/2025,"Super League Enterprise, Inc. Announces Registered Direct Offering",2025-05-30 14:06:00 ET
+CLGN,5/30/2025,COLLPLANT BIOTECHNOLOGIES ANNOUNCES $3.6 MILLION REGISTERED DIRECT OFFERING PRICED AT-THE-MARKET UNDER NASDAQ RULES,
+SLE,5/29/2025,"Super League Enterprise, Inc. Announces Pricing of Underwritten Public Offering",2025-05-29 08:05:00 ET
+REVB,5/29/2025,"Revelation Biosciences, Inc. Announces Pricing of $4 Million Public Offering",
+EOSE,5/29/2025,"Eos Energy Enterprises, Inc. Announces Proposed Offering of Common Stock",2025-05-29 06:55:00 ET
+IMUX,5/28/2025,"Immunic, Inc. Announces Proposed Public Offering",
+TSHA,5/28/2025,Taysha Gene Therapies Announces Proposed Public Offering of Common Stock and Pre-Funded Warrants,2025-05-28 16:02:00 ET
+JFBR,5/28/2025,Jeffs' Brands Announces Pricing of approx. $581 Thousand Registered Direct Offering,2025-05-28 09:56:00 ET
+CETX,5/28/2025,"Cemtrex, Inc. Announces Pricing of $1.25 Million Underwritten Public Offering",2025-05-28 08:00:00 ET
+GLXY,5/27/2025,Galaxy Digital Inc. Announces Public Offering of Common Stock,
+GDS,5/27/2025,GDS Announces Launch of Proposed Public Offering of ADSs,2025-05-27 17:00:00 ET
+CNP,5/27/2025,CenterPoint Energy Announces Public Offering of Common Stock With a Forward Component,
+LSBK,5/23/2025,"Lake Shore Bancorp, Inc. Announces Commencement of Stock Offering",2025-05-23 16:00:00 ET
+PCLA,5/23/2025,PicoCELA Inc. Announces Pricing of Public Offering,
+GYRE,5/22/2025,Gyre Therapeutics Announces Proposed Underwritten Public Offering of Common Stock,2025-05-22 16:02:00 ET
+OTLK,5/22/2025,Outlook Therapeutics® Announces Proposed Public Offering of Common Stock and Warrants,2025-05-22 16:01:00 ET
+JAGX,5/22/2025,Jaguar Health Announces $1.5 Million Registered Direct Offering Priced At-The-Market Under Nasdaq Rules,
+SOC,5/21/2025,Sable Offshore Corp. Announces Proposed Public Offering of Common Stock,
+ESLT,5/21/2025,"Elbit Systems Announces Underwritten Public Offering of 1,365,450 Shares",
+CVM,5/21/2025,CEL-SCI Announces Proposed Public Offering,
+SOC,5/21/2025,Sable Offshore Corp. Announces Proposed Public Offering of Common Stock,
+NRXS,5/21/2025,NeurAxis Announces $5.0 Million Registered Direct Offering,2025-05-21 07:00:00 ET
+GRDN,5/20/2025,Guardian Pharmacy Services Announces Launch of Underwritten Public Offering of Class A Common Stock,
+TTWO,5/20/2025,"Take-Two Interactive Software, Inc. Announces Proposed Public Offering of Common Stock",
+SBET,5/20/2025,SharpLink Gaming Announces Pricing of $4.5 Million Public Offering Priced At-The-Market Under Nasdaq Rules,2025-05-20 09:05:00 ET
+RHP,5/19/2025,"Ryman Hospitality Properties, Inc. Announces Offering of 2,300,000 Shares of Common Stock",2025-05-19 16:26:00 ET
+GCTS,5/15/2025,GCT Semiconductor Announces $11 Million Registered Direct Offering,
+SILO,5/15/2025,Silo Pharma Announces Pricing of $2 Million Public Offering,2025-05-15 09:15:00 ET
+AURA,5/15/2025,Aura Biosciences Announces Proposed Public Offering of Common Stock and Warrants,2025-05-15 06:10:00 ET
+TXO,5/13/2025,"TXO Partners, L.P. Announces Commencement of Underwritten Public Offering",
+CNSP,5/13/2025,CNS Pharmaceuticals Announces Pricing of $5 Million Public Offering Priced At-The-Market Under Nasdaq Rules,
+WAY,5/13/2025,Waystar Announces Proposed Public Offering of Common Stock,
+ITP,5/13/2025,IT TECH PACKAGING ANNOUNCES PRICING OF $1.4 MILLION PUBLIC OFFERING,
+BNRG,5/13/2025,Brenmiller Energy Ltd. Announces Pricing of $1.5 Million Public Offering,
+AEE,5/12/2025,Ameren Announces Public Offering of Common Stock with a Forward Component,
+CTMX,5/12/2025,CytomX Therapeutics Announces Pricing of $100 Million Underwritten Offering of Common Stock,2025-05-12 06:50:00 ET
+SLE,5/9/2025,"Super League Enterprise, Inc. Announces Pricing of Underwritten Public Offering",
+OGS,5/8/2025,"ONE Gas, Inc. Announces Public Offering of 2,500,000 Shares of Common Stock",
+VEEE,5/8/2025,Twin Vee PowerCats Announces Proposed Public Offering of Common Stock,
+IDA,5/8/2025,"IDACORP, Inc. Announces Public Offering of $450 Million of Shares of Common Stock",
+XGN,5/7/2025,Exagen Inc. Announces Proposed Public Offering of Common Stock,2025-05-07 16:05:00 ET
+TOVX,5/7/2025,Theriva Biologics Announces Pricing of $7.5 Million Public Offering,2025-05-07 09:17:00 ET
+PTN,5/7/2025,Palatin Technologies Announces Pricing of up to $23 Million Public Offering,
+NG,5/6/2025,NOVAGOLD Announces Proposed Public Offering of Common Shares,2025-05-06 18:00:00 ET
+AUID,5/6/2025,"authID Announces Pricing of Approximately $2,100,000 Million Registered Direct Offering",2025-05-06 15:43:00 ET
+KTTA,5/6/2025,Pasithea Therapeutics Announces Pricing of $5 Million Public Offering,2025-05-06 11:10:00 ET
+LAES,5/5/2025,SEALSQ Announces Pricing of $20.0 Million Registered Direct Offering,2025-05-05 13:55:00 ET
+UMAC,5/5/2025,"Unusual Machines, Inc. Announces Pricing of $40.0 Million Confidentially Marketed Public Offering of Common Stock",
+NXL,5/5/2025,Nexalin Technology Announces Pricing of $5.0 Million Public Offering of Common Stock,2025-05-05 08:20:00 ET
+PAPL,5/2/2025,Pineapple Financial Inc. (PAPL) Announces Pricing of $1.5 Million Public Offering,
+DPRO,5/1/2025,Draganfly Announces Proposed Public Offering of Common Shares & Warrants,2025-05-01 16:05:00 ET
+ITRM,4/29/2025,Iterum Therapeutics Announces $5 Million Registered Direct Offering of Ordinary Shares,2025-04-29 08:00:00 ET
+LEXX,4/25/2025,Lexaria Announces $2 Million Registered Direct Offering of Common Stock,
+INTS,4/25/2025,"Intensity Therapeutics, Inc. Announces $2.35 Million Public Offering",
+BCTX,4/24/2025,BriaCell Therapeutics Announces Pricing of $13.8 million Public Offering,2025-04-24 20:00:00 ET
+ADC,4/23/2025,Agree Realty Announces Common Stock Offering,
+APVO,4/21/2025,Aptevo Therapeutics $2.0 Million Registered Direct Offering Priced At-The-Market Under Nasdaq Rules,
+CWD,4/17/2025,Caliber Announces Pricing of the Public Offering Units,
+NB,4/17/2025,NioCorp Announces Pricing of $20.0 Million Underwritten Public Offering of Common Shares,
+QXO,4/16/2025,QXO Announces Common Stock Offering,
+KC,4/16/2025,Kingsoft Cloud Announces Pricing of Public Equity Offering,2025-04-16 09:15:00 ET
+OST,4/15/2025,Ostin Technology Group Announces Pricing of $5.0 million Registered Direct Offering,2025-04-15 16:30:00 ET
+CUE,4/14/2025,Cue Biopharma Announces Proposed Public Offering,2025-04-14 17:05:00 ET
+MRX,4/14/2025,Marex Group plc Announces Launch of a Public Offering,2025-04-14 16:04:00 ET
+CANF,4/14/2025,Can-Fite Announces $3.0 Million Registered Direct Offering of American Depositary Shares,2025-04-14 14:28:00 ET
+VERO,4/11/2025,Venus Concept Announces $1.5 Million Registered Direct Offering of Common Stock Priced At-The-Market Under Nasdaq Rules,2025-04-11 08:02:00 ET
+RCAT,4/10/2025,Red Cat Holdings Announces $30 Million Registered Direct Offering of Common Stock,2025-04-10 07:00:00 ET
+VERO,4/9/2025,Venus Concept Announces $1.1 Million Registered Direct Offering of Common Stock Priced At-The-Market Under Nasdaq Rules,2025-04-09 16:35:00 ET
+LUCD,4/9/2025,Lucid Diagnostics Announces Proposed Public Offering of Common Stock,
+IMUX,4/9/2025,"Immunic, Inc. Announces Pricing of $5.1 Million Registered Direct Offering, Led by Aberdeen Investments",
+MOBX,4/4/2025,Mobix Labs Announces $4.0 Million Registered Direct Offering Priced At-the-Market Under Nasdaq Rules,
+NMTC,4/3/2025,NeuroOne Medical Technologies Corporation Announces Proposed Public Offering of Common Stock,2025-04-03 16:05:00 ET
+SBFM,4/2/2025,Sunshine Biopharma Inc. Announces $2.46 Million Registered Direct Offering Priced at the Market Under Nasdaq Rules,
+EWTX,4/2/2025,Edgewise Therapeutics Announces Pricing of $200 Million Underwritten Offering of Common Stock,
+GRI,4/1/2025,GRI Bio Announces Pricing of $5.0 Million Public Offering,2025-04-01 11:15:00 ET
+CTXR,4/1/2025,Citius Pharmaceuticals Announces $2 Million Registered Direct Offering of Common Stock,
+SYNX,3/31/2025,Silynxcom Ltd. Announces Proposed Public Offering of Ordinary Shares,2025-03-31 16:26:00 ET
+EE,3/31/2025,Excelerate Energy Announces Proposed Public Offering of Class A Common Stock,
+AUID,3/31/2025,"authID Announces Pricing of Approximately $8,150,000 Million Registered Direct Offering",2025-03-31 08:30:00 ET
+SRFM,3/31/2025,Surf Air Mobility Announces $5 Million Registered Direct Offering of Common Stock,
+ENSC,3/31/2025,"Ensysce Biosciences, Inc. Announces $1.1 Million Registered Direct Offering Priced At-The-Market Under Nasdaq Rules",
+LPLA,3/31/2025,LPL Financial Announces Proposed $1.5 Billion Common Stock Offering,2025-03-31 06:56:00 ET
+KSCP,3/28/2025,Knightscope Announces $1.7 Million Registered Direct Offering of Common Stock,
+XTIA,3/27/2025,XTI Aerospace Announces Proposed Public Offering,
+ECX,3/27/2025,"ECARX Holdings Inc. Announces Proposed Offering of 25,000,000 Class A Ordinary Shares",2025-03-27 16:50:00 ET
+NIO,3/27/2025,NIO Inc. Announces Proposed Offering of New Shares,
+VNRX,3/26/2025,VolitionRx Announces Pricing of up to $2.3 Million Registered Direct Offering,
+ICG,3/26/2025,Intchains Group Limited Announces Entry into Agreement for Registered Direct Offering of its ADSs and Warrants,2025-03-26 07:00:00 ET
+GWRS,3/25/2025,Global Water Announces Proposed Public Offering of Common Stock,2025-03-25 16:25:00 ET
+HUMA,3/25/2025,"Humacyte, Inc. Announces Proposed Public Offering of Common Stock",2025-03-25 16:01:00 ET
+GNLX,3/25/2025,Genelux Corporation Announces Pricing of $10.5 Million Underwritten Offering of Common Stock,2025-03-25 08:31:00 ET
+IVP,3/25/2025,Inspire Veterinary Partners Announces up to $6.0 Million Registered Direct Offering Priced At-The-Market Under Nasdaq Rules,
+BNTC,3/25/2025,Benitec Biopharma Inc. Announces Pricing of $30 Million Common Stock Offering,2025-03-25 08:00:00 ET
+AEP,3/24/2025,AEP Announces Public Offering of Common Stock with a Forward Component,
+PROP,3/24/2025,Prairie Operating Co. Announces Public Offering of Common Stock,
+WLGS,3/24/2025,Wang & Lee Group Announces Pricing of $12.0 Million Registered Direct Offering,2025-03-24 09:00:00 ET
+RNAZ,3/23/2025,"TransCode Therapeutics, Inc. Announces Registered Direct Offering Priced At-the-Market Under Nasdaq Rules",
+ELAB,3/21/2025,PMGC Holdings Inc. Announces $1.48 Million Registered Direct Offering Priced At-The Market Under Nasdaq Rules,2025-03-21 14:41:00 ET
+OCG,3/21/2025,"Outcrop Silver Announces Upsize of Public Offering to $6.5 Million, Led by Investment from Eric Sprott",2025-03-21 13:24:00 ET
+OCG,3/21/2025,"Outcrop Silver Announces $5 Million Public Offering of Units, Led by Investment from Eric Sprott",2025-03-21 09:20:00 ET
+DC,3/20/2025,Dakota Gold Announces Offering of Common Stock,
+AKBA,3/19/2025,Akebia Therapeutics Announces Proposed Public Offering of Common Stock,2025-03-19 16:01:00 ET
+REE,3/18/2025,REE Automotive Announces Pricing of $27 Million Registered Direct Offering of Ordinary Shares,2025-03-18 08:15:00 ET
+ETR,3/17/2025,Entergy Corporation announces public offering of common stock with a forward component,
+CTM,3/14/2025,Castellum Announces Proposed Public Offering of Common Stock and Warrants,2025-03-14 17:30:00 ET
+DWTX,3/13/2025,"Dogwood Therapeutics, Inc. Announces Pricing of $4.8 Million Registered Direct Offering of Common Stock Priced At-The-Market Under Nasdaq Rules",2025-03-13 09:00:00 ET
+TARS,3/12/2025,Tarsus Announces Proposed $100.0 Million Public Offering,
+RKLB,3/11/2025,Rocket Lab Announces “At The Market” (ATM) Equity Offering Program,
+FTHM,3/11/2025,Fathom Announces $3.0 Million Registered Direct Offering,
+MLYS,3/10/2025,Mineralys Therapeutics Announces Proposed Public Offering of Common Stock,2025-03-10 16:01:00 ET
+CDZI,3/7/2025,Cadiz Inc. Announces $20 Million Registered Direct Offering,
+ACXP,3/7/2025,"Acurx Pharmaceuticals, Inc. Announces $1.1 Million Registered Direct Offering",
+ED,3/4/2025,CON EDISON ANNOUNCES PUBLIC OFFERING OF COMMON SHARES,
+LUCD,3/4/2025,Lucid Diagnostics Announces $15.3 Million Registered Direct Offering,
+ZTEK,3/3/2025,Zentek Announces US$30 Million At-The-Market Offering in the United States,
+TNYA,3/3/2025,Tenaya Therapeutics Announces Proposed Public Offering,2025-03-03 16:10:00 ET
+BTAI,3/3/2025,BioXcel Therapeutics Announces $14 Million Registered Direct Offering,2025-03-03 15:33:00 ET
+AGMH,3/2/2025,AGM Group Holdings Inc. Announces Pricing of $5.4 Million Public Offering,2025-03-02 22:15:00 ET
+SUNE,2/27/2025,SUNation Energy Announces $20 Million Registered Direct Offering Priced at the Market Under Nasdaq Rules,2025-02-27 08:45:00 ET
+PDSB,2/27/2025,PDS Biotech Announces up to $22 Million Registered Direct Offering Priced At-the-Market Under Nasdaq Rules,2025-02-27 08:00:00 ET
+IONQ,2/26/2025,IonQ Announces At-the-Market Equity Offering Program for up to $500 Million,
+MBBC,2/20/2025,"Marathon Bancorp, Inc. Announces Commencement of Stock Offering",
+POCI,2/20/2025,Precision Optics Announces Pricing of $5.1 Million Offering of Common Stock to Fund Business Expansion,2025-02-20 09:00:00 ET
+INBS,2/19/2025,Intelligent Bio Solutions Inc. Announces Proposed Public Offering of Common Stock,2025-02-19 16:42:00 ET
+POAI,2/19/2025,Predictive Oncology Announces Registered Direct Offering Priced At-The-Market Under Nasdaq Rules,2025-02-19 08:00:00 ET
+DEC,2/19/2025,Diversified Energy Announces Proposed Offering of Ordinary Shares,2025-02-19 07:30:00 ET
+ISO,2/18/2025,IsoEnergy Ltd. Announces Filing of Prospectus Supplement for Upsized Prospectus Offering of Common Shares,
+WAY,2/18/2025,Waystar Announces Proposed Public Offering of Common Stock,
+LGMK,2/18/2025,"LogicMark, Inc. Announces Pricing of $14.4 Million Public Offering and Plan to Hold Special Stockholder Meeting on March 24, 2025",2025-02-18 09:29:00 ET
+PTPI,2/18/2025,Petros Pharmaceuticals Announces Pricing of $9.6 Million Public Offering of Common Stock and Warrants,
+RCUS,2/18/2025,"Arcus Biosciences, Inc. Announces Underwritten Offering of Common Stock",
+RSLS,2/15/2025,ReShape Lifesciences® Announces Pricing of Upsized $6.0 Million Public Offering,
+DBGI,2/13/2025,DBGI Announces Pricing of $7.5 Million Public Offering of Units of Common Stock and/or Pre-Funded Warrants and Warrants,2025-02-13 21:47:00 ET
+NPCE,2/13/2025,NeuroPace Announces Proposed Public Offering of $65 Million of Common Stock,2025-02-13 16:34:00 ET
+IFRX,2/13/2025,InflaRx Announces Public Offering of Ordinary Shares and Pre-Funded Warrants,2025-02-13 16:01:00 ET
+DGLY,2/13/2025,"Digital Ally, Inc. Announces Pricing of $15.0 Million Underwritten Public Offering",2025-02-13 09:00:00 ET
+BEAT,2/13/2025,HeartBeam Announces Pricing of $10.0 Million Underwritten Public Offering of Common Stock,
+ATAI,2/12/2025,atai Life Sciences Announces Proposed Public Offering of Common Shares,2025-02-12 16:01:00 ET
+PRZO,2/12/2025,ParaZero Technologies Ltd. Announces $3.1 Million Registered Direct Offering,2025-02-12 09:00:00 ET
+IE,2/11/2025,Ivanhoe Electric Announces Public Offering of Units,
+LIXT,2/11/2025,LIXTE Biotechnology Announces $1.05 Million Registered Direct Offering Priced At-the-Market Under Nasdaq Rules,2025-02-11 08:42:00 ET
+HYPR,2/11/2025,Hyperfine Announces $6.0 Million Registered Direct Offering,
+HLNE,2/10/2025,Hamilton Lane Announces Public Offering of Class A Common Stock,
+SERA,2/10/2025,Sera Prognostics Announces Proposed Public Offering,
+MNTS,2/10/2025,Momentus Announces $5 Million Offering Priced At-The-Market Under Nasdaq Rules,
+FTEL,2/10/2025,Fitell Corporation Announces Updated Registered Direct Offering for up to $10.0 Million,2025-02-10 08:45:00 ET
+GDC,2/10/2025,GD Culture Group Limited Announces At-The-Market Equity Offering Program,2025-02-10 08:00:00 ET
+INVZ,2/10/2025,Innoviz Announces Pricing of $40 Million Registered Direct Offering,
+GDC,2/10/2025,GD Culture Group Limited Announces At-The-Market Equity Offering Program,2025-02-10 08:00:00 ET
+MBOT,2/10/2025,Microbot Medical Announces $13 Million Registered Direct Offering Priced At-The-Market under Nasdaq Rules,2025-02-10 08:00:00 ET
+FTEL,2/7/2025,Fitell Corporation Announces $10.0 Million Registered Direct Offering,2025-02-07 08:00:00 ET
+PROP,2/7/2025,Prairie Operating Co. Announces Public Offering of Common Stock,2025-02-07 06:30:00 ET
+STIM,2/6/2025,Neuronetics Announces Launch of Underwritten Public Offering of Common Stock,2025-02-06 16:23:00 ET
+RNXT,2/6/2025,RenovoRx Announces Proposed Public Offering,
+EFSI,2/6/2025,"Eagle Financial Services, Inc. Announces Launch of Common Stock Offering",
+MBIO,2/6/2025,Mustang Bio Announces Pricing of $8 Million Public Offering,2025-02-06 07:00:00 ET
+BLTE,2/5/2025,Belite Bio Announces Registered Direct Offering of $15 Million,
+CERO,2/5/2025,CERo Therapeutics Announces $5 Million Public Offering Priced At-The-Market Under Nasdaq Rules,2025-02-05 20:00:00 ET
+MNR,2/5/2025,Mach Natural Resources LP Announces Launch of Public Offering of Common Units,
+GAIA,2/5/2025,Gaia Announces Proposed Underwritten Offering of Common Stock,2025-02-05 16:01:00 ET
+SXTP,2/5/2025,60 Degrees Pharma Announces $1.075 Million Registered Direct Offering Priced At-the-Market Under Nasdaq Rules,2025-02-05 09:22:00 ET
+VLCN,2/5/2025,"Volcon, Inc. Announces Pricing of $12.0 Million Underwritten Public Offering",
+NVCT,2/4/2025,Nuvectis Pharma Announces Proposed Public Offering of Common Stock,2025-02-04 16:05:00 ET
+SDA,2/4/2025,SunCar Technology Group Announces Follow-On Public Offering,
+AZTR,2/4/2025,Azitra Announces Pricing of $930.0 Thousand Registered Direct Offering of Common Stock,
+GCTK,2/4/2025,"Glucotrack, Inc. Announces Pricing of $3.0 Million Public Offering",2025-02-04 12:24:00 ET
+BCTX,2/3/2025,BriaCell Therapeutics Announces Proposed Public Offering of Common Shares,2025-02-03 16:45:00 ET
+GHRS,2/3/2025,GH Research Announces Proposed Public Offering,2025-02-03 16:03:00 ET
+ELUT,2/3/2025,Elutia Announces $15.0 Million Registered Direct Offering,2025-02-03 06:30:00 ET
+ANVS,2/3/2025,"Annovis Bio, Inc. Announces Pricing of $21 Million Public Offering",2025-02-03 06:22:00 ET
+DHAI,1/31/2025,DIH Announces Pricing of $4.6 Million Public Offering,2025-01-31 09:20:00 ET
+ICU,1/31/2025,SeaStar Medical Announces $6 Million Registered Direct Offering Priced At-the-Market,2025-01-31 08:00:00 ET
+TRTN,1/30/2025,Triton International Announces Pricing of Public Offering of Series F Preference Shares,
+AESI,1/30/2025,Atlas Energy Solutions Announces Commencement of Underwritten Public Offering of Common Stock,
+SPCB,1/30/2025,SuperCom Announces Pricing of $6.0 Million Registered Direct Offering,
+SVRE,1/30/2025,SaverOne Announces $1.5 Million Registered Direct Offering,2025-01-30 09:09:00 ET
+ELTX,1/30/2025,Elicio Therapeutics Announces $10.0 Million Registered Direct Offering Priced At-The-Market Under Nasdaq Rules,2025-01-30 08:00:00 ET
+EVAX,1/30/2025,Evaxion announces pricing of $10.8 million public offering,2025-01-30 08:00:00 ET
+IMNM,1/29/2025,Immunome Announces Proposed Public Offering of Common Stock,
+BFLY,1/29/2025,Butterfly Network Announces Proposed Public Offering of Common Stock,
+NB,1/29/2025,NioCorp Announces Pricing of $5.0 Million Underwritten Offering Priced At-The-Market Under Nasdaq Rules,
+SXTP,1/29/2025,60 Degrees Pharma Announces $1.043 Million Registered Direct Offering Priced At-the-Market Under Nasdaq Rules,2025-01-29 08:00:00 ET
+WLDS,1/28/2025,Wearable Devices Ltd. Announces Pricing of $2.5 Million Public Offering,2025-01-28 20:00:00 ET
+SLS,1/28/2025,SELLAS Life Sciences Group Announces $25 Million Registered Direct Offering Priced At-the-Market Under Nasdaq Rules,2025-01-28 15:11:00 ET
+LICN,1/28/2025,Lichen China Limited Announces $3.4 Million Registered Direct Offering,
+VRPX,1/28/2025,"Virpax Pharmaceuticals, Inc. Announces Pricing of $6 Million Public Offering of Common Stock and Pre-Funded Warrants",
+STSS,1/28/2025,"Sharps Technology, Inc. Announces Pricing of Upsized $20.0 Million Underwritten Public Offering",2025-01-28 09:00:00 ET
+ETNB,1/27/2025,"89bio, Inc. Announces Proposed Underwritten Public Offering of Common Stock and Pre-Funded Warrants",2025-01-27 16:12:00 ET
+AZ,1/27/2025,A2Z Cust2Mate Solutions Corp. Announces Proposed Public Offering,
+AKRO,1/27/2025,Akero Therapeutics Announces Proposed Public Offering of Common Stock,2025-01-27 16:01:00 ET
+IAUX,1/27/2025,i-80 Gold Announces Filing of Prospectus Supplement for Upsized Prospectus Offering of Common Shares,
+SA,1/24/2025,Seabridge Gold Announces Agreement Renewing At-The-Market Offering,
+MGLD,1/24/2025,"The Marygold Companies, Inc. Announces Proposed Public Offering of Common Stock",
+SGLY,1/24/2025,Singularity Announces Pricing of $1.1 Million Registered Direct Offering,2025-01-24 12:08:00 ET
+ALUR,1/24/2025,Allurion to Raise Approximately $7.4 Million of Gross Proceeds in Offering Priced At-the-Market,
+UCAR,1/24/2025,U Power Announces Pricing of $5.0 Million Registered Direct Offering,
+SDST,1/24/2025,Stardust Power Inc. Announces Pricing of $5.75 Million Public Offering,2025-01-24 08:00:00 ET
+AWP,1/23/2025,"abrdn Global Premier Properties Fund Announces ""At-the-Market"" Equity Offering Program",
+ICON,1/23/2025,ICON Energy Corp. Announces Pricing of Upsized $12.0 Million Public Offering,2025-01-23 09:20:00 ET
+LAKE,1/22/2025,Lakeland Fire + Safety Announces Proposed Public Offering of Common Stock,
+EVTL,1/22/2025,Vertical Aerospace Announces Launch of Proposed Underwritten Public Offering,
+USEG,1/22/2025,U.S. Energy Corp. Announces Pricing of Underwritten Public Offering Of Common Stock,2025-01-22 08:35:00 ET
+HUSA,1/22/2025,"Houston American Energy Corp. Announces $4,420,000 Registered Direct Offering.",2025-01-22 08:30:00 ET
+HEPA,1/22/2025,Hepion Pharmaceuticals Announces $9.0 Million Public Offering,2025-01-22 08:00:00 ET
+IRON,1/21/2025,Disc Medicine Announces Proposed Public Offering of Common Stock and Pre-Funded Warrants,2025-01-21 16:01:00 ET
+CBUS,1/21/2025,"Cibus, Inc. Announces $22.6 Million Registered Direct Offering Priced Above Nasdaq’s Minimum Price in Accordance with Nasdaq Rules",2025-01-21 08:30:00 ET
+FLOC,1/17/2025,Genesis Park Joins Global Energy Capital and White Deer Energy to File for Flowco Public Offering,
+PHIO,1/16/2025,Phio Pharmaceuticals Announces $1.83 Million Registered Direct Offering Priced At-the-Market Under Nasdaq Rules,
+WCT,1/16/2025,Wellchange Holding Company Limited Announces Pricing of $10 Million Public Offering of its Ordinary Shares,2025-01-16 08:44:00 ET
+SLXN,1/15/2025,Silexion Therapeutics Announces Pricing of $5.0 Million Public Offering,2025-01-15 20:00:00 ET
+GIFT,1/15/2025,"Giftify, Inc.Announces Pricing of $600,000 Public Offering of Common Stock with No Warrants",2025-01-15 09:30:00 ET
+LICY,1/15/2025,Li-Cycle Announces Pricing of $15 Million Underwritten Public Offering,
+GENI,1/15/2025,Genius Sports Announces Pricing of Public Offering,
+PHIO,1/15/2025,Phio Pharmaceuticals Announces $2.5 Million Registered Direct Offering Priced At-the-Market Under Nasdaq Rules,
+AZTR,1/14/2025,Azitra Announces Proposed Public Offering of Common Stock,
+CLMT,1/14/2025,Calumet Announces $65 Million At-the-Market Equity Offering Program,
+PHIO,1/14/2025,Phio Pharmaceuticals Announces $3.19 Million Registered Direct Offering Priced At-the-Market Under Nasdaq Rules,
+IVF,1/13/2025,NAYA Biosciences Announces Pricing of $9.5 Million Public Offering,
+BHAT,1/13/2025,Blue Hat Announces Pricing of $4.3 Million Registered Direct Offering,2025-01-13 09:15:00 ET
+VMAR,1/10/2025,Vision Marine Technologies Secures Over US$11.7 Million Through At-the-Market Offering to Accelerate Growth and Strategic Acquisitions,
+KZIA,1/10/2025,Kazia Therapeutics Announces $2.0 Million Registered Direct Offering,
+AMLX,1/9/2025,Amylyx Pharmaceuticals Announces Proposed Public Offering of Common Stock,
+CLDI,1/8/2025,Calidi Biotherapeutics Announces Proposed Public Offering,2025-01-08 16:01:00 ET
+BHAT,1/8/2025,Blue Hat Announces Pricing of $3.9 Million Registered Direct Offering,2025-01-08 09:15:00 ET
+DATS,1/8/2025,"DatChat, Inc. Announces Pricing of $5.1 Million Registered Direct Offering Priced At-The Market Under Nasdaq Rules",2025-01-08 08:42:00 ET
+CTXR,1/8/2025,Citius Pharmaceuticals Announces $3 Million Registered Direct Offering Priced At-The-Market under Nasdaq Rules,
+MBOT,1/8/2025,Microbot Medical Announces $8.6 Million Registered Direct Offering Priced At-The-Market under Nasdaq Rules,2025-01-08 08:00:00 ET
+QURE,1/7/2025,uniQure Announces Proposed Public Offering,2025-01-07 16:49:00 ET
+KRP,1/7/2025,"Kimbell Royalty Partners, LP Announces Public Offering of Common Units",
+XTIA,1/7/2025,"XTI Aerospace, Inc. Announces Offering of Common Stock Priced At-the-Market Under Nasdaq Rules",
+ARBE,1/7/2025,Arbe Robotics Ltd. Announces $29 Million Underwritten Registered Direct Offering,2025-01-07 15:45:00 ET
+SERV,1/7/2025,Serve Robotics Announces $80 Million Registered Direct Offering of Common Stock,2025-01-07 09:00:00 ET
+LFWD,1/7/2025,Lifeward Announces $5 Million Registered Direct Offering Priced At-the-Market Under Nasdaq Rules,2025-01-07 08:05:00 ET
+IDAI,1/7/2025,Trust Stamp Announces Pricing of $3.5 Million Registered Direct Offering Priced At-The-Market Under Nasdaq Rules,2025-01-07 08:00:00 ET
+ACXP,1/6/2025,"Acurx Pharmaceuticals, Inc. Announces $2.5 Million Registered Direct Offering Priced At-the-Market Under Nasdaq Rules",
+AMST,1/6/2025,Amesite Announces Proposed Public Offering,2025-01-06 16:59:00 ET
+INTZ,1/6/2025,Intrusion Inc. Announces $7.5 Million Registered Direct Offering,
+MNSO,1/6/2025,MINISO Group Announces Offering of US$550 Million Equity Linked Securities,
+BHAT,1/6/2025,Blue Hat Announces Pricing of $4.4 Million Registered Direct Offering,2025-01-06 09:15:00 ET
+AEON,1/6/2025,"AEON Biopharma, Inc. Announces Pricing of Approximately $20.0 Million Underwritten Public Offering",2025-01-06 09:00:00 ET
+BLRX,1/6/2025,BioLineRx Announces $10 Million Registered Direct Offering,
+MBOT,1/6/2025,Microbot Medical Announces $7 Million Registered Direct Offering Priced At-The-Market under Nasdaq Rules,2025-01-06 08:00:00 ET
+QSI,1/3/2025,Quantum-Si Incorporated Announces Pricing of $50 Million Registered Direct Offering of Common Stock,
+BNGO,1/3/2025,Bionano Announces $10 Million Registered Direct Offering Priced At-the-Market under Nasdaq Rules,2025-01-03 14:34:00 ET
+AEI,1/2/2025,Alset Inc. Announces $1.5 Million Registered Direct Offering Priced at the Market Under Nasdaq Rules,2025-01-02 15:28:00 ET
+APM,1/2/2025,Aptorum Group Limited Announces Pricing of $3.0 Million Registered Direct Offering,2025-01-02 10:55:00 ET
+VERI,1/2/2025,Veritone Announces Pricing of $20.3 Million Registered Direct Offering,
+CYN,12/30/2024,Cyngn Inc. Announces Pricing of $9.0 Million Registered Direct Offering Priced At-The-Market,
+AMPG,12/30/2024,AmpliTech Group Announces Pricing of $10.0 Million Registered Direct Offering,2024-12-30 09:15:00 ET
+LICN,12/30/2024,Lichen China Limited Announces $3.1 Million Registered Direct Offering,
+LITM,12/29/2024,Snow Lake Energy Announces Pricing of US$15 Million Public Offering,
+CVM,12/27/2024,CEL-SCI Announces Proposed Public Offering of Common Stock,
+GXAI,12/27/2024,Gaxos.ai Inc. Announces $4 Million Registered Direct Offering Priced At-the-Market Under Nasdaq Rules,2024-12-27 08:00:00 ET
+CTM,12/26/2024,"Castellum, Inc. Announces Proposed Public Offering of Common Stock",2024-12-26 20:00:00 ET
+ABAT,12/26/2024,$10M Registered Direct Offering Priced At-The-Market Under Nasdaq Rules,2024-12-26 15:26:00 ET
+LICN,12/26/2024,Lichen China Limited Announces $2.8 Million Registered Direct Offering,
+AMPG,12/26/2024,AmpliTech Group Announces Pricing of $5.8 Million Registered Direct Offering,2024-12-26 09:15:00 ET
+TCRX,12/26/2024,TScan Therapeutics Announces $30 Million Registered Direct Offering at a 37% Premium,2024-12-26 07:00:00 ET
+PHIO,12/23/2024,Phio Pharmaceuticals Announces Registered Direct Offering Priced At-the-Market Under Nasdaq Rules,
+MGOL,12/23/2024,MGO Global Announces Pricing of Upsized $6.0 Million Public Offering,
+GIFT,12/23/2024,"Giftify, Inc. Cancels Registered Direct Offering",2024-12-23 08:00:00 ET
+VVOS,12/23/2024,Vivos Therapeutics Announces $3.5 Million Registered Direct Offering Priced At-the-Market Under Nasdaq Rules,2024-12-23 08:00:00 ET
+CTM,12/23/2024,"Castellum, Inc. Announces Pricing of $3.6 Million Registered Direct Offering",2024-12-23 06:50:00 ET
+GIFT,12/20/2024,"Giftify, Inc. Announces $5.0 Million Registered Direct Offering",2024-12-20 16:00:00 ET
+QNRX,12/20/2024,Quoin Pharmaceuticals Announces Pricing of $6.8 Million Public Offering,2024-12-20 09:20:00 ET
+CYN,12/20/2024,Cyngn Announces Pricing of $20.0 Million Follow On Offering Priced At-the-Market,
+BCAB,12/20/2024,"BioAtla, Inc. Announces Registered Direct Offering to Advance Two Mid-Stage Clinical Programs to Key Inflection Points",2024-12-20 09:00:00 ET
+ABAT,12/20/2024,American Battery Technology Company Announces Pricing of $5M Registered Direct Offering,2024-12-20 08:30:00 ET
+FNGR,12/20/2024,FingerMotion Announces $5.0 Million Registered Direct Offering,
+PHIO,12/19/2024,Phio Pharmaceuticals Announces $1.15 Million Registered Direct Offering Priced At-the-Market Under Nasdaq Rules,
+GXAI,12/19/2024,Gaxos.ai Inc. Announces $5 Million Registered Direct Offering Priced At-the-Market Under Nasdaq Rules,2024-12-19 08:00:00 ET
+LITM,12/18/2024,Snow Lake Energy Announces Proposed Public Offering,
+NWFL,12/17/2024,Norwood Financial Corp Announces Launch of Common Stock Offering,2024-12-17 16:38:00 ET
+PESI,12/17/2024,Perma-Fix Announces Proposed Public Offering of Common Stock,2024-12-17 16:05:00 ET
+NOTV,12/17/2024,"Inotiv, Inc. Launches Proposed Public Offering of Common Shares",2024-12-17 16:03:00 ET
+RIME,12/17/2024,"Algorhythm Holdings, Inc. Announces $2 Million Registered Direct Offering",2024-12-17 14:15:00 ET
+MNTS,12/17/2024,Momentus Announces $5 Million Offering Priced At-The-Market Under NASDAQ Rules,
+AMPG,12/17/2024,AmpliTech Group Announces Pricing of $3.1 Million Registered Direct Offering,2024-12-17 09:15:00 ET
+RVPH,12/16/2024,Reviva Announces Proposed Public Offering,2024-12-16 17:18:00 ET
+ELVA,12/16/2024,Electrovaya Inc. Announces Proposed Public Offering of Common Shares and Files Preliminary Prospectus Supplement,2024-12-16 16:45:00 ET
+WBUY,12/16/2024,Webuy Global Ltd. Announces Pricing of $3.7 Million Registered Direct Offering,2024-12-16 15:55:00 ET
+LAES,12/16/2024,SEALSQ Announces Pricing of $25.0 Million Registered Direct Offering Priced Above Market Under NASDAQ Rules,2024-12-16 15:48:00 ET
+VBNK,12/16/2024,VERSABANK LAUNCHES OFFERING OF COMMON SHARES,
+RDZN,12/15/2024,Roadzen Inc. Announces Pricing of Public Offering,2024-12-15 22:30:00 ET
+FLGC,12/13/2024,Flora Growth Corp. Announces Pricing of $3.6 Million Registered Direct Offering,
+KNW,12/13/2024,"Know Labs, Inc. Announces $300K Registered Direct Offering",
+CPHI,12/13/2024,"China Pharma Announces the Entry of ""At-The-Market"" Equity Offering",
+AZ,12/13/2024,"A2Z Cust2Mate Solutions Corp. Announces Aggregate US$12.5 Million Registered Direct Offering, Priced at $6.40 Per Share, with No Warrants",
+MYNZ,12/12/2024,Mainz Biomed Announces Pricing of $8.0 Million Follow-On Offering Priced at-the-Market Under Nasdaq Rules,2024-12-12 20:00:00 ET
+LAES,12/12/2024,SEALSQ Announces Pricing of $10.0 Million Registered Direct Offering Priced Above Market Under NASDAQ Rules,2024-12-12 20:00:00 ET
+FFIC,12/12/2024,Flushing Financial Corporation Announces Common Stock Offering,
+CADL,12/12/2024,Candel Therapeutics Announces $80 Million Proposed Public Offering,2024-12-12 16:51:00 ET
+INO,12/12/2024,INOVIO Announces Proposed Public Offering,
+WASH,12/12/2024,Washington Trust Announces Stock Offering,
+LICN,12/12/2024,Lichen China Limited Announces $2.70 Million Registered Direct Offering,
+PALI,12/12/2024,Palisade Bio Announces Pricing of $5 Million Underwritten Public Offering Priced At-Market Under Nasdaq Rules,2024-12-12 12:05:00 ET
+SPGC,12/12/2024,"Sacks Parente Golf, Inc. Announces Pricing of Upsized $8.4 Million Underwritten Public Offering",2024-12-12 08:48:00 ET
+SCLX,12/12/2024,Scilex Holding Company Announces $17 Million Registered Direct Offering,2024-12-12 08:21:00 ET
+ORA,12/11/2024,Ormat Announces Public Offering of Common Stock on Behalf of Stockholder ORIX Corporation,2024-12-11 18:03:00 ET
+FISI,12/11/2024,"Financial Institutions, Inc. Announces Launch of Common Stock Offering",2024-12-11 16:09:00 ET
+BCTX,12/11/2024,BriaCell Therapeutics Announces Proposed Public Offering,
+CGON,12/11/2024,CG Oncology Announces Proposed Public Offering,2024-12-11 06:17:00 ET
+LOAR,12/10/2024,Loar Announces Pricing of Upsized Public Offering,
+NAMS,12/10/2024,NewAmsterdam Pharma Announces Commencement of $300 Million Public Offering of Ordinary Shares and Pre-Funded Warrants,2024-12-10 16:34:00 ET
+IBRX,12/10/2024,"ImmunityBio, Inc. Announces Proposed Public Offering of Common Stock",
+CUZ,12/10/2024,"Cousins Properties Announces Public Offering of 9,500,000 Shares of Common Stock",
+CCB,12/10/2024,Coastal Financial Corporation Announces Proposed Public Offering of Common Stock,2024-12-10 16:04:00 ET
+RCKT,12/10/2024,Rocket Pharmaceuticals Announces Proposed Public Offering of Common Stock,
+WAVE,12/10/2024,Eco Wave Power Announces Pricing of $3.0 Million Registered Direct Offering to Propel Commercial-Scale Wave Energy Deployment,
+SEI,12/9/2024,"Solaris Energy Infrastructure, Inc. Announces Commencement of Underwritten Public Offering of Class A Common Stock",
+TARA,12/9/2024,Protara Announces Proposed Public Offering,2024-12-09 16:01:00 ET
+DUO,12/9/2024,Fangdd Announces Pricing of US$7.0 Million Registered Direct Offering,2024-12-09 12:30:00 ET
+NBN,12/9/2024,Northeast Bank Announces Commencement of At-the-Market Offering of Voting Common Stock,2024-12-09 08:45:00 ET
+UPC,12/9/2024,Universe Pharmaceuticals INC Announces $15 Million Registered Direct Offering,2024-12-09 07:00:00 ET
+AJG,12/9/2024,Arthur J. Gallagher & Co. Announces $8.5 Billion Common Stock Offering,
+PRN,12/6/2024,Profound Medical Announces Pricing of US$35 Million Underwritten Public Offering of Common Shares,2024-12-06 09:04:00 ET
+VNRX,12/6/2024,VolitionRx Announces Pricing of up to $1.9 Million Registered Direct Offering,
+EYEN,12/6/2024,"Eyenovia, Inc. Announces Pricing of $1.9 Million Registered Direct Offering",2024-12-06 08:00:00 ET
+PROF,12/5/2024,Profound Medical Announces Proposed Public Offering of Common Shares,
+RIME,12/5/2024,"Algorhythm Holdings, Inc. Announces Pricing of $9.5 Million Public Offering",2024-12-05 08:45:00 ET
+TRON,12/5/2024,"SRM Entertainment, Inc. Announces Pricing of $1.7 Million Registered Direct Offering",2024-12-05 08:30:00 ET
+IDAI,12/5/2024,Trust Stamp Announces Pricing of $3.0 Million Registered Direct Offering,2024-12-05 08:30:00 ET
+SMTC,12/4/2024,Semtech Announces Proposed Public Offering of Common Stock,
+MYO,12/4/2024,"Myomo, Inc. Announces Proposed Public Offering of Common Stock",
+PSQH,12/4/2024,PublicSquare Announces $36.2 Million Registered Direct Offering of Common Stock,
+CRGY,12/3/2024,Crescent Energy Company Announces Public Offering of Class A Common Stock,
+JANX,12/3/2024,Janux Therapeutics Announces Proposed Public Offering,
+PPBT,12/3/2024,Purple Biotech Announces $2.8 Million Registered Direct Offering of American Depositary Shares,2024-12-03 08:23:00 ET
+AS,12/2/2024,"Amer Sports, Inc. Announces Launch of a Public Offering of 34,000,000 Ordinary Shares",
+RVMD,12/2/2024,Revolution Medicines Announces Commencement of Public Offering of Common Stock,2024-12-02 16:31:00 ET
+BSKY,12/2/2024,BluSky Carbon Announces $3 Million Marketed Public Offering of Units,
+POET,11/26/2024,Poet Technologies Announces US$25 Million Registered Direct Offering,2024-11-26 16:44:00 ET
+RGTI,11/26/2024,Rigetti Computing Announces Pricing of $100 Million Registered Direct Offering of Common Stock Priced At-The-Market Under Nasdaq Rules,2024-11-26 08:00:00 ET
+MAC,11/25/2024,Macerich Announces Commencement of Public Offering of Common Stock,2024-11-25 16:05:00 ET
+AMPG,11/25/2024,"AmpliTech Group Announces Pricing of $1.4 Million Registered Direct Offering, Priced At-The-Market",2024-11-25 09:00:00 ET
+EYEN,11/25/2024,"Eyenovia, Inc. Announces Pricing of $1.3 Million Registered Direct Offering",2024-11-25 08:00:00 ET
+REPL,11/25/2024,Replimune Announces Proposed Public Offering,2024-11-25 07:09:00 ET
+ONB,11/25/2024,Old National Announces Pricing of Common Stock Offering,2024-11-25 06:10:00 ET
+CPK,11/22/2024,Chesapeake Utilities Corporation Announces $100 Million At-The-Market Equity Offering Program,
+AMIX,11/22/2024,"Autonomix Medical, Inc. Announces Pricing of $9.0 Million Underwritten Public Offering",2024-11-22 09:15:00 ET
+BTAI,11/21/2024,BioXcel Therapeutics Announces Proposed Public Offering,2024-11-21 16:47:00 ET
+KSCP,11/21/2024,Knightscope Announces Proposed Public Offering,
+SLG,11/21/2024,SL Green Realty Corp. Announces Proposed Offering of Common Stock,2024-11-21 16:14:00 ET
+MODD,11/21/2024,Modular Medical Announces Proposed Public Offering,
+ABL,11/21/2024,Abacus Life Announces Proposed Public Offering of Common Stock,2024-11-21 16:01:00 ET
+VRCA,11/20/2024,Verrica Announces Proposed Public Offering,2024-11-20 16:05:00 ET
+BLZE,11/20/2024,Backblaze Launches Proposed Follow-On Offering,
+LCTX,11/20/2024,Lineage Cell Therapeutics Announces Pricing of up to $66 Million Registered Direct Offering,
+DTM,11/19/2024,DT Midstream Announces Proposed Public Offering of Common Stock,2024-11-19 17:26:00 ET
+SYRE,11/18/2024,Spyre Therapeutics Announces Proposed Public Offering of its Common Stock and Pre-Funded Warrants,
+DPRO,11/18/2024,Draganfly Announces Pricing of US$3.76 Million Registered Direct Offering,2024-11-18 08:30:00 ET
+PPTA,11/18/2024,Perpetua Resources Announces Offering of Common Shares,
+CTXR,11/15/2024,Citius Pharmaceuticals Announces $3 Million Registered Direct Offering,
+SCWO,11/15/2024,374Water Inc. Announces Pricing of $12.2 Million Registered Direct Offering,
+QUBT,11/14/2024,"Quantum Computing, Inc. Announces Registered Direct Offering of $40 Million Priced At-The-Market Under Nasdaq Rules",
+TMC,11/14/2024,The Metals Company Announces US$17.5 Million Registered Direct Offering of Common Shares and Class B Warrants,2024-11-14 16:33:00 ET
+ASB,11/14/2024,Associated Banc-Corp announces proposed common stock offering,
+HUMA,11/14/2024,Humacyte Announces Pricing of $15.0 Million Registered Direct Offering,2024-11-14 08:00:00 ET
+VLT,11/13/2024,Volt Lithium Announces Filing of Prospectus Supplement in Respect of $5.4 Million Marketed Public Offering of Units,2024-11-13 22:00:00 ET
+CLDI,11/13/2024,Calidi Biotherapeutics Announces Proposed Public Offering,
+ZLAB,11/13/2024,Zai Lab Announces Proposed Public Offering of American Depositary Shares,
+VRPX,11/13/2024,"Virpax Pharmaceuticals, Inc. Announces Pricing of $5.0 Million Public Offering of Common Stock and Pre-Funded Warrants",
+GCTK,11/13/2024,"Glucotrack, Inc. Announces Pricing of $10.0 Million Public Offering",2024-11-13 09:00:00 ET
+PAPL,11/13/2024,"Pineapple Financial, Inc. Announces Pricing of $1.0 Million Registered Direct Offering",2024-11-13 08:00:00 ET
+VLT,11/12/2024,Volt Lithium Announces Upsized $5.4 Million Marketed Public Offering of Units,
+GDYN,11/12/2024,Grid Dynamics Announces Proposed Public Offering,
+ETNB,11/12/2024,"89bio, Inc. Announces Proposed Underwritten Public Offering of Common Stock and Pre-Funded Warrants",
+ACOG,11/12/2024,Alpha Cognition Announces Pricing of $50 Million Upsized Public Offering and Nasdaq Listing,
+DCOM,11/12/2024,Dime Community Bancshares Announces Pricing of Common Stock Offering,2024-11-12 08:17:00 ET
+NXGL,11/11/2024,"NEXGEL Announces $2,000,000 Registered Direct Offering",2024-11-11 17:35:00 ET
+KRUS,11/11/2024,Kura Sushi USA Announces Launch of Public Offering of Common Stock,2024-11-11 16:01:00 ET
+SNAX,11/8/2024,"Stryve Foods, Inc. Announces Pricing of $2.9 Million Public Offering Priced At-Market According to Nasdaq Rules",2024-11-08 09:20:00 ET
+NMHI,11/8/2024,Nature's Miracle Holding Inc. (NMHI) Announces Pricing of $3 Million Public Offering,
+APYX,11/8/2024,"Apyx Medical Corporation Announces $7,000,000 Million Registered Direct Offering",2024-11-08 07:05:00 ET
+VLY,11/7/2024,Valley National Bancorp Announces Proposed Common Stock Offering,2024-11-07 17:22:00 ET
+ESTA,11/7/2024,Establishment Labs Announces $50 Million Registered Direct Offering,
+CUZ,11/7/2024,"Cousins Properties Announces Public Offering of 6,000,000 Shares of Common Stock",
+PRPH,11/7/2024,ProPhase Labs Announces Proposed Public Offering of Common Stock,
+TVTX,11/7/2024,Travere Therapeutics Announces Proposed Public Offering of Common Stock,2024-11-07 16:01:00 ET
+DUO,11/7/2024,Fangdd Announces Pricing of US$5 Million Registered Direct Offering,2024-11-07 14:20:00 ET
+SONN,11/6/2024,Sonnet BioTherapeutics Announces Pricing of $5.0 Million Underwritten Public Offering Priced At-The-Market Under Nasdaq Rules,2024-11-06 13:20:00 ET
+CDZI,11/4/2024,Cadiz Inc. Announces $23 Million Registered Direct Offering,
+XEL,11/4/2024,Xcel Energy Announces Public Offering of Common Stock with a Forward Component,
+NB,11/1/2024,NioCorp Announces Commencement of Proposed Underwritten Public Offering of Common Shares & Warrants,
+MPB,11/1/2024,"Mid Penn Bancorp, Inc. Announces Pricing of $70 Million Offering of Common Stock",
+ARBE,10/31/2024,"Arbe Robotics, Ltd. Announces Proposed Public Offering",
+ASPI,10/31/2024,ASP Isotopes Announces Proposed Public Offering of Common Stock,2024-10-31 16:01:00 ET
+BNGO,10/31/2024,Bionano Announces $3 Million Registered Direct Offering Priced At-the-Market under Nasdaq Rules,2024-10-31 08:00:00 ET
+TLSA,10/30/2024,Tiziana Life Sciences Announces Registered Direct Offering of up to approximately $10 Million,2024-10-30 22:29:00 ET
+CALC,10/30/2024,CalciMedica Announces Proposed Public Offering of Common Stock,
+CWH,10/30/2024,Camping World Announces Commencement of Proposed Offering of Class A Common Stock,
+ENVX,10/30/2024,Enovix Announces Proposed Public Offering of Common Stock,2024-10-30 16:01:00 ET
+ISPC,10/30/2024,iSpecimen Inc. Announces Pricing of $5 Million Public Offering of Common Stock and Pre-Funded Warrants,2024-10-30 08:30:00 ET
+THRY,10/29/2024,Thryv Holdings Announces Public Offering of Common Stock,
+EFSH,10/29/2024,1847 Holdings LLC Announces Pricing of $11.1 Million Public Offering,
+BIOR,10/29/2024,Biora Therapeutics Announces $3 Million Registered Direct Offering Priced At-the-Market Under Nasdaq Rules,2024-10-29 08:00:00 ET
+ELDN,10/29/2024,Eledon Pharmaceuticals Announces Pricing of $85 Million Underwritten Offering of Common Stock and Pre-Funded Warrants,2024-10-29 07:46:00 ET
+VERA,10/28/2024,Vera Therapeutics Announces Proposed Public Offering of Class A Common Stock,2024-10-28 17:37:00 ET
+EYPT,10/28/2024,EyePoint Pharmaceuticals Announces Proposed Public Offering of Common Stock,2024-10-28 17:14:00 ET
+GP,10/28/2024,GreenPower Motor Company Inc. Announces Proposed Public Offering,
+PRCT,10/28/2024,PROCEPT BioRobotics Corporation Announces Proposed Offering of Common Stock,2024-10-28 16:19:00 ET
+MNPR,10/28/2024,Monopar Therapeutics Inc. Announces Proposed Public Offering of Common Stock,2024-10-28 16:00:00 ET
+BIVI,10/28/2024,BioVie Inc. Announces Pricing of Registered Direct Offering Priced At-the-Market Under Nasdaq Rules,2024-10-28 15:13:00 ET
+SENS,10/25/2024,"Senseonics Holdings, Inc. Announces $16 Million Registered Direct Offering",2024-10-25 08:00:00 ET
+JOBY,10/24/2024,"Joby Aviation, Inc. Launches Public Offering of Common Stock",
+ADC,10/24/2024,Agree Realty Announces Common Stock Offering,
+CNSP,10/23/2024,CNS Pharmaceuticals Announces Pricing of $3 Million Registered Direct Offering of Common Stock Priced At-The-Market Under Nasdaq Rules,
+CELZ,10/23/2024,Creative Medical Technology Holdings Announces $1.85 Million Registered Direct Offering Priced At-The-Market Under Nasdaq Rules,2024-10-23 08:00:00 ET
+TELA,10/22/2024,TELA Bio Announces Proposed Public Offering of Common Stock and Pre-Funded Warrants,2024-10-22 16:05:00 ET
+PRQR,10/22/2024,ProQR Announces Proposed Underwritten Public Offering of Ordinary Shares,2024-10-22 16:01:00 ET
+IVP,10/22/2024,Inspire Veterinary Partners Announces $2.5 Million Registered Direct Offering of Common Stock,
+TIGR,10/22/2024,UP Fintech Announces Proposed Follow-on Public Offering of American Depositary Shares,2024-10-22 08:05:00 ET
+ASPN,10/21/2024,"ASPEN AEROGELS, INC. ANNOUNCES PRICING OF PUBLIC OFFERING OF 4,250,000 SHARES OF COMMON STOCK",
+MRX,10/21/2024,Marex Group plc Announces Launch of a Public Offering,
+ASPI,10/21/2024,"ASPEN AEROGELS, INC. ANNOUNCES PUBLIC OFFERING OF 4,250,000 SHARES OF COMMON STOCK",
+JTAI,10/18/2024,Jet.AI Announces Pricing of $1.5 Million Registered Direct Offering,2024-10-18 14:00:00 ET
+LCID,10/16/2024,"Lucid Group, Inc. Announces Public Offering of Common Stock and Corresponding Investment by an Affiliate of PIF",
+CAPR,10/16/2024,Capricor Therapeutics Announces Proposed Public Offering of Common Stock,2024-10-16 16:17:00 ET
+VSEC,10/15/2024,VSE Corporation Announces Public Offering of Common Stock,
+RANI,10/15/2024,"Rani Therapeutics Holdings, Inc. Announces Pricing of $10.0 Million Registered Direct Offering and Cancellation of Certain Existing Warrants",2024-10-15 08:30:00 ET
+LEXX,10/15/2024,Lexaria Announces $5 Million Registered Direct Offering Priced At-The-Market Under Nasdaq Rules,
+AZ,10/11/2024,"A2Z Cust2Mate Solutions Corp. Announces Aggregate US$1.8 Million Registered Direct Offering, Priced at $2.80 Per Share, with No Warrants",
+TWG,10/11/2024,Top Wealth Group Holding Limited Announces Pricing of $10.8 Million Public Offering of Ordinary Shares,2024-10-11 09:00:00 ET
+NLST,10/11/2024,Netlist Announces $15 Million Registered Direct Offering,
+JTAI,10/10/2024,Jet.AI Announces Pricing of $2.4 Million Registered Direct Offering,2024-10-10 14:41:00 ET
+DUO,10/10/2024,FangDD Announces Pricing of US$4.5 Million Registered Direct Offering,2024-10-10 14:05:00 ET
+IMTX,10/10/2024,Immatics Announces Proposed $150 Million Public Offering,2024-10-10 07:30:00 ET
+SPGC,10/9/2024,"Sacks Parente Golf Inc. Announces Pricing of $732,000 Underwritten Public Offering of Shares of Common Stock",2024-10-09 08:00:00 ET
+DKL,10/8/2024,"Delek Logistics Partners, LP Announces Proposed Public Offering of Common Units",
+CRNX,10/8/2024,Crinetics Pharmaceuticals Announces Proposed Public Offering of Common Stock,2024-10-08 16:01:00 ET
+CRDL,10/8/2024,Cardiol Therapeutics Files Preliminary Prospectus Supplement for Proposed Public Offering of Common Shares,
+NYXH,10/7/2024,Nyxoah Raises $27 Million through its At-the-Market Offering,2024-10-07 17:00:00 ET
+SRRK,10/7/2024,Scholar Rock Announces Proposed Public Offering of Common Stock and Pre-Funded Warrants,
+DUO,10/4/2024,FangDD Announces Pricing of US$5.0 Million Registered Direct Offering,2024-10-04 14:20:00 ET
+HUMA,10/4/2024,Humacyte Announces Pricing of $30.0 Million Registered Direct Offering,2024-10-04 08:00:00 ET
+AZ,10/2/2024,"A2Z Cust2Mate Solutions Corp. Announces Aggregate US$4,057,500 Million Registered Direct Offering, priced at $0.75 per share, with no warrants",
+AKAN,10/2/2024,Akanda Corp. Announces Pricing of Underwritten Public Offering,
+DUO,10/1/2024,FangDD Announces US$2.5 Million Registered Direct Offering of Class A Ordinary Shares,2024-10-01 14:30:00 ET
+BHVN,10/1/2024,Biohaven Announces Pricing of $250 Million Public Offering of Common Shares,
+ARQQ,9/30/2024,Arqit Quantum Inc. Announces $13.6 Million Registered Direct Offering,2024-09-30 16:30:00 ET
+BHVN,9/30/2024,Biohaven Announces Proposed Public Offering of Common Shares,
+PNTG,9/30/2024,The Pennant Group Announces Public Offering of Common Stock,2024-09-30 16:03:00 ET
+UAVS,9/30/2024,AgEagle Aerial Systems Inc. Announces Pricing of $6.5 Million Public Offering,2024-09-30 13:40:00 ET
+AIM,9/30/2024,AIM ImmunoTech Announces Pricing of $1.26 Million Registered Direct Offering,
+EDBL,9/27/2024,Edible Garden Announces Pricing of $5.65 Million Public Offering,2024-09-27 10:00:00 ET
+EYEN,9/27/2024,"Eyenovia, Inc. Announces Pricing of $4 Million Registered Direct Offering",2024-09-27 08:30:00 ET
+CUE,9/26/2024,Cue Biopharma Announces Proposed Public Offering,
+NVNO,9/26/2024,enVVeno Medical Corporation Announces Proposed Public Offering,
+RYDE,9/26/2024,Ryde Announces Pricing of $4.5 Million Public Offering,
+AMTB,9/25/2024,Amerant Bancorp Inc. Announces Launch of Class A Voting Common Stock Offering,
+AHH,9/25/2024,Armada Hoffler Announces Commencement of Public Offering of Common Stock,2024-09-25 16:01:00 ET
+BKKT,9/25/2024,BlackSky Announces Pricing of Upsized $40 Million Public Offering of Common Stock,
+BSKY,9/24/2024,BlackSky Announces Proposed Public Offering of Common Stock,
+RITM,9/24/2024,Rithm Capital Corp. Announces Public Offering of Common Stock,
+WVE,9/24/2024,Wave Life Sciences Announces Proposed Public Offering of Ordinary Shares and Pre-Funded Warrants,2024-09-24 16:01:00 ET
+NVA,9/23/2024,Nova Minerals Limited Announces Pricing of Public Offering,
+BIVI,9/23/2024,BioVie Inc. Announces Proposed Public Offering,2024-09-23 16:05:00 ET
+IVT,9/23/2024,InvenTrust Properties Corp. Announces Public Offering of Common Stock,
+ELAB,9/23/2024,Elevai Labs Inc. Announces Pricing of $8.0 Million Public Offering,2024-09-23 08:45:00 ET
+KOPN,9/19/2024,Kopin Corporation Announces Proposed Public Offering of Common Stock and Pre-Funded Warrants,
+ARQ,9/19/2024,"Arq, Inc. Announces Proposed Public Offering of Common Stock",2024-09-19 16:01:00 ET
+HAO,9/19/2024,Haoxi Health Technology Limited Announces Pricing of a $12 Million Underwritten Follow-on Public Offering,2024-09-19 09:25:00 ET
+VVOS,9/19/2024,Vivos Therapeutics Announces Pricing of $4.3 Million Registered Direct Offering of Common Stock Priced At-The-Market Under Nasdaq Rules,2024-09-19 07:00:00 ET
+CRMT,9/18/2024,"America’s Car-Mart, Inc. Announces Proposed $65 Million Underwritten Public Offering Of Common Stock",2024-09-18 16:12:00 ET
+ASND,9/18/2024,Ascendis Pharma A/S Announces Proposed Public Offering of ADSs,2024-09-18 16:04:00 ET
+CYTO,9/17/2024,Altamira Therapeutics Announces Pricing of up to $12.0 Million Public Offering,2024-09-17 17:00:00 ET
+CBUS,9/17/2024,"Cibus, Inc. Announces Proposed Public Offering of Class A Common Stock",2024-09-17 16:46:00 ET
+CWST,9/17/2024,Casella Waste Systems Announces Proposed Public Offering of Class A Common Stock,2024-09-17 16:02:00 ET
+FCUV,9/16/2024,Focus Universal Inc. Announces Pricing of $1.2 Million Registered Direct Offering,
+REE,9/16/2024,REE Automotive Announces Global Manufacturing Agreement with Leading Automotive Supplier Motherson Group Making Strategic Investment in a $45.35 Million Registered Direct Offering Led By M&G,2024-09-16 08:31:00 ET
+CHSN,9/16/2024,Chanson International Holding Announces Pricing of $7.274 Million Public Offering,2024-09-16 08:30:00 ET
+NUVL,9/16/2024,Nuvalent Announces Public Offering of Common Stock,
+WPRT,9/13/2024,Westport Announces At-the-Market Equity Offering Program,2024-09-13 17:00:00 ET
+WTO,9/13/2024,UTime Limited Announces Pricing of $5 Million Registered Direct Offering,2024-09-13 09:00:00 ET
+INMB,9/13/2024,INmune Bio Announces $13.0 Million Registered Direct Offering,2024-09-13 08:30:00 ET
+GDEV,9/12/2024,GDEV Announces an At-The-Market Offering,2024-09-12 17:02:00 ET
+LGN,9/12/2024,"Logan Energy Corp. Announces Duvernay Land Position, Accelerated Pouce Coupe Development, Preliminary 2025 Budget, $30 Million Equity Offering and Committed Credit Facilities of $125 Million",2024-09-12 16:20:00 ET
+OWLT,9/11/2024,Owlet Announces Proposed Public Offering,
+CNTA,9/11/2024,"Centessa Pharmaceuticals Announces $150,000,000 Proposed Public Offering of American Depositary Shares",2024-09-11 16:04:00 ET
+ORN,9/10/2024,Orion Group Holdings Announces Proposed Public Offering of Common Stock,2024-09-10 16:02:00 ET
+XNCR,9/10/2024,Xencor Announces Proposed Public Offering of Common Stock,
+RLAY,9/9/2024,Relay Therapeutics Announces Proposed Public Offering of Common Stock,2024-09-09 16:34:00 ET
+IONS,9/9/2024,Ionis announces proposed public offering of common stock,
+TERN,9/9/2024,Terns Announces Proposed Public Offering,2024-09-09 16:01:00 ET
+BNRG,9/9/2024,Brenmiller Energy Further Fortifies Balance Sheet with $2 Million Raised from At-The-Market Equity Offering at $2.19 per Share,
+AVB,9/5/2024,"AvalonBay Communities, Inc. Announces Public Offering of 3,200,000 Shares of Common Stock",
+EAST,9/5/2024,"Eastside Distilling Announces $0.4 Million Registered Direct Offering, Priced at a Premium to Market Under Nasdaq Rules",
+QLGN,9/5/2024,"Qualigen Therapeutics, Inc. Announces Pricing of $3.46 Million Public Offering",2024-09-05 09:00:00 ET
+IVDA,9/5/2024,Iveda Announces $2.15 Million Registered Direct Offering Priced At-the-Market Under Nasdaq Rules,
+ZETA,9/4/2024,Zeta Announces Proposed Public Offering of Class A Common Stock,
+CSW,9/4/2024,CSW Industrials Announces Public Offering of Common Stock,2024-09-04 16:18:00 ET
+MNR,9/4/2024,Mach Natural Resources LP Announces Launch of Public Offering of Common Units,
+OGEN,9/4/2024,"Oragenics, Inc. Announces Pricing of Public Offering",
+PACS,9/3/2024,"PACS Group, Inc. Announces Proposed Offering of Its Common Stock",
+ATRA,9/3/2024,Atara Biotherapeutics Announces $36 Million Registered Direct Offering,
+PCVX,9/3/2024,Vaxcyte Announces Commencement of Proposed Public Offering of Common Stock and Pre-Funded Warrants,2024-09-03 16:01:00 ET
+IDAI,9/3/2024,"Trust Stamp Announces Pricing of Registered Direct Offering and Warrant Inducement, Priced At-The-Market, for Aggregate Gross Proceeds of $2.0 Million",2024-09-03 08:40:00 ET
+VTAK,8/30/2024,"Catheter Precision, Inc. Announces Pricing of $3.1 Million Underwritten Public Offering",
+BCDA,8/30/2024,BioCardia Announces Pricing of Upsized $7.2 Million Public Offering Priced At-The-Market Under Nasdaq Rules,2024-08-30 08:00:00 ET
+RR,8/29/2024,Richtech Robotics Announces Pricing of Upsized $21 Million Public Offering,2024-08-29 22:48:00 ET
+EKSO,8/29/2024,Ekso Bionics Announces Pricing of $6.0 Million Underwritten Public Offering,2024-08-29 22:42:00 ET
+ENSC,8/29/2024,"Ensysce Biosciences, Inc. Announces $5 Million Concurrent Registered Direct Offering and Exercise of Warrants",
+NUWE,8/23/2024,"Nuwellis Announces Pricing of $916,000 Registered Direct Offering Priced At-The-Market Under Nasdaq Rules",2024-08-23 09:00:00 ET
+FAMI,8/23/2024,Farmmi Announces Pricing of $1.0 Million Registered Direct Offering,
+RVPH,8/21/2024,Reviva Pharmaceuticals Announces Pricing of $5.0 Million Underwritten Offering Priced At-the-Market Under Nasdaq Rules,2024-08-21 06:00:00 ET
+EYEN,8/20/2024,"Eyenovia, Inc. Announces Proposed Public Offering",2024-08-20 17:09:00 ET
+DPRO,8/20/2024,Draganfly Announces Pricing of US$2.0 Million Registered Direct Offering,2024-08-20 08:00:00 ET
+HOVR,8/20/2024,New Horizon Aircraft Announces Pricing of $2.9 Million Public Offering,2024-08-20 06:00:00 ET
+KYMR,8/19/2024,Kymera Therapeutics Announces Proposed Public Offering,2024-08-19 16:01:00 ET
+PHAT,8/19/2024,Phathom Pharmaceuticals Announces Pricing of $130 Million Offering of Common Stock and Pre-Funded Warrants,2024-08-19 08:00:00 ET
+LMFA,8/16/2024,LM Funding America Announces Pricing of Registered Direct Offering for Aggregate Gross Proceeds of $2.6 Million,2024-08-16 09:29:00 ET
+KNW,8/16/2024,"Know Labs, Inc. Announces $1.655 Million Public Offering",
+MBRX,8/16/2024,Moleculin Announces Pricing of up to $16.5 Million Public Offering,
+NHI,8/14/2024,NHI Announces Public Offering Of Common Stock,
+SYTA,8/14/2024,Siyata Mobile Inc. Announces Pricing of approx. $4 Million Public Offering of Common Shares and Pre-Funded Warrants,
+WBSR,8/14/2024,Webstar Technology Group Announces $10M Regulation-A Tier II Public Offering At $7.00 Per Share,
+POCI,8/14/2024,Precision Optics Announces Pricing of $1.4 Million Registered Direct Offering of Common Stock,2024-08-14 08:30:00 ET
+ANAB,8/14/2024,Anaptys Announces Pricing of $100 Million Underwritten Registered Direct Offering,2024-08-14 05:00:00 ET
+TCBP,8/13/2024,TC BioPharm Announces Pricing of $2.0 Registered Direct Offering,
+RNA,8/13/2024,Avidity Biosciences Announces Proposed Public Offering of Common Stock,
+NXGL,8/12/2024,"NEXGEL Announces $1,110,000 Registered Direct Offering Led by Insiders",2024-08-12 09:00:00 ET
+SCHP,8/12/2024,scPharmaceuticals Announces Pricing of $50.0 Million Public Offering,
+LTH,8/12/2024,"Life Time Announces Commencement of Public Offering of 12,000,000 Shares of Common Stock",
+ADTX,8/9/2024,Aditxt Announces $1.2 Million Registered Direct Offering Priced At-The-Market under Nasdaq Rules,
+VNRX,8/9/2024,VolitionRx Announces Pricing of up to $21.5 Million Registered Direct Offering,
+MNMD,8/9/2024,Mind Medicine (MindMed) Inc. Announces Proposed Public Offering,
+PLMR,8/8/2024,"Palomar Holdings, Inc. Announces Proposed Public Offering of Common Stock",2024-08-08 16:05:00 ET
+ZVRA,8/8/2024,Zevra Therapeutics Announces Proposed Public Offering of Common Stock,2024-08-08 16:01:00 ET
+CNP,8/7/2024,"CenterPoint Energy, Inc. announces public offering of $250 million of Common Stock",
+XPON,8/7/2024,Expion360 Announces Pricing of $10 Million Underwritten Public Offering,2024-08-07 08:50:00 ET
+PGEN,8/6/2024,Precigen Announces Proposed $30 Million Public Offering of Common Stock,
+XWEL,8/6/2024,XWELL Announces $1.4 Million Registered Direct Offering Priced At Premium to Market,2024-08-06 09:00:00 ET
+LGMK,8/2/2024,"LogicMark, Inc. Announces Pricing of $4.5 Million Public Offering Priced At-The-Market",2024-08-02 09:21:00 ET
+AUR,8/1/2024,Aurora Announces Pricing of $420 Million Upsized Public Offering of Class A Common Stock,
+LIPO,8/1/2024,Lipella Pharmaceuticals Announces $1.28 Million Registered Direct Offering of Common Stock Priced At-the-Market Under Nasdaq Rules,2024-08-01 08:00:00 ET
+PLUG,7/18/2024,Plug Power Inc. Announces Proposed Public Offering of Common Stock,
+LGVN,7/18/2024,Longeveron Announces $9.0 Million Registered Direct Offering Priced At-the-Market Under Nasdaq Rules,2024-07-18 08:45:00 ET
+PET,7/16/2024,Wag! Group Co. Announces Proposed Public Offering of Common Stock,
+VMC,7/16/2024,Vicinity Motor Corp. Announces Pricing of US$2.5 Million Registered Direct Offering,
+SISI,7/11/2024,Shineco Announces Proposed Underwritten Public Offering,2024-07-11 16:45:00 ET
+ASPI,7/11/2024,ASP Isotopes Announces Proposed Public Offering of Common Stock,
+VLCN,7/11/2024,Volcon Announces Pricing of $12 Million Registered Direct Offering Priced At-The-Market,
+ICU,7/10/2024,SeaStar Medical Announces $10 Million Registered Direct Offering Priced At-the-Market Under Nasdaq Rules,2024-07-10 09:00:00 ET
+IDYA,7/9/2024,IDEAYA Announces Proposed Public Offering of Common Stock and Pre-Funded Warrants,
+TNXP,7/8/2024,Tonix Pharmaceuticals Announces Proposed Public Offering,
+IVP,7/8/2024,Inspire Veterinary Partners Announces Pricing of $6 Million Public Offering,
+BNGO,7/5/2024,Bionano Announces up to $30 Million Registered Direct Offering Priced At-The-Market Under Nasdaq Rules,2024-07-05 08:00:00 ET
+DTSS,7/2/2024,Datasea Announces Pricing of $2.25 Million Registered Direct Offering,
+CKPT,7/2/2024,Checkpoint Therapeutics Announces $12 Million Registered Direct Offering Priced At-the-Market Under Nasdaq Rules,2024-07-02 08:00:00 ET
+APVO,6/28/2024,Aptevo Therapeutics Announces $2.75 Million Offering Priced At-the-Market Under Nasdaq Rules,
+NLSP,6/28/2024,NLS Pharmaceutics Announces Registered Direct Offering,
+SVRA,6/28/2024,Savara Announces Pricing of $100.0 Million Underwritten Offering of Common Stock,
+EYEN,6/28/2024,Eyenovia Announces Pricing of $5M Registered Direct Offering,2024-06-28 08:00:00 ET
+ELTX,6/27/2024,Elicio Therapeutics Announces Proposed Public Offering,2024-06-27 16:05:00 ET
+SYTA,6/27/2024,Siyata Mobile Inc. Announces Pricing of Approx. $6 Million Public Offering of Common Shares and Pre-Funded Warrants,
+BCTX,6/27/2024,BrainStorm Cell Therapeutics Announces Pricing of $4.0 Million Registered Direct Offering,
+BJDX,6/27/2024,Bluejay Diagnostics Announces Pricing of $8.75 Million Underwritten Public Offering,2024-06-27 08:58:00 ET
+GRI,6/27/2024,GRI Bio Announces Pricing of $4 Million Public Offering,2024-06-27 08:00:00 ET
+TNXP,6/26/2024,Tonix Pharmaceuticals Announces Proposed Public Offering,
+ADUS,6/26/2024,Addus HomeCare Announces Proposed Public Offering of Common Stock,
+RXRX,6/26/2024,Recursion Announces Proposed Offering of Class A Common Stock,2024-06-26 16:06:00 ET
+ALUR,6/26/2024,Allurion Announces Launch of Offering of Common Stock and Warrants,
+TSHA,6/25/2024,Taysha Gene Therapies Announces Proposed Public Offering of Common Stock and Pre-Funded Warrants,
+AUID,6/25/2024,"authID Announces Pricing of Approximately $11,000,000 Million Registered Direct Offering",2024-06-25 17:00:00 ET
+TXO,6/25/2024,"TXO Partners, L.P. Announces Commencement of Underwritten Public Offering",
+ZEAL,6/25/2024,Zealand Pharma launches equity offering of new shares raising gross proceeds of approximately USD 900 million / DKK 6.257 billion,2024-06-25 11:02:00 ET
+OGEN,6/24/2024,"Oragenics, Inc. Announces Proposed Public Offering",2024-06-24 18:43:00 ET
+TRDA,6/24/2024,Entrada Therapeutics Announces $100 Million Registered Direct Offering,2024-06-24 07:15:00 ET
+KAVL,6/21/2024,Kaival Brands Announces Pricing of $6.0 Million Public Offering,2024-06-21 09:15:00 ET
+MBIO,6/20/2024,Mustang Bio Announces $2.5 Million Registered Direct Offering Priced At-the-Market Under Nasdaq Rules,2024-06-20 08:00:00 ET
+URGN,6/17/2024,UroGen Pharma Announces Commencement of Public Offering of Ordinary Shares and Pre-Funded Warrants,2024-06-17 16:46:00 ET
+VRE,6/17/2024,"Veris Residential, Inc. Announces Public Offering of Common Stock",
+ELUT,6/17/2024,Elutia Announces $13.26 Million Registered Direct Offering,2024-06-17 08:01:00 ET
+IPW,6/17/2024,iPower Inc. Announces $5 Million Registered Direct Offering,2024-06-17 07:45:00 ET
+IRON,6/14/2024,Disc Medicine Announces Underwritten Offering of Common Stock,2024-06-14 08:03:00 ET
+MREO,6/14/2024,"Mereo BioPharma Announces Pricing of $50 Million Underwritten Registered Direct Offering of American Depository Shares, Priced At-the-Market",2024-06-14 07:50:00 ET
+VXRT,6/13/2024,Vaxart Announces $40 Million Underwritten Offering of Common Stock,2024-06-13 19:07:00 ET
+GANX,6/13/2024,Gain Therapeutics Announces Proposed Public Offering,
+RZLT,6/13/2024,Rezolute Announces Proposed Public Offering of Common Stock and Pre-Funded Warrants,2024-06-13 16:01:00 ET
+ABL,6/13/2024,Abacus Life Announces Proposed Public Offering of Common Stock,
+RNA,6/12/2024,"Avidity Biosciences, Inc. Announces Proposed Public Offering of Common Stock",
+RARE,6/12/2024,Ultragenyx Announces Proposed Public Offering of Common Stock and Pre-Funded Warrants,2024-06-12 16:05:00 ET
+JILL,6/12/2024,J.Jill Announces Proposed Public Offering of Common Stock,
+CBUS,6/12/2024,Cibus Announces $13.0 Million Registered Direct Offering,2024-06-12 08:00:00 ET
+TNXP,6/11/2024,Tonix Pharmaceuticals Announces Proposed Public Offering,2024-06-11 17:17:00 ET
+CJJD,6/11/2024,China Jo-Jo Drugstores Announces $3.37 Million Registered Direct Offering,
+PROK,6/10/2024,ProKidney Announces Proposed $125 Million Public Offering of Class A Ordinary Shares and Concurrent Registered Direct Offering,2024-06-10 16:15:00 ET
+GRRR,6/7/2024,Gorilla Announces $12 Million Registered Direct Offering,2024-06-07 08:00:00 ET
+LPG,6/5/2024,Dorian LPG Ltd. Announces Public Offering of Common Shares,
+DX,6/5/2024,"Dynex Capital, Inc. Announces Public Offering of Common Stock",
+SILO,6/5/2024,Silo Pharma Announces $2 Million Registered Direct Offering Priced At-The-Market Under Nasdaq Rules,2024-06-05 08:00:00 ET
+ANNX,6/4/2024,Annexon Announces Proposed Public Offering of Common Stock,
+NDRA,6/4/2024,ENDRA Life Sciences Announces Pricing of $8.0 Million Public Offering,
+GPCR,6/3/2024,Structure Therapeutics Announces Proposed Public Offering of American Depositary Shares and Pre-Funded Warrants,2024-06-03 16:09:00 ET
+RCRT,6/3/2024,"Recruiter.com Announces $400,000 Registered Direct Offering",
+MBOT,6/3/2024,Microbot Medical Announces $2.35 Million Registered Direct Offering Priced At-The-Market under Nasdaq Rules,2024-06-03 12:11:00 ET
+AIM,5/31/2024,AIM ImmunoTech Announces Pricing of $2.0 Million Registered Direct Offering,2024-05-31 08:30:00 ET
+CELC,5/30/2024,Celcuity Announces Pricing of Underwritten Common Stock Offering,2024-05-30 07:36:00 ET
+BRKR,5/29/2024,Bruker Announces Public Offering of Common Stock,
+INSM,5/28/2024,Insmed Announces Proposed $500 Million Public Offering of Common Stock,
+MRUS,5/28/2024,Merus N.V. Announces Proposed Public Offering of Common Shares,
+LUCY,5/28/2024,"Innovative Eyewear, Inc. Announces $2.5 Million Registered Direct Offering Priced At-the-Market Under Nasdaq Rules",
+APDN,5/28/2024,Applied DNA Announces Pricing of $12 Million Public Offering,
+ENLV,5/28/2024,Enlivex Therapeutics Announces up to $15 Million Registered Direct Offering,2024-05-28 08:12:00 ET
+CATX,5/24/2024,Perspective Therapeutics Announces Pricing of $80 Million Underwritten Offering of Common Stock and Pre-Funded Warrants,2024-05-24 08:01:00 ET
+GNLX,5/23/2024,Genelux Corporation Announces Proposed Public Offering of Common Stock and Warrants,2024-05-23 16:01:00 ET
+BNTC,5/23/2024,Banzai Announces Pricing of $2.5 Million Public Offering,
+FHTX,5/22/2024,Foghorn Therapeutics Raises Approximately $110 Million Through Registered Direct Offering to Advance Pipeline,2024-05-22 18:21:00 ET
+NYXH,5/22/2024,Nyxoah Announces Proposed Offering of Ordinary Shares,2024-05-22 16:05:00 ET
+CYTK,5/22/2024,Cytokinetics Announces Proposed Public Offering of Common Stock,2024-05-22 16:02:00 ET
+AKTS,5/22/2024,Akoustis Announces $10 Million Registered Direct Offering Priced At-The-Market Under Nasdaq Rules,2024-05-22 14:24:00 ET
+EDBL,5/22/2024,Edible Garden Announces Pricing of $6.0 Million Public Offering,2024-05-22 09:15:00 ET
+PESI,5/22/2024,Perma-Fix Announces Pricing of Approximately $20 Million Registered Direct Offering,2024-05-22 07:30:00 ET
+GTBP,5/21/2024,"GT Biopharma, Inc. Announces $3.2 Million Registered Direct Offering Priced At-The-Market Under Nasdaq Rules",2024-05-21 09:15:00 ET
+DYN,5/20/2024,Dyne Therapeutics Announces Proposed Public Offering of Common Stock,
+IKT,5/20/2024,"Inhibikase Therapeutics Announces Pricing of Registered Direct Offering and Warrant Inducement, Priced At-The-Market for Aggregate Gross Proceeds o...",
+FHTX,5/20/2024,Foghorn Announces Pricing of Registered Direct Offering of Common Stock and Pre-Funded Warrants,2024-05-20 07:58:00 ET
+VIRI,5/17/2024,Virios Therapeutics Announces Proposed Public Offering of Common Stock to Commence Preparations for Planned IMC-2 Long-COVID Phase 2b Study,2024-05-17 16:10:00 ET
+GLUE,5/15/2024,Monte Rosa Therapeutics Announces Proposed Public Offering of Common Stock and Pre-Funded Warrants,2024-05-15 16:01:00 ET
+AEMD,5/15/2024,Aethlon Medical Announces Pricing of $4.7 Million Public Offering,
+BCTX,5/15/2024,BriaCell Therapeutics Announces Pricing of $5.0 Million Registered Direct Offering,2024-05-15 08:00:00 ET
+VRPX,5/15/2024,Virpax Announces Pricing of $2.25 Million Public Offering,
+AQMS,5/14/2024,Aqua Metals Announces Proposed Public Offering,2024-05-14 16:05:00 ET
+VSEC,5/14/2024,VSE Corporation Announces Public Offering of Common Stock,
+CTNT,5/14/2024,Cheetah Net Supply Chain Service Inc. Announces Pricing of $8.19 Million Follow-on Public Offering,2024-05-14 08:36:00 ET
+SCPX,5/14/2024,"Scorpius Holdings, Inc. Announces Pricing of Public Offering",
+ALLO,5/13/2024,Allogene Therapeutics Announces Pricing of $110 million Offering of Common Stock,2024-05-13 16:47:00 ET
+MBIN,5/13/2024,Merchants Bancorp Announces Launch of Common Stock Offering,
+CJJD,5/10/2024,China Jo-Jo Drugstores Announces $2.74 Million Registered Direct Offering,
+ITOS,5/10/2024,iTeos Therapeutics Announces $120 Million Registered Direct Offering,2024-05-10 08:24:00 ET
+SMSI,5/10/2024,Smith Micro Announces Follow-on Offering,
+TIVC,5/9/2024,Tivic Health Announces Pricing of $4.0 Million Public Offering,
+OPTN,5/9/2024,Optinose Announces $55 Million Registered Direct Offering,2024-05-09 07:00:00 ET
+RXST,5/8/2024,"RxSight, Inc. Announces Proposed Public Offering of Common Stock",2024-05-08 16:05:00 ET
+SYTA,5/8/2024,Siyata Mobile Announces Pricing of its $4.0 Million Public Offering of Common Shares and Pre-Funded Warrants,
+DLR,5/7/2024,Digital Realty Announces Common Stock Offering,
+HSDT,5/6/2024,"Helius Medical Technologies, Inc. Announces Pricing of $6.4 Million Public Offering",2024-05-06 22:15:00 ET
+GP,5/6/2024,GreenPower Announces Proposed Public Offering of Common Shares & Warrants,
+ADCT,5/6/2024,ADC Therapeutics Announces $105 Million Underwritten Offering of Common Shares and Pre-Funded Warrants,2024-05-06 07:30:00 ET
+ABEO,5/3/2024,Abeona Therapeutics Announces Pricing of $75 Million Underwritten Offering of Common Stock and Pre-Funded Warrants,2024-05-03 07:30:00 ET
+SLNO,5/2/2024,Soleno Therapeutics Announces Proposed Public Offering of Common Stock,2024-05-02 16:01:00 ET
+CRVS,5/2/2024,Corvus Pharmaceuticals Announces Pricing of $30.6 Million Registered Direct Offering,2024-05-02 08:30:00 ET
+CETX,5/1/2024,"Cemtrex, Inc. Announces Pricing of $10 Million Upsized Underwritten Public Offering",2024-05-01 08:59:00 ET
+ALRN,5/1/2024,Aileron Therapeutics Announces Pricing of Underwritten Registered Direct Offering Priced At-The-Market Under Nasdaq Rules of up to Approximately $4...,2024-05-01 08:45:00 ET
+CJJD,4/29/2024,China Jo-Jo Drugstores Announces $1.53 Million Registered Direct Offering,
+LUCY,4/29/2024,"Innovative Eyewear, Inc. Announces $1.025 Million Registered Direct Offering Priced At-the-Market Under Nasdaq Rules",
+FULT,4/29/2024,Fulton Financial Announces Launch of Common Stock Offering,
+BLTE,4/25/2024,Belite Bio Announces $25 Million Registered Direct Offering,2024-04-25 19:15:00 ET
+VINC,4/25/2024,Vincerx Pharma Announces Proposed Underwritten Public Offering of Common Stock and Warrants,2024-04-25 16:01:00 ET
+INMB,4/25/2024,INmune Bio Inc. Announces $9.7 Million Registered Direct Offering Priced At-the-Market Under Nasdaq Rules,2024-04-25 09:00:00 ET
+AZZ,4/24/2024,AZZ Inc. Announces Proposed Public Offering of Common Stock,
+SCLX,4/24/2024,Scilex Holding Company Announces $15 Million Registered Direct Offering,2024-04-24 08:00:00 ET
+CNTA,4/23/2024,Centessa Pharmaceuticals Announces $100 Million Proposed Public Offering of American Depositary Shares,2024-04-23 16:17:00 ET
+CYN,4/23/2024,Cyngn Announces Pricing of $5.0 Million Firm Commitment Public Offering of Common Stock,
+CNS,4/22/2024,Cohen & Steers Raises $70 Million in Gross Proceeds from At-the-Market Equity Offering,
+INMB,4/22/2024,"INmune Bio Inc. Raises Approximately $4.8 Million in Gross Proceeds Through Registered Direct Offering with Officers, Employees and Directors Purch...",
+ASTI,4/18/2024,"Ascent Solar Technologies, Inc. Announces Second and Third Closings of Public Offering of Common Stock and Pre-Funded Warrants at $0.14 Per Share",2024-04-18 17:11:00 ET
+LGVN,4/18/2024,Longeveron Raises a Total of $11.4 Million in Gross Proceeds from Warrant Exercise Offering and Public Offering,2024-04-18 16:05:00 ET
+BPTH,4/18/2024,"Bio-Path Holdings, Inc. Announces $1.2 Million Registered Direct Offering Priced At-the-Market Under Nasdaq Rules",
+TOON,4/18/2024,Kartoon Studios Inc. Announces Pricing of up to $7 Million Registered Direct Offering of Common Stock,2024-04-18 09:00:00 ET
+SPCB,4/18/2024,SuperCom Announces Pricing of $2.9 Million Registered Direct Offering,
+SNGX,4/18/2024,Soligenix Announces Pricing of $4.75 Million Public Offering,
+LAC,4/17/2024,Lithium Americas Announces Proposed Public Offering of Common Shares,2024-04-17 17:07:00 ET
+NRXP,4/17/2024,"NRx Pharmaceuticals, Inc. Announces Proposed Underwritten Public Offering of Common Stock",
+BHVN,4/17/2024,Biohaven Announces Proposed Public Offering of Common Shares,
+IZM,4/17/2024,ICZOOM Announces Cancellation of Proposed Public Offering,
+SOWG,4/16/2024,Sow Good Announces Proposed Public Offering of Common Stock,
+APG,4/16/2024,APi Group Announces Launch of Public Offering of Common Stock,
+TCRX,4/16/2024,TScan Therapeutics Announces Launch of $125 Million Proposed Public Offering,2024-04-16 16:25:00 ET
+MEG,4/16/2024,Montrose Environmental Group Announces Public Offering of Shares,
+ITCI,4/16/2024,Intra-Cellular Therapies Announces Proposed Public Offering of Common Stock,2024-04-16 16:06:00 ET
+CLDI,4/16/2024,"Calidi Biotherapeutics, Inc. Announces Pricing of $6.1 Million Public Offering",
+PRFX,4/16/2024,PainReform Announces Pricing of $4 Million Public Offering,2024-04-16 08:00:00 ET
+INO,4/15/2024,INOVIO Announces Pricing of Approximately $36 Million Underwritten Offering of Common Stock and Pre-Funded Warrants,
+RVYL,4/15/2024,RYVYL Inc. Announces Launch of Proposed Underwritten Public Offering,2024-04-15 16:27:00 ET
+USAU,4/15/2024,U.S. GOLD CORP. ANNOUNCES $4.9 MILLION REGISTERED DIRECT OFFERING,
+NRIX,4/11/2024,Nurix Therapeutics Announces Proposed Public Offering,2024-04-11 16:00:00 ET
+NA,4/11/2024,Nano Labs Announces Pricing of $5.0 Million Registered Direct Offering,
+APVO,4/11/2024,Aptevo Therapeutics Announces Pricing of $4.6 Million Public Offering,
+ASTI,4/10/2024,"Ascent Solar Technologies, Inc. Announces Pricing of $6,000,000 Public Offering of Shares of Common Stock",2024-04-10 08:48:00 ET
+VLD,4/9/2024,Velo3D Announces Proposed Public Offering,
+VBIV,4/9/2024,VBI Vaccines Announces $2 Million Registered Direct Offering Priced At-the-Market Under Nasdaq Rules,
+LGVN,4/8/2024,Longeveron Announces Pricing of $5.25 Million Public Offering,2024-04-08 14:15:00 ET
+BNGO,4/4/2024,Bionano Announces $10 Million Registered Direct Offering Priced At-The-Market Under Nasdaq Rules,
+REPX,4/3/2024,Riley Permian Announces Commencement of Public Offering of Common Stock,
+AZ,4/2/2024,A2Z Smart Technologies Corp. Announces Offering of Common Shares,
+RDHL,4/2/2024,RedHill Biopharma Announces $1.25 Million Registered Direct Offering at a Premium to Market Price,
+AZ,4/1/2024,A2Z Smart Technologies Corp. Announces Proposed Public Offering of Common Shares,
+GRTS,4/1/2024,Gritstone bio Announces Proposed Public Offering,2024-04-01 16:10:00 ET
+BLRX,4/1/2024,BioLineRx Announces $6 Million Registered Direct Offering,
+BIOR,4/1/2024,Biora Therapeutics Announces $6 Million Registered Direct Offering Priced At-the-Market Under Nasdaq Rules,
+IINN,4/1/2024,Inspira™ Announces $1.65 Million Registered Direct Offering of Ordinary Shares by Inspira CEO's Mother with Leading Fund Manager,
+SINT,3/29/2024,SINTX Technologies Announces Proposed Public Offering of Common Stock,
+TNXP,3/28/2024,Tonix Pharmaceuticals Announces Pricing of $4.4 Million Registered Direct Offering,2024-03-28 09:32:00 ET
+PRAX,3/27/2024,"Praxis Precision Medicines, Inc. Announces Proposed Public Offering",2024-03-27 16:01:00 ET
+FSBC,3/27/2024,Five Star Bancorp Announces Launch of Common Stock Offering,2024-03-27 16:09:00 ET
+OGI,3/26/2024,Organigram Announces Launch of Overnight Marketed Public Offering,
+STOK,3/26/2024,Stoke Therapeutics Announces Proposed Public Offering,
+BWMN,3/26/2024,Bowman Announces Launch of Public Offering of Common Stock,
+IPWR,3/25/2024,Ideal Power Inc. Announces Proposed Public Offering,
+TRNO,3/25/2024,"Terreno Realty Corporation Announces Offering of 5,000,000 Shares of Common Stock",
+REXR,3/25/2024,Rexford Industrial Announces Public Offering of $840 Million of Common Stock to an Existing Long-Only Investor Based on the West Coast,
+BTAI,3/25/2024,BioXcel Therapeutics Announces $25 Million Registered Direct Offering,2024-03-25 07:00:00 ET
+SINT,3/22/2024,SINTX Technologies Announces Proposed Public Offering of Common Stock,2024-03-22 08:30:00 ET
+SGMO,3/22/2024,Sangamo Therapeutics Announces Pricing of $24.0 Million Registered Direct Offering,
+ISPR,3/22/2024,Ispire Technology Announces Pricing of $12.3 Million Public Offering,
+SPIR,3/21/2024,Spire Global Announces Registered Direct Offering of $30 Million,
+STVN,3/20/2024,Stevanato Group Announces Public Offering of Ordinary Shares,
+NLSP,3/20/2024,NLS Pharmaceutics Announces $1.75 Million Registered Direct Offering,
+TFFP,3/20/2024,TFF Pharmaceuticals Announces $1.2 Million Registered Direct Offering Priced At-The-Market Under Nasdaq Rules,2024-03-20 12:00:00 ET
+XAIR,3/20/2024,Beyond Air® Announces Pricing of $16.0 Million Registered Direct Offering of Common Stock and Warrants,
+AQST,3/19/2024,Aquestive Therapeutics Announces Proposed Public Offering of Common Stock,2024-03-19 16:01:00 ET
+GERN,3/19/2024,Geron Corporation Announces Pricing of $150 Million Underwritten Offering of Common Stock and Pre-Funded Warrants,
+GNPX,3/19/2024,Genprex Announces $6.5 Million Registered Direct Offering Priced At-the-Market Under Nasdaq Rules,
+PIXY,3/19/2024,ShiftPixy Announces Pricing of $5 Million Offering Priced At-the-Market,
+SMCI,3/19/2024,Supermicro Announces Proposed Public Offering of Common Stock,
+MDGL,3/18/2024,Madrigal Pharmaceuticals Announces Proposed Public Offering,2024-03-18 16:04:00 ET
+CON,3/18/2024,Concentra Announces Confidential Submission of Draft Registration Statement Related to Proposed Public Offering,
+CISS,3/15/2024,C3is Inc. Announces Pricing of $6.0 Million Underwritten Public Offering,2024-03-15 08:22:00 ET
+XELB,3/14/2024,"Xcel Brands, Inc. Announces Proposed Public Offering of Common Stock",2024-03-14 16:10:00 ET
+PRST,3/14/2024,Presto Automation Announces Pricing of $1.2M Registered Direct Offering Priced above Nasdaq Minimum Price,
+PGY,3/13/2024,Pagaya Announces Public Offering of Class A Ordinary Shares,
+SOS,3/13/2024,SOS Ltd. Announces Pricing of $7.85 Million Public Offering,
+NAAS,3/13/2024,NaaS Technology Inc. Announces US$6 Million Registered Direct Offering,
+ICHR,3/12/2024,"Ichor Holdings, Ltd. Announces Public Offering of Ordinary Shares",
+ASLN,3/12/2024,ASLAN Pharmaceuticals Announces $5 Million Registered Direct Offering,2024-03-12 14:34:00 ET
+CGTX,3/11/2024,Cognition Therapeutics Announces Proposed Public Offering of Common Stock,2024-03-11 16:05:00 ET
+EOLS,3/11/2024,Evolus Announces Pricing of $50.0 Million Underwritten Offering of Common Stock,
+BITF,3/8/2024,Bitfarms Announces $375 Million At-the-Market Equity Offering Program,2024-03-08 17:37:00 ET
+SCPX,3/7/2024,"Scorpius Holdings, Inc. Announces Proposed Public Offering of Common Stock",2024-03-07 16:18:00 ET
+DKL,3/7/2024,"Delek Logistics Partners, LP Announces Proposed Public Offering of Common Units",
+RDNT,3/7/2024,RadNet Announces Proposed $200 Million Underwritten Public Offering of Common Stock,
+NYAX,3/6/2024,Nayax Announces Proposed Public Offering,2024-03-06 17:33:00 ET
+RGNX,3/6/2024,REGENXBIO Announces Proposed Public Offering of Common Stock,
+APGE,3/5/2024,"Apogee Therapeutics, Inc. Announces Proposed Underwritten Public Offering",2024-03-05 16:23:00 ET
+QNRX,3/5/2024,Quoin Pharmaceuticals Announces Pricing of $6.5 Million Public Offering,2024-03-05 08:00:00 ET
+MNTS,3/5/2024,Momentus Announces $4.0 Million Registered Direct Offering Priced At-the-Market Under Nasdaq Rules,
+AKRO,3/4/2024,Akero Therapeutics Announces Proposed Public Offering of Common Stock,
+HLNE,3/4/2024,Hamilton Lane Announces Public Offering of Class A Common Stock,
+BBIO,3/4/2024,BridgeBio Pharma Announces Proposed Public Offering of Common Stock,2024-03-04 16:17:00 ET
+ALB,3/4/2024,ALBEMARLE ANNOUNCES PROPOSED PUBLIC OFFERING OF DEPOSITARY SHARES,
+BBLG,3/4/2024,Bone Biologics Announces Pricing of $2.0 Million Public Offering,
+FWBI,3/4/2024,"First Wave BioPharma, Inc. to Raise Approximately $4.0 Million of Gross Proceeds in Registered Direct Offering",2024-03-04 08:00:00 ET
+RVNC,3/4/2024,Revance Announces Proposed Public Offering of Common Stock,
+BIVI,3/1/2024,BioVie Inc. Announces Proposed Public Offering of Common Stoc,2024-03-01 16:58:00 ET
+REE,3/1/2024,REE Announces Pricing of Public Offering of Ordinary Shares,2024-03-01 08:33:00 ET
+VANI,3/1/2024,Vivani Medical Announces Pricing of $15.0 Million Registered Direct Offering of Common Stock and Warrants,
+DTIL,3/1/2024,Precision BioSciences Announces $40.0 Million Offering of Common Stock and Warrants,
+REE,2/29/2024,REE Announces Proposed Public Offering of Ordinary Shares,2024-02-29 17:21:00 ET
+TARS,2/29/2024,Tarsus Announces Proposed $100.0 Million Public Offering,2024-02-29 16:37:00 ET
+DTIL,2/29/2024,Precision BioSciences Announces Proposed Public Offering of Common Stock and Warrants,
+HUMA,2/29/2024,"Humacyte, Inc. Announces Proposed Public Offering of Common Stock",
+SIDU,2/29/2024,Sidus Space Announces Proposed Public Offering,
+PRST,2/29/2024,Presto Automation Announces Pricing of Approximately $2.1M Registered Direct Offering,2024-02-29 09:42:00 ET
+BKKT,2/29/2024,Bakkt Announces $40 Million Registered Direct Offering with Institutional Investors and $10 Million Concurrent Registered Direct Offering,
+CLPT,2/28/2024,ClearPoint Neuro Launches Proposed Public Offering of Common Stock,2024-02-28 16:45:00 ET
+PNW,2/28/2024,Pinnacle West Announces Proposed Public Offering of $650 Million of Common Stock,
+ARQT,2/28/2024,Arcutis Announces Proposed Public Offering,
+MIST,2/28/2024,Milestone Pharmaceuticals Announces Proposed Public Offering of Common Shares and Pre-Funded Warrants,2024-02-28 16:37:00 ET
+CLDX,2/28/2024,Celldex Therapeutics Announces Proposed Public Offering of Common Stock,
+AGFY,2/28/2024,Agrify Corporation Announces Pricing of $2.6 Million Public Offering,2024-02-28 09:25:00 ET
+JANX,2/27/2024,Janux Therapeutics Announces Proposed Public Offering of Common Stock,
+OGEN,2/27/2024,Oragenics Announces Proposed Public Offering,
+VKTX,2/27/2024,Viking Therapeutics Announces Proposed Public Offering of Common Stock,
+ABSI,2/27/2024,Absci Announces Proposed Public Offering of Common Stock,
+PWP,2/27/2024,Perella Weinberg Partners Commences Public Offering of Class A Common Stock,2024-02-27 16:01:00 ET
+NRXP,2/26/2024,"NRx Pharmaceuticals, Inc. Announces Proposed Underwritten Public Offering of Common Stock",
+ACON,2/26/2024,Aclarion Announces Pricing of $3.0 Million Public Offering,2024-02-26 09:15:00 ET
+VERO,2/23/2024,Venus Concept Announces $1.2 Million Registered Direct Offering Priced At-The-Market Under Nasdaq Rules,2024-02-23 08:00:00 ET
+KTOS,2/21/2024,"Kratos Defense & Security Solutions, Inc. Announces Proposed Public Offering of Common Stock",
+DPRO,2/21/2024,Draganfly Announces Proposed Public Offering of Common Shares & Warrants,
+NXGL,2/21/2024,"NEXGEL Announces $975,000 Registered Direct Offering Led by Insiders",2024-02-21 16:05:00 ET
+MMAT,2/20/2024,Meta Materials Announces Pricing of $3.4 Million Registered Direct Offering Priced At-the-Market,
+IOVA,2/20/2024,"Iovance Biotherapeutics, Inc. Announces Pricing of $211 Million Underwritten Offering of Common Stock",2024-02-20 06:30:00 ET
+ELTK,2/17/2024,Eltek Announces Pricing of Public Offering of Ordinary Shares.,
+SMX,2/16/2024,SMX (Security Matters) PLC Announces Pricing of $2.9 Million Public Offering,
+WATT,2/15/2024,Energous Announces $2.0 Million Registered Direct Offering Priced At-The-Market under Nasdaq Rules,
+MODD,2/15/2024,Modular Medical Announces Proposed Public Offering,
+LEXX,2/15/2024,Lexaria Announces $3.6 Million Registered Direct Offering Priced At-The-Market Under Nasdaq Rules,
+KALV,2/14/2024,KalVista Pharmaceuticals Announces Proposed Public Offering of Common Stock and Pre-Funded Warrants,
+PRME,2/14/2024,Prime Medicine Announces Proposed Public Offering of Common Stock,
+TBLT,2/14/2024,ToughBuilt Industries Announces Pricing of $3.5 Million Public Offering,2024-02-14 08:00:00 ET
+OMH,2/13/2024,Ohmyhome Announces Pricing of Upsized $4.8 Million Public Offering of Ordinary Shares,2024-02-13 22:35:00 ET
+AZTR,2/13/2024,"Azitra, Inc. Announces Pricing of Public Offering",
+LRMR,2/13/2024,Larimar Therapeutics Announces Proposed Underwritten Public Offering,2024-02-13 16:18:00 ET
+IMNM,2/13/2024,Immunome Announces Proposed Public Offering of Common Stock,
+NAMS,2/13/2024,NewAmsterdam Pharma Announces Commencement of Public Offering of Ordinary Shares and Pre-Funded Warrants,2024-02-13 16:01:00 ET
+BIOL,2/13/2024,"BIOLASE, Inc. Announces Pricing of $7.0 Million Public Offering",
+SBFM,2/13/2024,"Sunshine Biopharma, Inc. Announces Pricing of $10.0 Million Underwritten Public Offering",
+VRTX,2/13/2024,CRISPR Therapeutics Announces $280 Million Registered Direct Offering,
+ELTK,2/12/2024,Eltek Announces Pricing of Public Offering of Ordinary Shares.,
+TOP,2/12/2024,TOP Financial Announces $5 Million Registered Direct Offering,2024-02-12 09:30:00 ET
+WKEY,2/12/2024,WiSA Technologies Announces Pricing of $10.0 Million Public Offering,
+EFSH,2/9/2024,1847 Holdings LLC Announces Pricing of $5.0 Million Public Offering,
+CVM,2/9/2024,CEL-SCI Announces Pricing of $7.75 Million Public Offering of Common Stock,
+IVP,2/9/2024,Inspire Veterinary Partners Announces Pricing of $4.0 Million Public Offering,
+EVOK,2/9/2024,Evoke Pharma Announces Pricing of Underwritten Public Offering of up to $30 Million,2024-02-09 07:30:00 ET
+BTAI,2/8/2024,BioXcel Therapeutics Announces Proposed Public Offering,
+PEV,2/8/2024,Phoenix Motor Inc. Announces Pricing of $1.6 Million Registered Direct Offering,
+TENX,2/8/2024,Tenax Therapeutics Announces Pricing of Approximately $9 Million Public Offering,2024-02-08 08:16:00 ET
+SANA,2/7/2024,Sana Biotechnology Announces Proposed Public Offering of Common Stock,2024-02-07 16:01:00 ET
+CLSD,2/7/2024,Clearside Biomedical Announces Pricing of $15 Million Registered Direct Offering,2024-02-07 08:00:00 ET
+PEPG,2/7/2024,PepGen Announces Pricing of $80.1 Million Underwritten Offering of Common Stock,2024-02-07 07:30:00 ET
+PHUN,2/7/2024,Phunware Launches Proposed Public Offering of Securities,2024-02-07 07:12:00 ET
+REKR,2/6/2024,Rekor Systems Launches Proposed Follow-On Public Offering of Common Stock,
+LCTX,2/6/2024,Lineage Cell Therapeutics Announces $14.0 Million Registered Direct Offering,
+PRSO,2/6/2024,Peraso Announces Pricing of $4 Million Underwritten Public Offering,
+JSPR,2/6/2024,Jasper Therapeutics Announces Pricing of $50 Million Underwritten Offering of Common Stock,2024-02-06 08:59:00 ET
+FDMT,2/5/2024,4D Molecular Therapeutics Announces Proposed Public Offering of Common Stock,2024-02-05 16:05:00 ET
+IMMX,2/5/2024,Immix Biopharma Announces Proposed Public Offering of Common Stock,2024-02-05 15:20:00 ET
+NEXI,2/2/2024,NexImmune Announces $3.67 Million Registered Direct Offering Priced At-the-Market Under Nasdaq Rules,
+CING,2/2/2024,Cingulate Announces Pricing of $7.5 Million Public Offering,2024-02-02 09:15:00 ET
+GRI,2/2/2024,GRI Bio Announces Pricing of $5.5 Million Public Offering,2024-02-02 08:00:00 ET
+EVAX,2/1/2024,Evaxion Biotech Announces Pricing of $15 Million Public Offering,2024-02-01 09:20:00 ET
+BFRG,2/1/2024,Bullfrog AI Announces Pricing of $5.7 Million Public Offering,2024-02-01 09:00:00 ET
+REVB,2/1/2024,Revelation Biosciences Inc. Announces Pricing of $6.2 Million Public Offering,
+NVVE,1/31/2024,Nuvve Holding Corp. Announces Pricing of $9.6 Million Underwritten Public Offering,
+SINT,1/31/2024,SINTX Technologies Announces Pricing of $4.0 Million Public Offering,2024-01-31 09:20:00 ET
+APDN,1/31/2024,Applied DNA Announces $3.44 Million Registered Direct Offering Priced At-the-Market Under Nasdaq Rules,
+CRBP,1/30/2024,Corbus Pharmaceuticals Announces Proposed Public Offering,
+AMSC,1/30/2024,AMSC Announces Proposed Public Offering of Common Stock,
+PCVX,1/30/2024,Vaxcyte Announces Commencement of Proposed Public Offering of Common Stock and Pre-Funded Warrants,
+SXTP,1/30/2024,60 Degrees Pharmaceuticals Announces Pricing of $2.4 Million Public Offering,2024-01-30 09:00:00 ET
+PEV,1/30/2024,Phoenix Motor Inc. Announces Pricing of $4.8 Million Registered Direct Offering,
+PTN,1/30/2024,Palatin Announces $10 Million Registered Direct Offering,
+SIDU,1/29/2024,Sidus Space Announces Proposed Public Offering,
+CKPT,1/29/2024,Checkpoint Therapeutics Announces $14 Million Registered Direct Offering Priced At-the-Market,2024-01-29 08:00:00 ET
+PBLA,1/29/2024,Panbela Announces Pricing of Approximately $9.0 Million Public Offering,
+VERA,1/29/2024,Vera Therapeutics Announces Proposed Public Offering of Class A Common Stock,
+PCSA,1/26/2024,Processa Pharmaceuticals Announces Pricing of $7.0 Million Public Offering,2024-01-26 09:04:00 ET
+MOB,1/26/2024,Mobilicom Announces $2.95 Million Registered Direct Offering,2024-01-26 08:30:00 ET
+ICU,1/26/2024,SeaStar Medical Announces Pricing of $9.0 Million Registered Direct Offering Priced At-the-Market,2024-01-26 08:05:00 ET
+RDHL,1/25/2024,RedHill Biopharma Announces $8 Million Registered Direct Offering,
+CTM,1/25/2024,Castellum Announces Pricing of $2.7 Million Registered Direct Offering,2024-01-25 08:55:00 ET
+EFTR,1/25/2024,eFFECTOR Therapeutics Announces $15 Million Registered Direct Offering Priced At-The-Market Under Nasdaq Rules,2024-01-25 08:00:00 ET
+AKTS,1/24/2024,Akoustis Announces Proposed Public Offering of Common Stock,
+TRML,1/24/2024,Tourmaline Bio Announces Proposed Public Offering of Common Stock,2024-01-24 16:05:00 ET
+SGMT,1/23/2024,Sagimet Biosciences Announces Proposed Public Offering of Series A Common Stock,2024-01-23 17:45:00 ET
+NUTX,1/23/2024,Nutex Health Announces Pricing of $10.0 Million Registered Direct Offering of Common Stock and Warrants,
+ACET,1/22/2024,"Adicet Bio, Inc. Announces Proposed Public Offering",
+CISS,1/19/2024,C3is Inc. Announces Pricing of $7.0 Million Upsized Underwritten Public Offering,2024-01-19 08:55:00 ET
+EWTX,1/19/2024,Edgewise Therapeutics Announces Pricing of $240 Million Underwritten Offering of Common Stock,
+PHUN,1/19/2024,Phunware Announces Pricing of $5.6 Million Registered Direct Offering,2024-01-19 08:00:00 ET
+ESPR,1/18/2024,Esperion Announces Proposed Public Offering of Common Stock,
+RNAZ,1/18/2024,TransCode Therapeutics Announces Pricing of $7.25 Million Public Offering,2024-01-18 13:27:00 ET
+VRDN,1/17/2024,Viridian Therapeutics Announces Pricing of Public Offering of Shares of Common Stock,
+TALO,1/17/2024,Talos Energy Announces Commencement of Underwritten Public Offering of Common Stock,
+SURG,1/17/2024,SurgePays Announces Proposed Public Offering,2024-01-17 16:05:00 ET
+CATX,1/17/2024,Perspective Therapeutics Announces Proposed Public Offering,2024-01-17 16:05:00 ET
+IMTX,1/17/2024,Immatics Announces Proposed Public Offering,2024-01-17 16:01:00 ET
+MYO,1/17/2024,Myomo Announces $6 Million Registered Direct Offering of Common Stock Priced At-the-Market,
+INTR,1/16/2024,Inter&Co Announces Commencement of Follow-on Public Offering of its Class A Common Shares,2024-01-16 17:44:00 ET
+PHUN,1/16/2024,Phunware Announces Pricing of $7.0 Million Registered Direct Offering Priced At-the-Market Under Nasdaq Rules,2024-01-16 16:04:00 ET
+ALEC,1/16/2024,Alector Announces Proposed Public Offering of Common Stock,2024-01-16 16:01:00 ET
+DATS,1/16/2024,"DatChat, Inc. Announces Proposed Underwritten Public Offering of Common Stock",2024-01-16 16:05:00 ET
+VXRT,1/16/2024,Vaxart Announces $10.0 Million Registered Direct Offering with RA Capital Management,2024-01-16 09:25:00 ET
+MNTS,1/16/2024,Momentus Announces $4.0 Million Registered Direct Offering Priced At-the-Market Under Nasdaq Rules,
+AXDX,1/16/2024,Accelerate Diagnostics Announces Launch of Proposed Public Offering,
+XRTX,1/15/2024,XORTX Announces $2 Million Public Offering,2024-01-15 07:00:00 ET
+GNS,1/12/2024,Genius Group Announces Pricing of $8.25 Million Public Offering,
+VCIG,1/11/2024,VCI Global Announces Pricing of $2.75 Million Public Offering,2024-01-11 23:17:00 ET
+EKSO,1/11/2024,Ekso Bionics Announces $4.6 Million Registered Direct Offering,2024-01-11 08:00:00 ET
+PRAX,1/10/2024,"Praxis Precision Medicines, Inc. Announces Proposed Public Offering",
+NTST,1/9/2024,NETSTREIT Corp. Announces Launch of Public Offering of Common Stock,
+ROMA,1/9/2024,"Roma Green Finance Limited Announces Pricing of $12,300,000 Public Offering",2024-01-09 09:52:00 ET
+ATRA,1/8/2024,Atara Biotherapeutics Announces $15 Million Registered Direct Offering,
+CPRX,1/4/2024,"Catalyst Pharmaceuticals, Inc. Announces Proposed Public Offering of Common Stock",
+VYGR,1/4/2024,Voyager Therapeutics Announces Proposed Public Offering,2024-01-04 16:14:00 ET
+KYMR,1/4/2024,Kymera Therapeutics Announces Proposed Public Offering,
+SLS,1/4/2024,SELLAS Life Sciences Announces Pricing of $9.0 Million Public Offering,2024-01-04 09:01:00 ET
+AZ,1/4/2024,"A2Z Smart Technologies Corp. Announces Aggregate US$4.7 Million Registered Direct Offering of Common Shares and Common Warrants, Inclusive of $1.5 ...",
+DYN,1/3/2024,Dyne Therapeutics Announces Proposed Public Offering of Common Stock,
+KROS,1/3/2024,Keros Therapeutics Announces Proposed Public Offering of Common Stock,2024-01-03 16:05:00 ET
+ARWR,1/3/2024,Arrowhead Pharmaceuticals Announces Pricing of $450.0 Million Underwritten Offering of Common Stock,
+LBPH,1/2/2024,Longboard Pharmaceuticals Announces Commencement of Public Offering of Common Stock,
+GMM,12/29/2023,Global Mofy Metaverse Limited Announces $10 Million Follow-on Offering,2023-12-29 09:42:00 ET
+FBIO,12/29/2023,Fortress Biotech Announces Pricing of $11 Million Registered Direct Offering Priced At-the-Market Under Nasdaq Rules,2023-12-29 08:20:00 ET
+VLD,12/28/2023,"Velo3D, Inc. Announces $18 Million Registered Direct Offering",
+BJDX,12/28/2023,Bluejay Diagnostics Announces Pricing of $3.5 Million Public Offering,2023-12-28 08:00:00 ET
+PRN,12/28/2023,Profound Medical Announces Pricing of US$20 Million Public Offering of Common Shares,2023-12-27 22:40:00 ET
+PROF,12/27/2023,Profound Medical Announces Proposed Public Offering of Common Shares,2023-12-27 16:15:00 ET
+IINN,12/26/2023,Inspira Announces $3.88 Million Registered Direct Offering,
+LGVN,12/21/2023,Longeveron Announces $2.36 Million Registered Direct Offering Priced At-the-Market Under Nasdaq Rules,2023-12-21 08:00:00 ET
+GH,12/21/2023,Guardant Health Announces $90.7 Million Registered Direct Offering with Baillie Gifford,
+ANNX,12/20/2023,Annexon Announces Pricing of $125.0 Million Underwritten Public Offering of Common Stock,2023-12-20 17:27:00 ET
+ASPN,12/20/2023,"Aspen Aerogels, Inc. Announces $75 Million Registered Direct Offering",
+TNXP,12/20/2023,Tonix Pharmaceuticals Announces Registered Direct Offering of up to $144 Million,2023-12-20 10:35:00 ET
+BLUE,12/19/2023,"bluebird bio, Inc. Announces Pricing of $125 Million Public Offering of Common Stock",
+KULR,12/19/2023,KULR Announces Proposed Public Offering of Common Stock,
+BDRX,12/19/2023,Biodexa Announces Pricing of $5.2 Million Underwritten Public Offering,2023-12-19 08:42:00 ET
+TCBP,12/19/2023,TC BioPharm Announces Pricing of $3.5 Million Public Offering,
+SYRS,12/19/2023,Syros Announces Pricing of $45.0 million Underwritten Offering of Common Stock and Pre-Funded Warrants,
+EDR,12/18/2023,Endeavour Silver Announces At-the-Market Offering of up to US$60 Million,
+MGRX,12/15/2023,"Mangoceuticals, Inc. Announces Pricing of $1,200,000 Public Offering",2023-12-15 10:39:00 ET
+ACIU,12/15/2023,AC Immune Announces Pricing of Underwritten Offering of Common Shares,2023-12-15 07:56:00 ET
+EOSE,12/14/2023,Eos Energy Announces Launch of Proposed $40M Public Offering,2023-12-14 16:26:00 ET
+SNDX,12/14/2023,Syndax Announces Proposed $150 Million Public Offering of Common Stock,
+AZ,12/13/2023,A2Z Smart Technologies Corp. Announces US$1.5 Million Registered Direct Offering of Common Shares and Common Warrants,
+VERU,12/13/2023,Veru Announces Proposed Public Offering of Common Stock,2023-12-13 16:01:00 ET
+OCUL,12/13/2023,Ocular Therapeutix™ Announces Proposed Public Offering of Common Stock,2023-12-13 16:01:00 ET
+CBUS,12/12/2023,Cibus Announces $20.3 Million Registered Direct Offering,2023-12-12 07:30:00 ET
+LQDA,12/12/2023,Liquidia Announces Pricing of Public Offering of Common Stock,2023-12-12 07:13:00 ET
+BODY,12/11/2023,"The Beachbody Company, Inc. Announces $5,300,000 Registered Direct Offering",
+MLSS,12/8/2023,Milestone Scientific Inc. Announces Proposed Public Offering of Common Stock,2023-12-08 16:03:00 ET
+CYN,12/8/2023,Cyngn Announces Pricing of $5.0 Million Public Offering of Common Stock,
+FRSX,12/7/2023,Foresight Autonomous Holdings Ltd. Announces Pricing of $4.5 Million Registered Direct Offering,2023-12-07 08:30:00 ET
+RCAT,12/6/2023,"Red Cat Holdings, Inc. Announces Proposed Public Offering of Common Stock",
+PHUN,12/6/2023,Phunware Launches Proposed Public Offering of Securities,
+ETNB,12/6/2023,"89bio, Inc. Announces Proposed Underwritten Public Offering of Common Stock and Pre-Funded Warrants",
+WVE,12/6/2023,Wave Life Sciences Announces Proposed Public Offering of Ordinary Shares and Pre-Funded Warrants,
+HCI,12/6/2023,HCI Group Announces Proposed Public Offering of Common Stock,
+BIOL,12/6/2023,"BIOLASE, Inc. Announces Pricing of $1.4 Million Registered Direct Offering Priced At-the-Market Under Nasdaq Rules",
+CRDO,12/5/2023,Credo announces launch of public offering,
+IPA,12/5/2023,IPA Announces Proposed Public Offering of Common Shares,
+BTB,12/5/2023,Bit Brother Limited Announces Pricing of $12.0 Million Registered Direct Offering,
+IBIO,12/5/2023,"iBio, Inc. Announces Pricing of $4.5 Million Public Offering",
+EYPT,12/4/2023,EyePoint Pharmaceuticals Announces Proposed Public Offering of Common Stock,
+SWTX,12/4/2023,SpringWorks Therapeutics Announces Proposed Public Offering of Common Stock,2023-12-04 16:13:00 ET
+UCAR,12/4/2023,U Power Limited Announces Pricing of Registered Follow-on Offering,2023-12-04 09:00:00 ET
+MMAT,12/4/2023,Meta Materials Announces $6.0 Million Registered Direct Offering,
+VRM,12/1/2023,"Vroom Announces ""At The Market"" (ATM) Equity Offering Program",
+POLA,12/1/2023,"Polar Power, Inc. Announces Pricing of Public Offering",
+KZIA,12/1/2023,Kazia Therapeutics Announces $2 Million Registered Direct Offering,
+NI,12/1/2023,NiSource Inc. Announces the Settlement Rate for the Purchase Contract Component of its 2021 Equity Units Offering,
+POLA,11/30/2023,"Polar Power, Inc. Announces Proposed Public Offering of Common Stock",2023-11-30 17:25:00 ET
+SMCI,11/30/2023,Supermicro Announces Proposed Public Offering of Common Stock,
+RNAZ,11/30/2023,TransCode Therapeutics Announces $1.2 Million Registered Direct Offering of Common Stock Priced At-The-Market under Nasdaq Rules,2023-11-30 14:53:00 ET
+POET,11/30/2023,POET Technologies Announces Pricing of US$1.4 Million Underwritten Public Offering of Common Shares and Warrants,
+WB,11/29/2023,Weibo Corporation Announces Proposed Offering of American Depositary Shares in connection with the Delta Placement of Borrowed ADSs,
+XENE,11/29/2023,Xenon Pharmaceuticals Announces Proposed Public Offering,2023-11-29 16:03:00 ET
+TGL,11/29/2023,Treasure Global Inc Announces Pricing of $4.0 Million Underwritten Public Offering,2023-11-29 09:00:00 ET
+LVS,11/28/2023,Las Vegas Sands Announces Launch of Common Stock Offering by its Principal Stockholder,
+SEEL,11/28/2023,Seelos Therapeutics Announces Proposed Public Offering,
+THAR,11/27/2023,"Tharimmune, Inc. Announces Pricing of $10 Million Public Offering",
+SNES,11/27/2023,"SenesTech, Inc. Announces Pricing of $5.0 Million Public Offering",
+SVRE,11/27/2023,SaverOne Announces Proposed Underwritten Public Offering,2023-11-27 16:01:00 ET
+AIRE,11/21/2023,reAlpha Announces Pricing of $8.0 Million Public Offering,
+STN,11/20/2023,Stantec Announces a $250 Million Public Offering of Common Shares,2023-11-20 16:21:00 ET
+RELI,11/20/2023,"Reliance Global Group, Inc. Announces Proposed Underwritten Public Offering",2023-11-20 16:15:00 ET
+GANX,11/20/2023,Gain Therapeutics Announces Proposed Public Offering,
+PXMD,11/20/2023,PaxMedica Announces Pricing of $7.0 Million Public Offering,
+AUID,11/20/2023,authID Inc. Announces Pricing of Approximately $9.4 Million Registered Direct Offering,2023-11-20 08:00:00 ET
+BBLG,11/16/2023,Bone Biologics Announces Registered Direct Offering Priced At-the-Market Under Nasdaq Rules,
+BCDA,11/16/2023,BioCardia Announces $1.3 Million Registered Direct Offering of Common Stock Priced At-the-Market under Nasdaq Rules,2023-11-16 12:56:00 ET
+VLCN,11/16/2023,"Volcon, Inc. Announces Pricing of $18.0 Million Underwritten Public Offering",
+CVM,11/16/2023,CEL-SCI Announces Pricing of $5 Million Offering of Common Stock,
+RVPH,11/16/2023,Reviva Announces $30 Million Registered Direct Offering Priced At-the-Market Under Nasdaq Rules,2023-11-16 08:00:00 ET
+AUGX,11/15/2023,"Augmedix Announces Proposed Public Offering of 5,500,000 Shares of Common Stock",2023-11-15 16:02:00 ET
+MAIA,11/15/2023,MAIA Biotechnology Announces $4 Million Registered Direct Offering,
+MOVE,11/14/2023,Movano Health Announces Proposed Public Offering,
+AUVI,11/14/2023,Applied UV Announces Pricing of $6.4 Million Upsized Underwritten Public Offering,
+BSGM,11/13/2023,BioSig Announces $2.5 Million Registered Direct Offering Priced At-the-Market Under Nasdaq Rules,2023-11-13 16:30:00 ET
+SKWD,11/13/2023,Skyward Specialty Announces Follow-On Offering of its Common Stock,2023-11-13 16:31:00 ET
+MYNZ,11/13/2023,Mainz Biomed Announces Pricing of $5.0 million Registered Direct Offering,2023-11-13 09:00:00 ET
+YHC,11/10/2023,LQR House Inc. Announces Pricing of $11 Million Public Offering,
+FBIO,11/9/2023,Fortress Biotech Announces Launch of Proposed Public Offering,
+CPK,11/9/2023,Chesapeake Utilities Announces Public Offering of $330 Million of Shares of Common Stock,
+BSGM,11/9/2023,BioSig Announces $2.5 Million Registered Direct Offering Priced At-the-Market Under Nasdaq Rules,
+WLDS,11/8/2023,Wearable Devices Announces Proposed Underwritten Public Offering,2023-11-08 17:57:00 ET
+MYGN,11/8/2023,Myriad Genetics Announces Proposed Offering of $100 Million of Shares of Common Stock,2023-11-08 16:10:00 ET
+ORGS,11/8/2023,Orgenesis Inc. Announces Pricing of $1.1 Million Registered Direct Offering,
+IDA,11/7/2023,"IDACORP, Inc. Announces Public Offering of $260 Million of Shares of Common Stock",
+SRE,11/7/2023,Sempra Announces Proposed Public Offering of Common Stock,
+SPG,11/7/2023,Spirit AeroSystems Announces Proposed Public Offering of Class A Common Stock,
+CLDX,11/7/2023,Celldex Therapeutics Announces Proposed Public Offering of Common Stock,2023-11-07 16:01:00 ET
+WELL,11/6/2023,"Welltower Announces Public Offering Price of 17,500,000 Shares of Common Stock",
+EPIX,11/6/2023,ESSA Pharma Enters into At-The-Market Equity Offering Sales Agreement,
+AURA,11/6/2023,Aura Biosciences Announces Proposed Public Offering of Common Stock,
+AUMN,11/6/2023,Golden Minerals Announces US$4.2 Million Public Offering,
+ALPN,11/6/2023,Alpine Immune Sciences Announces Proposed Public Offering,
+POET,11/1/2023,POET Technologies Announces Public Offering of Common Shares and Warrants,
+BFRI,10/31/2023,Biofrontera Inc. Announces $4.5 Million Registered Direct Offering Priced At-the-market Under NASDAQ Rules,
+ATXI,10/31/2023,Avenue Therapeutics Announces Pricing of $5.0 Million Public Offering,2023-10-31 09:15:00 ET
+SLS,10/31/2023,SELLAS Life Sciences Announces $4 Million Registered Direct Offering Priced At-the-Market Under Nasdaq Rules,2023-10-31 08:05:00 ET
+BKYI,10/30/2023,BIO-key International Announces Pricing of $3.75 Million Public Offering,2023-10-30 14:21:00 ET
+DLPN,10/30/2023,"Dolphin Entertainment, Inc. Announces Proposed Public Offering of Common Stock",
+ANVS,10/30/2023,Annovis Bio Announces Launch of Proposed Public Offering,
+ORGS,10/30/2023,Orgenesis Announces Proposed Underwritten Public Offering,2023-10-30 16:07:00 ET
+PNPL,10/30/2023,Pineapple Express Cannabis Company Launches 506(c) Common Stock Offering for Development Capital,2023-10-30 13:10:00 ET
+SYTA,10/27/2023,Siyata Mobile Announces Pricing of $1.6 Million Public Offering of Common Shares,
+GLUE,10/26/2023,"Monte Rosa Therapeutics Announces $25 Million Registered Direct Offering, Priced At- the-Market Under Nasdaq Rules",
+RNAZ,10/26/2023,TransCode Therapeutics Announces Public Offering of Common Stock,
+NVVE,10/26/2023,Nuvve Holding Corp. Announces Pricing of $2.066 Registered Direct Offering Priced At-the-Market,
+MBIO,10/26/2023,Mustang Bio Announces $4.4 Million Registered Direct Offering Priced At-the-Market Under Nasdaq Rules,2023-10-26 12:30:00 ET
+BTB,10/26/2023,Bit Brother Limited Announces Pricing of $5.04 Million Registered Direct Offering,
+SNOA,10/26/2023,"Sonoma Pharmaceuticals, Inc. Announces Pricing of $1.7 Million Public Offering of Common Stock",
+SONN,10/25/2023,Sonnet BioTherapeutics Announces Pricing of $4.55 Million Underwritten Public Offering,
+IDYA,10/24/2023,IDEAYA Announces Proposed Public Offering of Common Stock and Pre-Funded Warrants,
+APCX,10/24/2023,AppTech Payments Corp. Announces Pricing of $3.5 Million Registered Direct Offering,
+PTN,10/23/2023,Palatin Announces $5 Million Registered Direct Offering,
+ARQT,10/19/2023,Arcutis Announces Proposed Public Offering,2023-10-19 16:04:00 ET
+NVVE,10/18/2023,"Nuvve Holding Corp. Announces Pricing of $1,000,000 Underwritten Public Offering",
+BAER,10/17/2023,Bridger Aerospace Announces $70 Million Proposed Public Follow-On Offering to Fund Growth Initiatives,2023-10-17 16:20:00 ET
+NUZE,10/17/2023,NuZee Announces Proposed Public Offering of Common Stock,
+RARE,10/17/2023,Ultragenyx Announces Proposed Public Offering of Common Stock,
+PPBT,10/17/2023,Purple Biotech Announces $5 Million Registered Direct Offering,2023-10-17 08:00:00 ET
+XXII,10/16/2023,22nd Century Announces Proposed Public Offering,2023-10-16 16:05:00 ET
+NUVL,10/16/2023,Nuvalent Announces Public Offering of Common Stock,
+VS,10/13/2023,Versus Systems Inc. Announces Pricing of $3.0 Million Public Offering,2023-10-13 11:55:00 ET
+YHC,10/13/2023,LQR House Inc. Announces Pricing of $5.4 Million Public Offering,
+LGVN,10/12/2023,Longeveron Announces $4 Million Registered Direct Offering Priced At-the-Market Under Nasdaq Rules,2023-10-12 08:00:00 ET
+SRRK,10/11/2023,Scholar Rock Announces Proposed Public Offering of Common Stock,
+CERE,10/11/2023,Cerevel Therapeutics Announces Proposed Public Offering of Common Stock,2023-10-11 16:01:00 ET
+HOFV,10/10/2023,Hall of Fame Resort & Entertainment Company Announces Proposed Public Offering of Common Stock and Warrants,
+NOG,10/10/2023,NOG Announces Public Offering of Common Stock,
+FFLO,10/10/2023,"Free Flow, Inc. (FFLO) Announces $19.5 Million Stock Offering",
+OMQS,10/5/2023,OMNIQ Corp. Announces Proposed Public Offering of Common Stock,
+ALXO,10/4/2023,ALX Oncology Announces Proposed Public Offering,2023-10-04 16:10:00 ET
+GAIA,10/2/2023,Gaia Announces Proposed Public Offering of Common Stock,2023-10-02 17:14:00 ET
+BHVN,10/2/2023,BIOHAVEN ANNOUNCES PROPOSED PUBLIC OFFERING OF COMMON SHARES,
+MNTS,10/2/2023,Momentus Announces $4.0 Million Registered Direct Offering Priced At-the-Market Under Nasdaq Rules,
+INBS,10/2/2023,"Intelligent Bio Solutions Inc. Announces Pricing of $4,000,000 Underwritten Public Offering",2023-10-02 08:32:00 ET
+RSLS,9/29/2023,ReShape Lifesciences® Announces Pricing of $3.0 Million Public Offering,
+PRTG,9/29/2023,Portage Biotech Announces $6.0 Million Registered Direct Offering,2023-09-29 08:00:00 ET
+LEXX,9/29/2023,Lexaria Announces Pricing of $1.6 Million Registered Direct Offering,
+CAPR,9/29/2023,Capricor Therapeutics Announces $23 Million Registered Direct Offering,2023-09-29 07:35:00 ET
+SYBX,9/29/2023,Synlogic Announces Pricing of $21.0 Million Underwritten Public Offering,2023-09-29 07:00:00 ET
+MDGL,9/28/2023,Madrigal Pharmaceuticals Announces Proposed Public Offering,
+TNXP,9/28/2023,Tonix Pharmaceuticals Announces Proposed Public Offering,
+ASTI,9/28/2023,"Ascent Solar Technologies, Inc. Announces Pricing of Public Offering of Units",2023-09-28 08:30:00 ET
+GNSS,9/27/2023,Genasys Announces Proposed Public Offering of Common Stock,2023-09-27 16:05:00 ET
+KNW,9/27/2023,"Know Labs, Inc. Announces Pricing of $7 Million Public Offering of Common Stock",
+FFIE,9/27/2023,"Faraday Future Announces ""At-the-Market"" Equity Offering Program",
+IMVT,9/26/2023,Immunovant Announces Proposed Offering of $300 Million of Common Stock,
+CJJD,9/26/2023,China Jo-Jo Drugstores Announces $2.59 Million Registered Direct Offering,
+RNAZ,9/26/2023,TransCode Therapeutics Announces Pricing of $8 Million Public Offering,2023-09-25 20:01:00 ET
+SEEL,9/21/2023,Seelos Therapeutics Announces Registered Direct Offering of Common Stock and Warrants to Purchase Common Stock,
+TRNS,9/20/2023,"Transcat, Inc. Announces Proposed Public Offering of Common Stock",
+HLVX,9/19/2023,HilleVax Announces Proposed Public Offering of Common Stock,2023-09-19 16:09:00 ET
+ELOX,9/19/2023,Eloxx Pharmaceuticals Announces $2 Million Registered Direct Offering Priced At-the-Market Under Nasdaq Rules,2023-09-19 08:00:00 ET
+LLAP,9/18/2023,Terran Orbital Announces Proposed Public Offering,
+SCNI,9/15/2023,Scinai Immunotherapeutics Announces $1.33 Million Registered Direct Offering,2023-09-15 09:01:00 ET
+VLCN,9/15/2023,"Volcon, Inc. Announces Pricing of $700,000 Underwritten Public Offering, Utilizing Current Remaining Shelf Availability",
+CMND,9/14/2023,Clearmind Medicine Announces Pricing of US$2.25 Million Public Offering,2023-09-14 09:23:00 ET
+VTLE,9/13/2023,Vital Energy Announces Offering Of Common Stock,2023-09-13 17:23:00 ET
+OKYO,9/13/2023,OKYO Pharma Announces Public Offering of Ordinary Shares,
+IE,9/13/2023,Ivanhoe Electric Announces Public Offering of Common Stock,
+HOTH,9/13/2023,Hoth Therapeutics Announces $2.89 Million Registered Direct Offering Priced At-The-Market under Nasdaq Rules,
+PWOD,9/13/2023,"Penns Woods Bancorp, Inc. Announces ""At-the-Market"" Equity Offering Program",
+BIRK,9/12/2023,Birkenstock Announces Filing of Registration Statement for Proposed Public Offering,
+SBOW,9/12/2023,SilverBow Resources Announces Proposed Public Offering of Common Stock,
+KULR,9/12/2023,KULR Announces Proposed Public Offering of Common Stock,
+RCKT,9/12/2023,Rocket Pharmaceuticals Announces Proposed Public Offering of Common Stock,
+EZGO,9/12/2023,EZGO Announces Pricing of $9.6 Million Registered Direct Offering,
+DTSS,9/11/2023,Datasea Announces Proposed Underwritten Public Offering,
+OGS,9/11/2023,"ONE Gas, Inc. Announces Public Offering of 1,200,000 Shares of Common Stock",
+CRNX,9/11/2023,Crinetics Pharmaceuticals Announces Proposed Public Offering of Common Stock,
+CING,9/11/2023,Cingulate Announces Pricing of $4.0 Million Public Offering,
+CBAY,9/11/2023,CymaBay Announces Proposed $150 Million Public Offering of Common Stock and Pre-Funded Warrants,2023-09-11 06:00:00 ET
+TNON,9/8/2023,Tenon Medical Announces Proposed Public Offering of Common Stock,
+GROM,9/8/2023,"Grom Social Enterprises, Inc. Announces Pricing of $3.0 Million Public Offering",
+ARQQ,9/8/2023,Arqit Quantum Inc. Announces $16.2 Million Registered Direct Offering,2023-09-08 08:00:00 ET
+ASPS,9/7/2023,Altisource Announces Proposed Public Offering of Common Stock,
+EDBL,9/7/2023,Edible Garden Announces Pricing of $3.0 Million Underwritten Public Offering,
+BSFC,9/7/2023,Blue Star Foods Announces Pricing of $5 Million Public Offering,2023-09-07 09:20:00 ET
+PALI,9/7/2023,Palisade Bio Announces $2 Million Registered Direct Offering of Common Stock Priced At Market Under Nasdaq Rules,
+MNTS,9/7/2023,Momentus Announces $5.0 Million Registered Direct Offering Priced At-the-Market Under Nasdaq Rules,
+PROF,9/6/2023,"Profound Medical Announces At-the-Market Offering of up to US$30,000,000",2023-09-06 19:23:00 ET
+NTRA,9/6/2023,Natera Launches Proposed Follow-On Offering,
+CRGY,9/6/2023,Crescent Energy Company Announces Public Offering of Class A Common Stock,
+BROS,9/6/2023,Dutch Bros Inc. Announces Proposed Public Offering of Class A Common Stock,
+EZGO,9/6/2023,EZGO Announces Pricing of $10 Million Registered Direct Offering,
+POET,9/1/2023,"POET Technologies Refreshes ""At-the-Market"" Public Offering in the United States",2023-09-01 17:59:00 ET
+DARE,8/30/2023,Daré Bioscience Announces $7.0 Million Registered Direct Offering Priced At-The-Market under Nasdaq Rules,
+GWAV,8/26/2023,Greenwave Technology Solutions Announces $3.2 Million Registered Direct Offering Priced Above Market,
+BJDX,8/25/2023,Bluejay Diagnostics Announces $1.59 Million Registered Direct Offering Priced At-The-Market under Nasdaq Rules,2023-08-25 08:00:00 ET
+EYEN,8/24/2023,Eyenovia Announces $12 Million Registered Direct Offering,2023-08-24 18:47:00 ET
+GOVB,8/24/2023,"Gouverneur Bancorp, Inc. Announces Commencement of Second-Step Conversion Stock Offering",
+MYO,8/24/2023,"Myomo, Inc. Announces Proposed Public Offering",
+SCTL,8/24/2023,Societal CDMO Announces Pricing of $8.3 Million Public Offering of Common Stock,2023-08-24 07:30:00 ET
+SLGG,8/21/2023,Super League Announces Pricing of $2.2 Million Underwritten Public Offering,2023-08-21 08:41:00 ET
+GWAV,8/21/2023,Greenwave Technology Solutions Announces $3.2 Million Registered Direct Offering Priced Above Market,
+JAN,8/18/2023,JanOne Technologies Announces Registered Direct Offering Priced At-The-Market under Nasdaq Rules,
+BXRX,8/17/2023,Baudax Bio Announces $1.9 Million Registered Direct Offering Priced At-The-Market under Nasdaq Rules,
+WHF,8/16/2023,"WhiteHorse Finance, Inc. Commences Public Offering of Note",
+KULR,8/16/2023,KULR Announces Proposed Public Offering of Common Stock,
+ASUR,8/16/2023,"Asure Software, Inc. Announces Public Offering of Common Stock",2023-08-16 16:05:00 ET
+CREX,8/16/2023,Creative Realities Announces Proposed Public Offering of Common Stock,2023-08-16 16:05:00 ET
+EMKR,8/16/2023,EMCORE Announces Proposed Public Offering,2023-08-16 16:01:00 ET
+RVLP,8/16/2023,RVL Pharmaceuticals plc Announces $5 Million Registered Direct Offering Priced At-the-Market under Nasdaq Rules,
+ANTX,8/15/2023,AN2 Therapeutics Announces Pricing of $70.0 Million Underwritten Offering of Common Stock,
+NLST,8/15/2023,Netlist Announces $30 Million Registered Direct Offering,
+TFFP,8/14/2023,TFF Pharmaceuticals Announces Proposed Public Offering of Common Stock,
+TMC,8/14/2023,The Metals Company Announces ~US$27 Million Registered Direct Offering at $2.00 Per Share Plus Class A Warrants,
+NRG,8/14/2023,"NRG Energy, Inc. Announces Proposed Offering of Pre-Capitalized Trust Securities to Replace Maturing Pre-Capitalized Trust Securities",
+VIRI,8/14/2023,Virios Therapeutics Announces Halt to At-The-Market Offering Sales,
+YTEN,8/11/2023,Yield10 Bioscience Announces Pricing of $3.7 Million Public Offering,2023-08-11 08:30:00 ET
+IMPP,8/11/2023,Imperial Petroleum Inc. Announces Pricing of Approximately $17.0 Million Registered Direct Offering,2023-08-11 08:30:00 ET
+ABVX,8/10/2023,Abivax Announces Plans to Conduct Registered Public Offering in the United States,
+FLYW,8/9/2023,Flywire Launches Proposed Follow-On Offering,
+SPRC,8/9/2023,SciSparc Ltd. Announces Proposed Underwritten Public Offering of Approximately $1.3 Million,2023-08-09 16:40:00 ET
+INVZ,8/9/2023,Innoviz Announces Public Offering of Ordinary Shares,
+MRUS,8/9/2023,Merus N.V. Announces Proposed Public Offering of Common Shares,
+SUNW,8/9/2023,Sunworks Announces $3.3 Million Registered Direct Offering of Common Stock,
+BNTC,8/8/2023,Benitec Biopharma Inc. Announces Pricing of $30 Million Underwritten Public Offering,2023-08-08 22:30:00 ET
+NS,8/8/2023,NuStar Energy L.P. Announces Public Offering of Common Units,
+MRTX,8/8/2023,Mirati Therapeutics Announces Proposed Public Offering,
+HTGC,8/7/2023,"Hercules Capital, Inc. Announces Public Offering of Common Stock",
+TIVC,8/4/2023,Tivic Health Announces Proposed Public Offering of Common Stock,
+INVO,8/4/2023,INVO Bioscience Announces Pricing of $4.5 Million Public Offering,
+TRIN,8/3/2023,Trinity Capital Inc. Announces Offering of $75.0 Million of Shares of Common Stock,
+ABC,8/3/2023,AmerisourceBergen Announces Registered Public Offering of Common Shares and Common Share Repurchase,
+BPTH,8/3/2023,"Bio-Path Holdings, Inc. Announces Pricing of $2.1 Million Public Offering",2023-08-03 08:22:00 ET
+RBOT,8/2/2023,Vicarious Surgical Announces Launch of Proposed Public Offering,
+KRP,8/2/2023,"Kimbell Royalty Partners, LP Announces Public Offering of Common Units",
+QS,8/2/2023,QuantumScape Announces Proposed Public Offering of Class A Common Stock,
+SPCB,8/2/2023,SuperCom Announces Pricing of $2.75 Million Public Offering,
+ADMP,8/2/2023,Adamis Pharmaceuticals Announces Pricing of $8.0 Million Public Offering,2023-08-02 08:30:00 ET
+APVO,8/1/2023,Aptevo Therapeutics Inc. Announces Pricing of $5 Million Public Offering,
+PRCT,8/1/2023,PROCEPT BioRobotics Corporation Announces Proposed Offering of Common Stock,
+CYBN,7/31/2023,Cybin Announces Overnight Marketed Public Offering of Units,
+TARS,7/31/2023,Tarsus Announces Proposed $100.0 Million Underwritten Public Offering of Shares of its Common Stock,2023-07-31 16:29:00 ET
+CKPT,7/31/2023,Checkpoint Therapeutics Announces $10 Million Registered Direct Offering Priced At-the-Market,
+OKYO,7/28/2023,OKYO Pharma Announces Proposed Public Offering of Ordinary Shares,2023-07-28 17:25:00 ET
+INZY,7/27/2023,"Inozyme Pharma, Inc. Announces Proposed Offering of Common Stock",
+TNXP,7/27/2023,Tonix Pharmaceuticals Announces Proposed Public Offering,
+ABVC,7/27/2023,ABVC BioPharma Announces Pricing of $1.75 Million Registered Direct Offering,
+ASXC,7/27/2023,Asensus Surgical Announces $10 Million Registered Direct Offering,
+RILY,7/25/2023,B. Riley Financial Announces Proposed Public Offering of Common Stock,
+STKH,7/25/2023,Steakholder Foods® Announces US$6 Million Registered Direct Offering,
+NMTC,7/24/2023,NeuroOne Medical Technologies Corporation Announces Proposed Public Offering of Common Stock,
+NNOX,7/24/2023,Nanox Announces $30 Million Registered Direct Offering,2023-07-24 08:30:00 ET
+ZVSA,7/24/2023,"ZyVersa Therapeutics, Inc. Announces Pricing of $2.1 Million Public Offering",2023-07-24 08:00:00 ET
+CTGO,7/21/2023,Contango ORE Announces Underwritten Public Offering of Common Stock,
+RDHL,7/21/2023,RedHill Biopharma Announces Registered Direct Offering and Warrant Exercise for $3.8 Million Gross Proceeds,
+AWH,7/20/2023,Aspira Women's Health Announces $4.7 Million Registered Direct Offering,
+DRRX,7/20/2023,DURECT Corporation Announces $15 Million Registered Direct Offering Priced At-The-Market Under Nasdaq Rules,
+VSEC,7/19/2023,VSE Corporation Announces Public Offering of Common Stock,
+NCPL,7/19/2023,Netcapital Inc. Announces Proposed Public Offering of Common Stock,
+FWBI,7/19/2023,"First Wave BioPharma, Inc. Announces Pricing of $2.1 Million Public Offering",
+GNPX,7/19/2023,Genprex Announces $7.5 Million Registered Direct Offering Priced At-the-Market Under Nasdaq Rules,
+ACB,7/19/2023,Aurora Announces Pricing of $220 Million Upsized Public Offering of Class A Common Stock,
+AQMS,7/18/2023,Aqua Metals Announces Proposed Public Offering of Common Stock,
+HPK,7/18/2023,"HighPeak Energy, Inc. Announces Commencement of Underwritten Public Offering of Common Stock",2023-07-18 16:01:00 ET
+HROW,7/18/2023,Harrow Announces Proposed Public Offering of Common Stock,
+ABOS,7/17/2023,Acumen Pharmaceuticals Announces Proposed Public Offering of Common Stock,
+CVM,7/17/2023,CEL-SCI Announces Proposed Public Offering of Common Stock,
+BCLI,7/17/2023,Brainstorm Cell Therapeutics Announces Pricing of $7.5 Million Registered Direct Offering,
+DUO,7/17/2023,FangDD Announces US$8.0 Million Registered Direct Offering,2023-07-17 09:00:00 ET
+JANX,7/17/2023,Janux Therapeutics Announces Pricing of $60 Million Underwritten Offering of Common Stock and Pre-Funded Warrants,
+JZXN,7/17/2023,Jiuzi Holdings Inc. Announces Pricing of $2.3 Million Registered Direct Offering,2023-07-17 08:16:00 ET
+EVGN,7/17/2023,"Evogene Announces Pricing of US$8,500,000 Registered Direct Offering",
+BCAN,7/14/2023,BYND Cannasoft Announces Proposed Underwritten Public Offering,
+TIVC,7/14/2023,Tivic Health Announces Proposed Public Offering of Common Stock,
+EFSH,7/14/2023,1847 Holdings LLC Announces Pricing of Approximately $2.5 Million Registered Direct Offering,
+GLMD,7/14/2023,Galmed Pharmaceuticals Announces Pricing of $7 Million Public Offering,
+BTB,7/14/2023,Bit Brother Limited Announces Pricing of $50 Million Registered Direct Offering,
+CRBU,7/13/2023,Caribou Biosciences Announces Proposed Public Offering of Common Stock,
+SVRA,7/13/2023,Savara Announces Pricing of $80 Million Underwritten Offering of Common Stock and Pre-Funded Warrants,
+BCYC,7/12/2023,Bicycle Therapeutics Announces Proposed $200 Million Public Offering of American Depositary Shares and Non-Voting Ordinary Shares,
+PIXY,7/12/2023,ShiftPixy Announces Pricing of $3.1 Million Public Offering,
+SYTA,7/11/2023,Siyata Mobile Inc. Announces Pricing of Approximately $2.3 Million Registered Direct Offering,
+BRTX,7/11/2023,BioRestorative Therapies Announces $2.1 Million Registered Direct Offering,2023-07-11 08:30:00 ET
+IOVA,7/10/2023,"Iovance Biotherapeutics, Inc. Announces Proposed Public Offering of Common Stock",
+TIVC,7/7/2023,Tivic Health Announces Proposed Public Offering of Common Stock,
+XXII,7/6/2023,22nd Century Announces $3.0 Million Registered Direct Offering Priced Above Market,2023-07-06 09:25:00 ET
+CRIS,7/6/2023,Curis Announces $15.1 Million Registered Direct Offering,
+CYTO,7/6/2023,Altamira Therapeutics Announces Pricing of $5.0 Million Public Offering,
+ALLR,7/6/2023,"Allarity Therapeutics, Inc. Announces Pricing of $11 Million Public Offering",2023-07-06 06:00:00 ET
+VBIV,7/5/2023,VBI Vaccines Announces Proposed Concurrent Public Offering and Registered Direct Offering of Common Shares and Warrants,
+EFSH,7/4/2023,1847 Announces Pricing of $1.869 Million Public Offering,
+ABEO,7/3/2023,Abeona Therapeutics Announces $25 Million Registered Direct Offering Priced At-the-Market Under Nasdaq Rules,
+ZIVO,6/30/2023,ZIVO Bioscience Announces Pricing of $4.0 Million Registered Direct Offering Priced At-The-Market,
+CISS,6/30/2023,C3is Inc. Announces Pricing of $5 Million Public Offering,2023-06-30 09:15:00 ET
+POET,6/29/2023,"POET Technologies Announces ""At-the-Market"" Public Offering in the United States and Canada",
+AENT,6/29/2023,Alliance Entertainment Announces Pricing of Public Offering and Nasdaq Listing,
+MOBQ,6/29/2023,"Mobiquity Technologies, Inc. Announces Pricing of $3.0 Million Public Offering",
+GNLN,6/29/2023,"Greenlane Holdings, Inc. Announces $4 Million Public Offering",
+BDTX,6/28/2023,Black Diamond Therapeutics Announces Proposed Public Offering of Common Stock,2023-06-28 16:23:00 ET
+CRMD,6/28/2023,CorMedix Inc. Announces Proposed Public Offering of Common Stock and Pre-Funded Warrants,
+AXSM,6/28/2023,Axsome Therapeutics Announces Pricing of Public Offering of $225 Million of Shares of Common Stock,2023-06-28 09:28:00 ET
+EDR,6/27/2023,Endeavour Silver Announces At-the-Market Offering of up to US$60 Million,
+MBOT,6/27/2023,Microbot Medical Announces $2 Million Registered Direct Offering Priced At-The-Market under Nasdaq Rules,
+AUMN,6/27/2023,Golden Minerals Announces US$2.1 Million Registered Direct Offering,
+SYTA,6/27/2023,Siyata Mobile Announces Pricing of $2.25 Million Public Offering of Common Shares,
+EU,6/26/2023,enCore Energy Announces Agreement for At-The-Market Offering,
+MLTX,6/26/2023,MoonLake Immunotherapeutics Announces Proposed Underwritten Public Offering,
+SMX,6/23/2023,SMX (Security Matters) Public Limited Company Announces Pricing of $3.2 Million Public Offering,
+LUCY,6/22/2023,Innovative Eyewear Announces Pricing of $4.7 Million Public Offering,2023-06-22 08:15:00 ET
+ALVR,6/21/2023,AlloVir Announces Proposed Public Offering of Common Stock,
+TBLT,6/21/2023,ToughBuilt Industries Announces Pricing of $4.5 Million Public Offering,
+DFLI,6/20/2023,Dragonfly Energy Announces Pricing of $20.0 Million Underwritten Public Offering,
+XXII,6/20/2023,22nd Century Announces $5.3 Million Registered Direct Offering Priced Above Market,2023-06-20 07:00:00 ET
+BEEM,6/16/2023,"Beam Global Executes Binding LOI to Acquire Europe Based Amiga, Announces Proposed Public Offering of Common Stock and Announces Q2 Revenue and Uni...",
+AUVI,6/16/2023,"Applied UV Announces Pricing of $5,000,000 Underwritten Public Offering",2023-06-16 08:45:00 ET
+PBLA,6/16/2023,Panbela Announces Pricing of Approximately $8.5 Million Public Offering,
+CLNN,6/15/2023,Clene Announces Launch of Proposed Public Offering,
+PRAX,6/15/2023,"Praxis Precision Medicines, Inc. Announces Proposed Public Offering",
+VSTM,6/15/2023,Verastem Oncology Announces Proposed Public Offering of Common Stock and Pre-Funded Warrants,
+ZNTL,6/15/2023,Zentalis Pharmaceuticals Announces Pricing of Underwritten Offering of Common Stock,2023-06-15 06:01:00 ET
+NLS,6/15/2023,"Nautilus, Inc. Announces $5,000,000 Registered Direct Offering",
+EDIT,6/14/2023,Editas Medicine Announces Offering of Common Stock,
+TNON,6/14/2023,Tenon Medical Announces Pricing of $5.6 Million Public Offering,
+SR,6/13/2023,Spire Announces Proposed Offering of Common Stock,
+RDNT,6/13/2023,RADNET ANNOUNCES PROPOSED $175 MILLION UNDERWRITTEN PUBLIC OFFERING OF COMMON STOCK,
+CNVS,6/13/2023,Cineverse Announces Proposed Public Offering,
+KURA,6/13/2023,Kura Oncology Announces Commencement of Public Offering of Common Stock and Pre-Funded Warrants,
+AZ,6/13/2023,A2Z Smart Technologies Corp. Announces US$5.8 Million Registered Direct Offering of Common Shares and Common Warrants,
+IRON,6/12/2023,Disc Medicine Announces Proposed Public Offering of Common Stock and Pre-Funded Warrants,
+MOVE,6/12/2023,Movano Health Announces Proposed Public Offering,
+CWST,6/12/2023,Casella Waste Systems Announces Proposed Public Offering of Class A Common Stock,
+FRZA,6/12/2023,Forza X1 Announces Pricing of $8 Million Public Offering,
+AYTU,6/9/2023,Aytu BioPharma Announces Pricing of $4.0 Million Public Offering Priced At-The-Market and the Appointment of a New Director,
+BBAI,6/8/2023,BigBear.ai Announces Registered Direct Offering of Common Stock and Warrants,
+ELEV,6/8/2023,Elevation Oncology Announces Launch of Proposed Public Offering,
+SUNW,6/8/2023,Sunworks Announces $4.6 Million Registered Direct Offering of Common Stock,
+AKYA,6/7/2023,Akoya Biosciences Announces Public Offering of Common Stock,2023-06-07 16:08:00 ET
+EFTR,6/7/2023,eFFECTOR Therapeutics Announces $8.7 Million Registered Direct Offering Priced At-The-Market Under Nasdaq Rules,
+RNAZ,6/6/2023,TransCode Therapeutics Announces Pricing of $7 Million Public Offering,2023-06-06 17:29:00 ET
+COGT,6/6/2023,Cogent Biosciences Announces Proposed Public Offering of Common Stock,
+DAWN,6/6/2023,Day One Announces Proposed Public Offering of Common Stock,
+VXRT,6/6/2023,"Vaxart, Inc. Announces Proposed Public Offering of Common Stock",2023-06-06 16:01:00 ET
+NRXP,6/6/2023,NRx Pharmaceuticals Announces $6.28 Million Registered Direct Offering,
+EZGO,6/6/2023,EZGO Announces $8.5 Million Registered Direct Offering,
+RHP,6/5/2023,"Ryman Hospitality Properties, Inc. Announces Offering of 3,500,000 Shares of Common Stock",2023-06-05 17:29:00 ET
+MBOT,6/2/2023,Microbot Medical Announces $1.5 Million Registered Direct Offering Priced At-The-Market under Nasdaq Rules,
+PRSO,5/31/2023,Peraso Announces $4.0 Million Registered Direct Offering Priced At-The-Market Under Nasdaq Rules,
+LCID,5/31/2023,"Lucid Group, Inc. Announces Public Offering of Common Stock and Corresponding Investment by an Affiliate of PIF for Aggregate Expected Gross Procee...",
+VNRX,5/31/2023,VolitionRx Limited Announces Proposed Underwritten Public Offering of Common Stock,
+LXRX,5/31/2023,Lexicon Announces Proposed Public Offering of Common Stock,
+NAAS,5/31/2023,NaaS Technology Inc. Announces US$21 Million of Registered Direct Offering to Certain Investors,
+FGF,5/30/2023,FG Financial Group Announces Pricing of Public Offering,
+HRZN,5/30/2023,Horizon Technology Finance Corporation Announces Offering of Common Stock,
+BLTE,5/30/2023,Belite Bio Announces Proposed Underwritten Public Offering of American Depositary Shares and Warrants,
+OCS,5/30/2023,Oculis Announces Launch of Proposed Public Offering of Ordinary Shares,
+SBIG,5/26/2023,"SpringBig Holdings, Inc. Announces Pricing of $4.0 Million Public Offering",
+EFTR,5/26/2023,eFFECTOR Therapeutics Announces $7.5 Million Registered Direct Offering Priced At-The-Market Under Nasdaq Rules,
+TCRX,5/25/2023,TScan Therapeutics Announces Launch of Proposed Public Offering,
+ACHV,5/25/2023,Achieve Life Sciences Announces Pricing of $16.5 Million Registered Direct Offering,
+INUV,5/25/2023,Inuvo Announces Pricing of $4 Million Registered Direct Offering of Common Stock,2023-05-25 08:30:00 ET
+LLAP,5/25/2023,Terran Orbital Announces $37.1 Million Registered Direct Offering,
+BDRX,5/24/2023,Biodexa Pharmaceuticals PLC Announces US$3.32 Million Registered Direct Offering,2023-05-24 08:40:00 ET
+DRMA,5/24/2023,Dermata Therapeutics Announces $1.8 Million Offering Priced At-The-Market Under Nasdaq Rules,
+PHAT,5/23/2023,Phathom Pharmaceuticals Announces Proposed Public Offering of Common Stock,
+MBOT,5/23/2023,Microbot Medical Announces $2.66 Million Registered Direct Offering of Common Stock Priced At-The-Market under Nasdaq Rules,
+NVTS,5/23/2023,Navitas Semiconductor Announces Proposed Public Offering of Class A Common Stock,
+USPH,5/23/2023,U.S. Physical Therapy Announces $150 Million Underwritten Public Offering of Common Stock,
+OCGN,5/23/2023,"Ocugen, Inc. Announces Proposed Public Offering of Common Stock",
+HASI,5/23/2023,"Hannon Armstrong Sustainable Infrastructure Capital, Inc. Announces Public Offering of Common Stock",
+CKPT,5/23/2023,Checkpoint Therapeutics Announces $10 Million Registered Direct Offering Priced At-the-Market Under Nasdaq Rules,2023-05-23 08:30:00 ET
+NCPL,5/23/2023,Netcapital Inc. Announces Registered Direct Offering,
+ICVX,5/22/2023,Icosavax Announces $67.8 Million Registered Direct Offering of Common Stock,2023-05-22 17:53:00 ET
+RNR,5/22/2023,"RenaissanceRe Announces Public Offering of 6,300,000 Common Shares",
+GH,5/22/2023,Guardant Health Announces Proposed Public Offering of Common Stock,
+MBOT,5/22/2023,Microbot Medical Announces $1.4 Million Registered Direct Offering of Common Stock Priced At-The-Market under Nasdaq Rules,
+RETO,5/19/2023,"ReTo Eco-Solutions, Inc. Announces $6.6 Million Registered Direct Offering",
+ARTNA,5/18/2023,Artesian Resources Corporation Announces Common Stock Offering,2023-05-18 16:59:00 ET
+SMFL,5/18/2023,Smart for Life Announces $1.58 Million Registered Direct Offering Priced At-The-Market Under Nasdaq Rules,
+PRLD,5/17/2023,Prelude Therapeutics Announces Launch of Proposed Public Offering,
+CABA,5/17/2023,Cabaletta Bio Announces Proposed Public Offering of Common Stock,
+CISO,5/16/2023,CISO Global Inc. Announces Pricing of $4.0 Million Registered Direct Offering,2023-05-16 23:13:00 ET
+AKRO,5/16/2023,Akero Therapeutics Announces Pricing of $220.0 Million Underwritten Offering of Common Stock,2023-05-16 18:53:00 ET
+MAXN,5/16/2023,Maxeon Solar Technologies Announces Public Offering of Ordinary Shares,
+EVGO,5/16/2023,EVgo Inc. Announces Offering of Class A Common Stock,
+INTA,5/16/2023,Intapp Announces Proposed Public Offering of Common Stock,
+ONCS,5/16/2023,OncoSec Announces $1.33 Million Registered Direct Offering Priced At-The-Market Under Nasdaq Rules,
+HCDI,5/16/2023,"Harbor Custom Development, Inc. Announces Pricing of $10 Million Public Offering",
+ACXP,5/16/2023,"Acurx Pharmaceuticals, Inc. Announces Pricing of $4.0 Million Registered Direct Offering",
+MODD,5/16/2023,Modular Medical Announces Pricing of Upsized $9.4 Million Public Offering,
+DCO,5/15/2023,Ducommun Announces Public Offering of Common Stock,
+NOG,5/15/2023,NOG Announces Public Offering of Common Stock,
+CHRS,5/15/2023,Coherus Announces Proposed Public Offering of Common Stock,
+UPXI,5/12/2023,"Upexi, Inc. Announces $7 Million Registered Direct Offering of Common Stock",
+IONM,5/12/2023,Assure Holdings Corp. Announces Pricing of $6 Million Underwritten Public Offering,
+ANIP,5/11/2023,ANI Pharmaceuticals Announces Proposed Public Offering of Common Stock,
+NEPT,5/11/2023,Neptune Wellness Solutions Inc. Announces Pricing of US$4 Million Public Offering,
+INTT,5/11/2023,inTEST Launches $20 Million At-the-Market Offering Program,
+BYND,5/10/2023,"Beyond Meat® Announces ""At The Market"" (ATM) Equity Offering Program",2023-05-10 18:27:00 ET
+TSLX,5/10/2023,"Sixth Street Specialty Lending, Inc. Announces Public Offering of Common Stock",
+REXR,5/10/2023,"Rexford Industrial Announces Public Offering of 13,500,000 Shares of Common Stock",
+GFAI,5/10/2023,Guardforce AI Announces Proposed Underwritten Public Offering,
+OSBK,5/10/2023,Oconee State Bank and Elberton Federal Announce Stock Offering in Connection with Pending Merger,
+ENSC,5/10/2023,"Ensysce Biosciences, Inc. Announces Pricing of $7 Million Public Offering",
+LEGN,5/8/2023,Legend Biotech Corporation Announces Pricing of Registered Direct Offering of $350 Million of American Depositary Shares,
+SNGX,5/5/2023,Soligenix Announces Pricing of $8.5 Million Public Offering,
+SIBN,5/4/2023,SI-BONE Announces Launch of Public Offering of Common Stock,
+FDMT,5/4/2023,4D Molecular Therapeutics Announces Proposed Public Offering of Common Stock,2023-05-04 16:08:00 ET
+CTXR,5/4/2023,Citius Pharmaceuticals Announces $15 Million Registered Direct Offering,
+MIGI,5/4/2023,Mawson Infrastructure Group Inc. Announces $5 Million Registered Direct Offering,
+JOBY,5/3/2023,Joby Announces Pricing of Public Offering,
+RPHM,5/3/2023,Reneo Pharmaceuticals Announces Proposed Public Offering of Common Stock,
+IMGN,5/3/2023,ImmunoGen Announces Proposed Public Offering of Common Stock,
+SMFL,5/3/2023,"Smart for Life Announces $900,000 Registered Direct Offering Priced At-The-Market Under Nasdaq Rules",
+GFAI,5/2/2023,Guardforce AI Announces Proposed Underwritten Public Offering of Ordinary Shares,
+MORF,5/2/2023,Morphic Therapeutic Announces Proposed Public Offering,
+OCG,5/2/2023,Outcrop Silver Announces $6 Million Public Offering of Units,
+NDRA,4/28/2023,ENDRA Life Sciences Announces Pricing of Upsized $4.5 Million Public Offering,
+HILS,4/27/2023,Hillstream BioPharma Announces Proposed Public Offering,
+ZVSA,4/26/2023,"ZyVersa Therapeutics, Inc. Announces Pricing of $11.0 Million Public Offering",
+NB,4/26/2023,NioCorp Announces US $2.0 Million Registered Direct Offering,
+ESTA,4/24/2023,Establishment Labs Announces Proposed Public Offering of Common Shares,
+IDYA,4/24/2023,IDEAYA Announces Proposed Public Offering of Common Stock,
+SIDU,4/20/2023,"Sidus Space, Inc. Announces Pricing of $10 Million Public Offering",
+ADTX,4/20/2023,Aditxt Announces $1.9 Million Registered Direct Offering Priced At-The-Market under Nasdaq Rules,
+WINT,4/20/2023,Windtree Therapeutics Announces Pricing of Upsized $10.8 Million Underwritten Public Offering,
+ALLR,4/19/2023,"Allarity Therapeutics, Inc. Announces Pricing of $7.5 Million Public Offering",
+FEMY,4/19/2023,Femasys Announces $3.9 Million Registered Direct Offering Priced At-the-Market Under Nasdaq Rules,
+GMDA,4/18/2023,Gamida Cell Announces Launch of Public Offering of Securities,
+TELA,4/18/2023,TELA Bio Announces Proposed Public Offering of Common Stock,
+PHIO,4/18/2023,Phio Pharmaceuticals Announces $2 Million Registered Direct Offering Priced At-the-Market Under Nasdaq Rules,
+CJJD,4/18/2023,China Jo-Jo Drugstores Announces $7 Million Registered Direct Offering,
+PCVX,4/17/2023,Vaxcyte Announces Commencement of Proposed Public Offering of Common Stock and Pre-Funded Warrants,
+MRAI,4/14/2023,"Marpai, Inc. Announces Proposed Public Offering of Common Stock",
+MMAT,4/13/2023,Meta Materials Announces Proposed Public Offering,
+GCTK,4/12/2023,GlucoTrack Announces Proposed Underwritten Public Offering of Common Stock,
+IFRX,4/11/2023,InflaRx Announces Public Offering of Ordinary Shares,
+KRUS,4/10/2023,Kura Sushi USA Announces Launch of Public Offering of Common Stock,
+SNES,4/10/2023,SenesTech Announces $1.5 Million Registered Direct Offering Priced At-The-Market Under Nasdaq Rules,
+ONCS,4/10/2023,OncoSec Announces $2 Million Registered Direct Offering Priced At-The-Market Under Nasdaq Rules,
+CELU,4/5/2023,Celularity Inc. Announces $6 Million Registered Direct Offering,
+USAU,4/5/2023,U.S. Gold Corp. Announces $5 Million Registered Direct Offering,
+PTGX,4/4/2023,Protagonist Therapeutics Announces Proposed Underwritten Public Offering of Common Stock,
+CMND,4/4/2023,Clearmind Medicine Announces Pricing of US$3.5 Million Public Offering,
+NOGN,4/4/2023,Nogin Announces Pricing of $22 Million Public Offering,
+WBX,4/3/2023,Wallbox Files At-the-Market Equity Offering Program,
+OCX,4/3/2023,Oncocyte Pricing of $13.86 Million Public Offering of Common Stock,
+GMVD,3/31/2023,G Medical Innovations Holdings Ltd. Announces Pricing of Public Offering,
+CKPT,3/31/2023,Checkpoint Therapeutics Announces $6.1 Million Registered Direct Offering Priced At-the-Market Under Nasdaq Rules,
+AREN,3/31/2023,The Arena Group Announces the Pricing of $11.5 Million Registered Direct Equity Offering to Existing Shareholders,2023-03-31 11:07:00 ET
+CSSE,3/30/2023,Chicken Soup for the Soul Entertainment Announces Proposed Public Offering,
+NKLA,3/30/2023,Nikola Announces $100.0 Million Public Offering of Common Stock,
+RNXT,3/30/2023,"RenovoRx, Inc. Announces $5 Million Registered Direct Offering Priced At-The-Market under Nasdaq Rules",
+BBBY,3/30/2023,Bed Bath & Beyond Inc. Launches New $300 Million At-the-Market Offering Program,
+SPCB,3/30/2023,SuperCom Announces Pricing of $2.4 Million Registered Direct Offering,
+AKTX,3/30/2023,"Akari Therapeutics, Plc Announces $4 Million Registered Direct Offering",
+ABML,3/30/2023,American Battery Technology Company Announces $10 Million Registered Direct Offering,
+RDHL,3/30/2023,RedHill Biopharma Announces $6 Million Registered Direct Offering,
+VKTX,3/29/2023,Viking Therapeutics Announces Proposed Public Offering of Common Stock,
+BMEA,3/29/2023,Biomea Fusion Announces Proposed Public Offering of Common Stock,2023-03-29T06:30:00
+PYPD,3/28/2023,PolyPid Announces Proposed Underwritten Public Offering of Ordinary Shares,
+TCBP,3/28/2023,TC BioPharm Announces Pricing of $5.5 Million Public Offering,
+INVO,3/24/2023,INVO Bioscience Announces Pricing of $3.0 Million Registered Direct Offering Priced At-The-Market,
+WATT,3/24/2023,Energous Announces Pricing of $3.3 Million Offering of Common Stock and Warrants,
+REKR,3/24/2023,Rekor Announces $10 Million Registered Direct Offering Priced At-the-Market Under Nasdaq Rules,

@@ -5,18 +5,21 @@ from . import config
 
 _session = None
 
+
 def get_session():
     """Creates or returns a singleton session with retry logic."""
     global _session
     if _session is None:
         _session = requests.Session()
-        
+
         # Headers
-        _session.headers.update({
-            "User-Agent": config.USER_AGENT,
-            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-            "Accept-Language": "en-US,en;q=0.5",
-        })
+        _session.headers.update(
+            {
+                "User-Agent": config.USER_AGENT,
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                "Accept-Language": "en-US,en;q=0.5",
+            }
+        )
 
         # Proxy
         if config.PROXY:
@@ -24,16 +27,17 @@ def get_session():
 
         # Retry Logic
         retries = Retry(
-            total=3,
-            backoff_factor=1,
+            total=5,
+            backoff_factor=3,
             status_forcelist=[429, 500, 502, 503, 504],
-            allowed_methods=["GET"]
+            allowed_methods=["GET"],
         )
         adapter = HTTPAdapter(max_retries=retries)
         _session.mount("https://", adapter)
         _session.mount("http://", adapter)
-        
+
     return _session
+
 
 def get(url, params=None):
     """Wrapper for session.get with global timeout."""

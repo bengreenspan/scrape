@@ -3,301 +3,438 @@ import csv
 import re
 import time
 import os
-from urllib.parse import quote_plus, urlparse, parse_qs
 from bs4 import BeautifulSoup
-# NOTE: Ensure you have a config.py file with GOOGLE_API_KEY, GOOGLE_SEARCH_CX, and REQUEST_TIMEOUT
-from . import client, config 
-from datetime import datetime, timedelta, timezone
-import requests
-from requests.exceptions import RequestException
+from datetime import datetime, timedelta
+from typing import Optional, List, Tuple
 
-# Logging setup
-logging.basicConfig(level=logging.INFO, format='[%(levelname)s] %(message)s')
+from . import client, config
+
 logger = logging.getLogger(__name__)
+logger.setLevel(logging.INFO)
 
-# Define the date tolerance (2 days)
 DATE_TOLERANCE = timedelta(days=2)
 
+
 class PRInfo:
-    def __init__(self, url="", ts_raw="", ts_iso=""):
+    def __init__(
+        self, url: str, ts_raw: Optional[str] = None, ts_iso: Optional[str] = None
+    ):
         self.url = url
         self.ts_raw = ts_raw
         self.ts_iso = ts_iso
 
-def normalize_headline(headline):
-    """Normalize curly quotes to straight quotes."""
-    return headline.replace('“', '"').replace('”', '"').replace("‘", "'").replace("’", "'")
 
-def _is_gnw_release_url(url):
+def normalize_headline(headline: str) -> str:
+    """Normalize curly quotes to straight quotes."""
+    if headline is None:
+        return ""
+    return (
+        headline.replace("“", '"').replace("”", '"').replace("‘", "'").replace("’", "'")
+    )
+
+
+def normalize_for_compare(text: str) -> str:
+    """
+    Normalize text for strict headline comparison:
+      - normalize curly quotes
+      - lowercase
+      - collapse whitespace
+    """
+    if text is None:
+        return ""
+    text = normalize_headline(text)
+    text = text.lower()
+    text = re.sub(r"\s+", " ", text)
+    return text.strip()
+
+
+def _is_gnw_release_url(url: str) -> bool:
     """Checks if URL is a valid GNW news-release."""
-    if not url: return False
+    if not url:
+        return False
     return "globenewswire.com" in url and "news-release" in url
 
-# --- Search Strategies (No changes to the logic here) ---
 
-def _search_web_api(headline):
+def _calculate_date_window(feed_date_str: str) -> Tuple[str, str]:
     """
-    Searches using Google Custom Search JSON API.
-    Requires GOOGLE_API_KEY and GOOGLE_SEARCH_CX in .env.
+    Given a feed date string like '03/31/2023 09:15:00' (or '03/31/2023'),
+    compute a (start_date, end_date) window as ISO YYYY-MM-DD strings,
+    offset by DATE_TOLERANCE on each side.
+    """
+    feed_date_str = (feed_date_str or "").strip()
+    if not feed_date_str:
+        return "", ""
+
+    # Take only the date part before any whitespace
+    date_part = feed_date_str.split()[0]
+
+    try:
+        # Assuming US format: MM/DD/YYYY
+        input_date = datetime.strptime(date_part, "%m/%d/%Y").date()
+    except ValueError as e:
+        logger.warning(
+            "Failed to parse date for date window: %s (error: %s)", feed_date_str, e
+        )
+        return "", ""
+
+    start_date = input_date - DATE_TOLERANCE
+    end_date = input_date + DATE_TOLERANCE
+    return start_date.strftime("%Y-%m-%d"), end_date.strftime("%Y-%m-%d")
+
+
+def _build_query(
+    ticker: str, text: str, date_window: Tuple[str, str], use_ticker: bool
+) -> str:
+    """
+    Build a Google CSE query for GNW.
+
+    - Always restrict to site:globenewswire.com/news-release
+    - If use_ticker is True, require the ticker string.
+    - 'text' is either the full headline, a short headline, or the ticker itself.
+    - date_window is (start, end) in YYYY-MM-DD; if non-empty, we add after:/before:.
+    """
+    base = "site:globenewswire.com/news-release"
+
+    parts: List[str] = [base]
+
+    text = (text or "").strip()
+    ticker = (ticker or "").strip()
+
+    if text:
+        # Prefer quoted phrase searches for headlines so we don't drift too far
+        if " " in text:
+            parts.append(f'"{text}"')
+        else:
+            parts.append(text)
+
+    if use_ticker and ticker:
+        parts.append(ticker)
+
+    start, end = date_window
+    if start and end:
+        parts.append(f"after:{start}")
+        parts.append(f"before:{end}")
+
+    return " ".join(parts)
+
+
+def _search_web_api(
+    ticker: str, text: str, date_window: Tuple[str, str], use_ticker: bool
+) -> List[str]:
+    """
+    Perform a single Google Custom Search query and return a list of GNW news-release URLs
+    (possibly empty) for this query.
     """
     if not config.GOOGLE_API_KEY or not config.GOOGLE_SEARCH_CX:
-        return None
+        logger.error("Google API key or search CX is not configured.")
+        return []
+
+    query = _build_query(ticker, text, date_window, use_ticker)
+    logger.info("-> Google CSE query: %s", query)
 
     try:
-        query = f'site:globenewswire.com/news-release "{headline}"'
-        
-        params = {
-            'key': config.GOOGLE_API_KEY,
-            'cx': config.GOOGLE_SEARCH_CX,
-            'q': query,
-            'num': 3
-        }
-
-        resp = client.get("https://www.googleapis.com/customsearch/v1", params=params)
-        data = resp.json()
-
-        if 'items' in data:
-            for item in data['items']:
-                link = item.get('link', '')
-                if _is_gnw_release_url(link):
-                    return link
-
+        response = client.get(
+            "https://www.googleapis.com/customsearch/v1",
+            params={
+                "key": config.GOOGLE_API_KEY,
+                "cx": config.GOOGLE_SEARCH_CX,
+                "q": query,
+                "num": 10,  # ask for more than 3 so we don't miss GNW if it's not ranked at the very top
+            },
+        )
     except Exception as e:
-        logger.warning(f"Google API search failed: {e}")
-    
-    return None
+        logger.warning("Google CSE request failed: %s", e)
+        return []
 
-def _search_brave(headline):
-    """Scrapes Brave Search HTML."""
     try:
-        query = f'site:globenewswire.com/news-release "{headline}"'
-        url = f"https://search.brave.com/search?q={quote_plus(query)}"
-        resp = client.get(url)
-        soup = BeautifulSoup(resp.text, "lxml")
-        
-        for a in soup.find_all("a", href=True):
-            href = a['href']
-            if href.startswith("http") and _is_gnw_release_url(href):
-                if "search.brave.com" not in href:
-                    return href
-    except Exception as e:
-        logger.warning(f"Brave search failed: {e}")
-    return None
+        data = response.json()
+    except ValueError as e:
+        logger.warning("Failed to decode Google CSE JSON: %s", e)
+        return []
 
-def _search_ddg(headline):
-    """Scrapes DuckDuckGo HTML."""
-    try:
-        url = f"https://duckduckgo.com/html/?q={quote_plus(headline + ' site:globenewswire.com')}"
-        resp = client.get(url)
-        soup = BeautifulSoup(resp.text, "lxml")
-        
-        for a in soup.find_all("a", href=True):
-            href = a['href']
-            if "/l/?uddg=" in href:
-                parsed = urlparse(href)
-                qs = parse_qs(parsed.query)
-                if 'uddg' in qs:
-                    href = qs['uddg'][0]
-            
-            if _is_gnw_release_url(href):
-                return href
-    except Exception as e:
-        logger.warning(f"DDG search failed: {e}")
-    return None
+    items = data.get("items") or []
+    urls: List[str] = []
+    for item in items:
+        url = item.get("link")
+        if _is_gnw_release_url(url):
+            urls.append(url)
 
-def _search_gnw_site(headline):
-    """Searches GlobeNewswire internal search."""
-    try:
-        url = f"https://www.globenewswire.com/en/search?query={quote_plus(headline)}"
-        resp = client.get(url)
-        soup = BeautifulSoup(resp.text, "lxml")
-        
-        base_url = "https://www.globenewswire.com"
-        for a in soup.find_all("a", href=True):
-            href = a['href']
-            full_url = href if href.startswith("http") else base_url + href
-            
-            if _is_gnw_release_url(full_url):
-                return full_url
-    except Exception as e:
-        logger.warning(f"GNW site search failed: {e}")
-    return None
+    return urls
 
-def search_gnw_url_for_headline(headline):
-    """Orchestrates the search fallback strategy."""
-    clean_headline = normalize_headline(headline)
-    
-    url = _search_web_api(clean_headline)
-    if url: return url
-    
-    url = _search_brave(clean_headline)
-    if url: return url
-    
-    url = _search_ddg(clean_headline)
-    if url: return url
-    
-    url = _search_gnw_site(clean_headline)
-    if url: return url
-    
-    return None
 
-# --- Extraction Logic (Updated for Date Check) ---
-
-def extract_timestamp_from_gnw(gnw_url, feed_date_str):
+def extract_timestamp_from_gnw(
+    gnw_url: str,
+    feed_date_str: str,
+    expected_headline: Optional[str] = None,
+) -> Optional[PRInfo]:
     """
-    Scrapes the GNW page for the official timestamp and checks it against 
-    the input date (feed_date_str) with a tolerance of DATE_TOLERANCE (2 days).
-    Returns PRInfo object with timestamps, or None if the date check fails.
+    Scrapes the GNW page for the official timestamp, verifies the headline if provided,
+    and checks the date against the input date.
+
+    Returns PRInfo if both headline and date validation pass (if applicable),
+    otherwise returns None.
     """
-    # 1. Prepare for Date Comparison
     try:
-        # Input date is assumed to be in 'YYYY-MM-DD' format
-        input_date = datetime.strptime(feed_date_str.split(' ')[0].strip(), '%Y-%m-%d').date()
+        # Expect feed_date_str like 'MM/DD/YYYY' or 'MM/DD/YYYY HH:MM:SS'
+        date_part = (feed_date_str or "").split()[0].strip()
+        input_date = datetime.strptime(date_part, "%m/%d/%Y").date()
     except ValueError:
-        logger.error(f"Input date format error: '{feed_date_str}'. Expected 'YYYY-MM-DD'. Cannot perform date check.")
-        input_date = None # Cannot perform check
+        logger.error(
+            "Input date format error: '%s'. Expected 'MM/DD/YYYY'. Cannot perform date check.",
+            feed_date_str,
+        )
+        input_date = None
 
     pr_info = PRInfo(url=gnw_url)
-    
+
     try:
-        logger.info("-> Extracting timestamp from GNW page...")
-        
-        # 2. Fetch the GNW page content (using more stable requests and timeout)
-        headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'}
-        # Use the REQUEST_TIMEOUT from your config.py
-        response = requests.get(gnw_url, headers=headers, timeout=config.REQUEST_TIMEOUT) 
-        response.raise_for_status() # Raise exception for bad status codes
-        
-        soup = BeautifulSoup(response.content, 'lxml')
-        
-        # 3. Extract the timestamp (GNW uses time tag with class 'news-release-date')
-        time_tag = soup.find('time', {'class': 'news-release-date'})
-        if not time_tag:
-            logger.warning("-> Could not find the official timestamp on GNW page.")
-            return pr_info # Return with no timestamps, will be written as blank
-        
-        ts_raw = time_tag.text.strip()
+        logger.info("-> Fetching GNW page for validation: %s", gnw_url)
+        response = client.get(gnw_url)
+        soup = BeautifulSoup(response.text, "lxml")
+
+        # --- Headline verification ---
+        if expected_headline is not None:
+            page_headline: Optional[str] = None
+
+            h1 = soup.find("h1")
+            if h1 and h1.get_text(strip=True):
+                page_headline = h1.get_text(strip=True)
+
+            if not page_headline and soup.title and soup.title.get_text(strip=True):
+                page_headline = soup.title.get_text(strip=True)
+
+            if page_headline:
+                expected_norm = normalize_for_compare(expected_headline)
+                page_norm = normalize_for_compare(page_headline)
+
+                if expected_norm != page_norm:
+                    logger.warning(
+                        "-> Headline check FAILED: Expected '%s' but GNW page has '%s'. Discarding this URL.",
+                        expected_headline,
+                        page_headline,
+                    )
+                    return None
+            else:
+                logger.warning(
+                    "-> Could not find a headline on the GNW page to verify. Discarding this URL."
+                )
+                return None
+
+        # --- Timestamp extraction ---
+        page_text = soup.get_text(" ", strip=True)
+
+        ts_pattern = re.compile(
+            r"([A-Z][a-z]+ \d{1,2}, \d{4} \d{1,2}:\d{2}(?::\d{2})?(?: [AP]M)? ET)"
+        )
+        match = ts_pattern.search(page_text)
+        if not match:
+            logger.warning(
+                "-> No recognizable timestamp found on GNW page for %s", gnw_url
+            )
+            return None
+
+        ts_raw = match.group(1)
         pr_info.ts_raw = ts_raw
-        
-        # 4. Parse and Standardize GNW Date
-        # GNW timestamp is typically 'Month DD, YYYY HH:MM ET'
-        try:
-            # We split by 'ET' and use a common datetime format for parsing
-            gnw_datetime = datetime.strptime(ts_raw.split('ET')[0].strip(), '%B %d, %Y %H:%M')
-            gnw_date = gnw_datetime.date()
-            # ISO format with ' ET' appended for consistent output
-            pr_info.ts_iso = gnw_datetime.strftime("%Y-%m-%d %H:%M:%S ET")
-        except ValueError:
-            logger.warning(f"Failed to parse GNW timestamp: '{ts_raw}'. Skipping date check.")
-            return pr_info # Return with raw TS, but no ISO or date check
-        
-        # 5. Perform Date Tolerance Check
-        if input_date:
+
+        parsed_dt: Optional[datetime] = None
+        for fmt in (
+            "%B %d, %Y %I:%M %p ET",
+            "%B %d, %Y %H:%M ET",
+            "%B %d, %Y %I:%M:%S %p ET",
+            "%B %d, %Y %H:%M:%S ET",
+        ):
+            try:
+                parsed_dt = datetime.strptime(ts_raw, fmt)
+                break
+            except ValueError:
+                continue
+
+        if not parsed_dt:
+            logger.warning(
+                "-> Could not parse GNW timestamp '%s' for %s", ts_raw, gnw_url
+            )
+            return None
+
+        pr_info.ts_iso = parsed_dt.strftime("%Y-%m-%dT%H:%M:%S")
+
+        if input_date is not None:
+            gnw_date = parsed_dt.date()
             date_difference = abs(input_date - gnw_date)
-            
+
             if date_difference <= DATE_TOLERANCE:
-                logger.info(f"-> Date check SUCCESS: Input date {input_date} is within {DATE_TOLERANCE.days} days of GNW date {gnw_date}.")
+                logger.info(
+                    "-> Date check SUCCESS: Input date %s is within %d days of GNW date %s.",
+                    input_date,
+                    DATE_TOLERANCE.days,
+                    gnw_date,
+                )
                 return pr_info
             else:
-                logger.warning(f"-> Date check FAILED: Difference is {date_difference.days} days. Discarding match.")
-                return None # Signal failure to the caller
-        
-        # If no input_date (due to input format error), return the PR info found
-        return pr_info 
+                logger.warning(
+                    "-> Date check FAILED: Difference is %d days. Discarding this URL.",
+                    date_difference.days,
+                )
+                return None
 
-    except RequestException as e:
-        logger.error(f"Error fetching GNW URL {gnw_url} (Timeout/Request Error): {e}")
-        return None
+        # If we couldn't parse the input date, still return timestamp info
+        return pr_info
+
     except Exception as e:
-        logger.error(f"An unexpected error occurred during GNW extraction: {e}")
+        logger.error("An error occurred during GNW extraction for %s: %s", gnw_url, e)
         return None
 
 
-# --- Main Processing (Updated for Resumption and Date Check Call) ---
+def search_gnw_prinfo_for_headline(
+    ticker: str,
+    headline: str,
+    feed_date_str: str,
+) -> Optional[PRInfo]:
+    """
+    Master search: for a given row (ticker, headline, date), try multiple Google
+    modes and, for each mode, multiple candidate GNW URLs. The first URL that
+    passes both headline and date validation is returned as PRInfo.
 
-def process_file(input_csv, output_csv):
+    If no URL passes validation, returns None.
     """
-    Reads input, processes rows, and writes output with minimal fields.
-    Implements resumption logic and calls the date-checked extraction.
+    clean_headline = normalize_headline(headline or "")
+    short_headline = " ".join(clean_headline.split()[:7])  # first 7 words
+
+    date_window = _calculate_date_window(feed_date_str)
+
+    def dw(use_dates: bool) -> Tuple[str, str]:
+        return date_window if use_dates else ("", "")
+
+    search_modes: List[tuple] = [
+        ("Ticker+full headline+date", True, clean_headline, True),
+        ("Ticker+short headline+date", True, short_headline, True),
+        ("Headline-only+date", False, short_headline, True),
+        ("Ticker+full headline (no date)", True, clean_headline, False),
+        ("Ticker-only+date", False, ticker, True),
+        ("Ticker-only (no date)", False, ticker, False),
+    ]
+
+    for label, use_ticker, text, use_dates in search_modes:
+        logger.info("-> Google search mode: %s", label)
+        candidate_urls = _search_web_api(
+            ticker, text, dw(use_dates), use_ticker=use_ticker
+        )
+
+        if not candidate_urls:
+            continue
+
+        for url in candidate_urls:
+            logger.info("-> Trying candidate GNW URL: %s", url)
+            pr_info = extract_timestamp_from_gnw(
+                url, feed_date_str, expected_headline=headline
+            )
+            if pr_info is not None:
+                # Found a URL that passes both headline + date checks
+                logger.info("-> Accepted GNW URL for this row: %s", url)
+                return pr_info
+
+        logger.info("-> No candidate URLs passed validation for search mode: %s", label)
+
+    logger.info("-> No GNW match found via Google for this row after all modes.")
+    return None
+
+
+def process_file(input_csv: str, output_csv: str) -> None:
     """
-    
-    # 1. Determine processed rows from existing output file (Resumption Logic)
+    Main driver: read the input CSV, append GNW timestamps into the output CSV.
+    Input format: Date, Ticker, Headline (headline may contain commas).
+    """
+    if not os.path.exists(input_csv):
+        logger.error("Input file %s not found.", input_csv)
+        return
+
     processed_rows = 0
     if os.path.exists(output_csv):
-        with open(output_csv, 'r', newline='', encoding='utf-8') as f_out_check:
+        with open(
+            output_csv, "r", newline="", encoding="utf-8", errors="replace"
+        ) as f_out_check:
             reader_check = csv.reader(f_out_check)
-            # Count all rows, subtracting 1 for the header
-            processed_rows = sum(1 for row in reader_check) - 1
-            processed_rows = max(0, processed_rows) 
-            logger.info(f"Found {processed_rows} previously processed rows in {output_csv}. Resuming from row {processed_rows + 1}.")
+            processed_rows = sum(1 for _ in reader_check) - 1
+            processed_rows = max(0, processed_rows)
+            logger.info(
+                "Found %d previously processed rows in %s. Resuming from row %d.",
+                processed_rows,
+                output_csv,
+                processed_rows + 1,
+            )
     else:
-        logger.info(f"Starting new run. Output file {output_csv} does not exist.")
+        logger.info("Starting new run. Output file %s does not exist.", output_csv)
 
-    # 2. Open input file (read) and output file (append mode)
-    with open(input_csv, 'r', newline='', encoding='utf-8') as f_in, \
-         open(output_csv, 'a', newline='', encoding='utf-8') as f_out:
-        
-        reader = csv.reader(f_in)
+    with open(
+        input_csv, "r", newline="", encoding="utf-8", errors="replace"
+    ) as f_in, open(
+        output_csv, "a", newline="", encoding="utf-8", errors="replace"
+    ) as f_out:
+        reader = list(csv.reader(f_in))
         writer = csv.writer(f_out)
-        
-        # Read all rows into a list to easily count and skip
-        rows = list(reader)
-        
-        if not rows:
-            logger.warning("Input file is empty.")
+
+        if not reader:
+            logger.warning("Input file %s is empty.", input_csv)
             return
-            
-        total = len(rows) - 1 # Total data rows
-        
-        # Handle Header Row Logic
-        data_rows = rows[1:] # Skip the header
-        
-        # Only write header if the file is new
+
+        total = len(reader) - 1
+        data_rows = reader[1:]  # skip header
+
         if processed_rows == 0:
             writer.writerow(["Ticker", "Date", "Headline", "GNW_timestamp_iso"])
-            
-        # Skip previously processed rows
+
         rows_to_process = data_rows[processed_rows:]
-        
+
         for i, row in enumerate(rows_to_process):
-            # i is the index in the 'rows_to_process' list, 
-            # row_num is the absolute row number in the original input file
-            row_num = processed_rows + i + 1 
-            
-            if not row or len(row) < 3:
-                logger.warning(f"Skipping row {row_num}: Malformed input.")
-                continue
-                
-            ticker = row[0]
-            feed_date = row[1]
-            headline = ",".join(row[2:]).strip()
-            
-            logger.info(f"Row {row_num}/{total}: Searching GNW for {ticker} - {headline[:30]}...")
-            
-            gnw_url = search_gnw_url_for_headline(headline)
-            ts_iso = "" 
-            
-            if gnw_url:
-                logger.info(f"-> Found URL: {gnw_url}")
-                
-                # NEW CALL: Pass the gnw_url AND the input date string (feed_date)
-                pr_data = extract_timestamp_from_gnw(gnw_url, feed_date) 
-                
-                if pr_data is None:
-                    # Date check failed (difference > 2 days)
-                    gnw_url = None 
-                    logger.warning("-> Match discarded due to date difference exceeding 2 days.")
-                elif pr_data.ts_iso:
-                    # Date check passed or couldn't be performed, but we got a timestamp
-                    ts_iso = pr_data.ts_iso
-                
-            else:
-                logger.info("-> No URL found.")
-            
-            # 3. MODIFIED OUTPUT ROW: Only writing the four desired fields
-            writer.writerow([ticker, feed_date, headline, ts_iso])
-            
-            # Rate limit delay
-            time.sleep(1.0)
-            
-    logger.info(f"Processing complete. Output written to {output_csv}")
+            row_num = processed_rows + i + 1
+
+            try:
+                if not row or len(row) < 3:
+                    logger.warning("Skipping row %d: Malformed input.", row_num)
+                    continue
+
+                feed_date = row[0]
+                ticker = row[1]
+                headline = ",".join(row[2:]).strip()
+
+                logger.info(
+                    "Row %d/%d: Searching GNW for %s - %s",
+                    row_num,
+                    total,
+                    ticker,
+                    headline[:30] + ("..." if len(headline) > 30 else ""),
+                )
+
+                pr_info = search_gnw_prinfo_for_headline(ticker, headline, feed_date)
+                ts_iso = ""
+
+                if pr_info is not None and pr_info.ts_iso:
+                    ts_iso = pr_info.ts_iso
+
+                writer.writerow([ticker, feed_date, headline, ts_iso])
+
+            except Exception as e:
+                logger.error(
+                    "Unhandled error on row %d (ticker=%s, date=%s): %s",
+                    row_num,
+                    row[1] if len(row) > 1 else "",
+                    row[0] if len(row) > 0 else "",
+                    e,
+                    exc_info=True,
+                )
+                # best effort: mark the row as error
+                try:
+                    writer.writerow(
+                        [
+                            row[1] if len(row) > 1 else "",
+                            row[0] if len(row) > 0 else "",
+                            ",".join(row[2:]).strip() if len(row) > 2 else "",
+                            "ERROR",
+                        ]
+                    )
+                except Exception:
+                    pass
+
+            # rate limit so we don't hammer Google/GNW
+            time.sleep(4.0)
+
+    logger.info("Processing complete. Output written to %s", output_csv)
