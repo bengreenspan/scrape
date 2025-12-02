@@ -14,6 +14,16 @@ logger.setLevel(logging.INFO)
 
 DATE_TOLERANCE = timedelta(days=2)
 
+# Newswire domains we accept as candidates
+NEWSWIRE_DOMAINS = [
+    "globenewswire.com",
+    "businesswire.com",
+    "prnewswire.com",
+    "accessnewswire.com",  # in case this is the domain you meant
+]
+
+
+STRICT_DATE_WINDOW = True
 
 class PRInfo:
     def __init__(
@@ -49,10 +59,21 @@ def normalize_for_compare(text: str) -> str:
 
 
 def _is_gnw_release_url(url: str) -> bool:
-    """Checks if URL is a valid GNW news-release."""
+    """
+    Checks if URL is from one of the supported newswire domains.
+    (Name kept for backward compatibility, but it's now multi-wire.)
+    """
     if not url:
         return False
-    return "globenewswire.com" in url and "news-release" in url
+
+    # Must be from a known newswire
+    if not any(domain in url for domain in NEWSWIRE_DOMAINS):
+        return False
+
+    # Optional: for some wires, require a "news" path segment so we
+    # don't pick random marketing pages.
+    # This is intentionally loose; the strict filters happen later.
+    return True
 
 
 def _calculate_date_window(feed_date_str: str) -> Tuple[str, str]:
@@ -77,10 +98,16 @@ def _calculate_date_window(feed_date_str: str) -> Tuple[str, str]:
         )
         return "", ""
 
-    start_date = input_date - DATE_TOLERANCE
-    end_date = input_date + DATE_TOLERANCE
-    return start_date.strftime("%Y-%m-%d"), end_date.strftime("%Y-%m-%d")
+    if STRICT_DATE_WINDOW:
+        # Hard-code window to the exact feed date
+        start_date = input_date
+        end_date = input_date
+    else:
+        # Old behavior: +/- DATE_TOLERANCE
+        start_date = input_date - DATE_TOLERANCE
+        end_date = input_date + DATE_TOLERANCE
 
+    return start_date.strftime("%Y-%m-%d"), end_date.strftime("%Y-%m-%d")
 
 def _build_query(
     ticker: str, text: str, date_window: Tuple[str, str], use_ticker: bool
@@ -93,7 +120,14 @@ def _build_query(
     - 'text' is either the full headline, a short headline, or the ticker itself.
     - date_window is (start, end) in YYYY-MM-DD; if non-empty, we add after:/before:.
     """
-    base = "site:globenewswire.com/news-release"
+    # Target all supported newswires in one query
+    base = (
+        "(site:globenewswire.com "
+        "OR site:businesswire.com "
+        "OR site:prnewswire.com "
+        "OR site:accesswire.com "
+        "OR site:accessnewswire.com)"
+    )
 
     parts: List[str] = [base]
 
@@ -119,11 +153,18 @@ def _build_query(
 
 
 def _search_web_api(
-    ticker: str, text: str, date_window: Tuple[str, str], use_ticker: bool
+    ticker: str,
+    text: str,
+    date_window: Tuple[str, str],
+    use_ticker: bool,
 ) -> List[str]:
     """
     Perform a single Google Custom Search query and return a list of GNW news-release URLs
     (possibly empty) for this query.
+
+    Extra safety: if a date_window is provided, only keep GNW URLs whose path date
+    (YYYY/MM/DD in the URL) falls within that window. If STRICT_DATE_WINDOW is True,
+    that effectively means URL date must exactly match the feed date.
     """
     if not config.GOOGLE_API_KEY or not config.GOOGLE_SEARCH_CX:
         logger.error("Google API key or search CX is not configured.")
@@ -139,7 +180,7 @@ def _search_web_api(
                 "key": config.GOOGLE_API_KEY,
                 "cx": config.GOOGLE_SEARCH_CX,
                 "q": query,
-                "num": 10,  # ask for more than 3 so we don't miss GNW if it's not ranked at the very top
+                "num": 10,
             },
         )
     except Exception as e:
@@ -152,12 +193,58 @@ def _search_web_api(
         logger.warning("Failed to decode Google CSE JSON: %s", e)
         return []
 
+    start, end = date_window
+    accepted_dates: set = set()
+    if start and end:
+        try:
+            start_dt = datetime.strptime(start, "%Y-%m-%d").date()
+            end_dt = datetime.strptime(end, "%Y-%m-%d").date()
+
+            # If STRICT_DATE_WINDOW is True, start_dt == end_dt already,
+            # but this loop also supports a range if you turn strict off.
+            cur = start_dt
+            while cur <= end_dt:
+                accepted_dates.add(cur)
+                cur += timedelta(days=1)
+        except ValueError:
+            # If parsing fails, we just don't enforce path-date filtering
+            accepted_dates = set()
+
     items = data.get("items") or []
     urls: List[str] = []
+
     for item in items:
         url = item.get("link")
-        if _is_gnw_release_url(url):
-            urls.append(url)
+        if not _is_gnw_release_url(url):
+            continue
+
+        # If we derived accepted_dates, drop URLs whose path date is outside that set.
+        if accepted_dates:
+            # GNW URLs look like /YYYY/MM/DD/...
+            m = re.search(r"/(20\d{2})/(\d{2})/(\d{2})/", url)
+            if m:
+                try:
+                    url_dt = datetime(
+                        int(m.group(1)), int(m.group(2)), int(m.group(3))
+                    ).date()
+                except ValueError:
+                    # Weird date in URL, skip it
+                    logger.info(
+                        "-> Skipping GNW URL %s due to invalid date in path.",
+                        url,
+                    )
+                    continue
+
+                if url_dt not in accepted_dates:
+                    logger.info(
+                        "-> Skipping GNW URL %s because URL date %s is outside accepted dates %s",
+                        url,
+                        url_dt.isoformat(),
+                        sorted(d.isoformat() for d in accepted_dates),
+                    )
+                    continue
+
+        urls.append(url)
 
     return urls
 
@@ -224,8 +311,9 @@ def extract_timestamp_from_gnw(
         page_text = soup.get_text(" ", strip=True)
 
         ts_pattern = re.compile(
-            r"([A-Z][a-z]+ \d{1,2}, \d{4} \d{1,2}:\d{2}(?::\d{2})?(?: [AP]M)? ET)"
+            r"([A-Z][a-z]+ \d{1,2}, \d{4} \d{1,2}:\d{2}(?::\d{2})?(?: [AP]M)?)"
         )
+        
         match = ts_pattern.search(page_text)
         if not match:
             logger.warning(
